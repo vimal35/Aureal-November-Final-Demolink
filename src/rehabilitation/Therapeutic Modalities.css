@@ -1,0 +1,1281 @@
+
+.tmod-page {
+  --cream: #FFFDF8;
+  --cream-2: #FFF9EC;
+  --cream-3: #FBF2DC;
+
+  /* ---------- TEXT ---------- */
+  --ink: #141d1a;
+  --ink-soft: #70677D;
+
+  /* ---------- BORDERS ---------- */
+  --border: #EAE1C8;
+  --border-soft: #F1E9D2;
+
+  --white: #FFFFFF;
+
+  /* ---------- DEEP PURPLE ---------- */
+  --purple: #153c2d;
+  --purple-2: #1b4c39;
+  --purple-dark: #0e2e22;
+  --purple-soft: #eaf8f3;
+  --purple-accent: #2e644f;
+
+  /* ---------- GOLD / YELLOW KEPT ---------- */
+  --gold: #B48A2E;
+
+  /* ---------- SHADOWS ---------- */
+  --shadow-lg: 0 24px 60px rgba(21, 60, 45, 0.12);
+  --shadow-sm: 0 8px 22px rgba(21, 60, 45, 0.08);
+
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+.tmod-page * {
+  box-sizing: border-box;
+}
+
+.tmod-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* =========================================================
+   TYPOGRAPHY
+========================================================= */
+
+.tmod-eyebrow {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--purple-accent);
+  margin-bottom: 10px;
+}
+
+.tmod-eyebrow.light {
+  color: #b0ddcc;
+}
+
+.tmod-p {
+  color: var(--ink-soft);
+  font-size: 15.5px;
+  margin-bottom: 14px;
+}
+
+.tmod-h2 {
+  font-size: clamp(26px, 3vw, 34px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.18;
+  margin-bottom: 16px;
+}
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.tmod-btn {
+  border: none;
+  cursor: pointer;
+  padding: 13px 24px;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.25s ease;
+}
+
+.tmod-btn.primary {
+  background: var(--purple);
+  color: #fff;
+  box-shadow: 0 12px 26px rgba(21, 60, 45, 0.28);
+}
+
+.tmod-btn.primary:hover {
+  transform: translateY(-2px);
+  background: var(--purple-dark);
+  box-shadow: 0 16px 32px rgba(21, 60, 45, 0.34);
+}
+
+.tmod-btn.secondary {
+  background: var(--white);
+  border: 1px solid var(--border);
+  color: var(--ink);
+}
+
+.tmod-btn.secondary:hover {
+  border-color: var(--purple);
+  color: var(--purple);
+  transform: translateY(-2px);
+}
+
+.tmod-btn.light {
+  background: #fff;
+  color: var(--purple);
+}
+
+.tmod-btn.light:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(21, 60, 45, 0.12);
+}
+
+.tmod-btn.outline {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: #fff;
+}
+
+.tmod-btn.outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.tmod-hero {
+  padding: 46px 0 72px;
+}
+
+.tmod-hero-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 28px;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 52px;
+  align-items: start;
+}
+
+.tmod-breadcrumb {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+}
+
+.tmod-breadcrumb span {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.tmod-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  padding: 7px 15px;
+  border-radius: 100px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-bottom: 20px;
+  color: var(--purple);
+}
+
+.tmod-pill span {
+  width: 8px;
+  height: 8px;
+  background: var(--purple-accent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(46, 100, 79, 0.15);
+  display: inline-block;
+}
+
+.tmod-hero-left h1 {
+  font-size: clamp(30px, 3.6vw, 43px);
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 18px;
+  color: var(--ink);
+}
+
+.tmod-hero-sub {
+  font-size: 15.5px;
+  color: var(--ink-soft);
+  max-width: 590px;
+  margin-bottom: 22px;
+}
+
+/* QUICK INFO */
+
+.tmod-quick {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--purple);
+  border-radius: 16px;
+  padding: 16px 18px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 24px;
+}
+
+.tmod-quick-label {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: var(--purple);
+  margin-bottom: 6px;
+}
+
+.tmod-quick p {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 0;
+}
+
+.tmod-hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.tmod-loc-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tmod-loc-tags span {
+  font-size: 11px;
+  font-weight: 600;
+  background: var(--white);
+  border: 1px solid var(--border-soft);
+  padding: 6px 11px;
+  border-radius: 100px;
+  color: var(--ink-soft);
+}
+
+/* =========================================================
+   HERO IMAGE
+========================================================= */
+
+.tmod-hero-right {
+  position: relative;
+}
+
+.tmod-hero-visual {
+  position: relative;
+  border-radius: 30px;
+}
+
+.tmod-main-img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: 1px solid var(--border-soft);
+  box-shadow: var(--shadow-lg);
+  display: block;
+}
+
+.tmod-float-card {
+  position: absolute;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 12px 14px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-shadow: 0 18px 40px rgba(21, 60, 45, 0.14);
+  max-width: 240px;
+}
+
+.tmod-float-card.top {
+  top: 22px;
+  left: -22px;
+}
+
+.tmod-float-card.bottom {
+  bottom: 22px;
+  right: -14px;
+  max-width: 250px;
+}
+
+.tmod-f-icon {
+  width: 38px;
+  height: 38px;
+  background: var(--purple-soft);
+  color: var(--purple-accent);
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  font-size: 17px;
+  flex-shrink: 0;
+}
+
+.tmod-f-icon.alt {
+  background: var(--cream-3);
+  color: #B48A2E;
+}
+
+.tmod-float-card b {
+  font-size: 12.5px;
+  display: block;
+}
+
+.tmod-float-card p {
+  font-size: 11px;
+  color: var(--ink-soft);
+  margin: 2px 0 0;
+}
+
+.tmod-progress {
+  margin-top: 8px;
+  width: 100%;
+  height: 4px;
+  background: #eaefed;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.tmod-progress div {
+  width: 74%;
+  height: 100%;
+  background: var(--purple);
+}
+
+/* =========================================================
+   STAT ROW
+========================================================= */
+
+.tmod-stat-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 16px;
+  background: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: 16px;
+  padding: 14px;
+}
+
+.tmod-stat-row div {
+  text-align: center;
+  border-right: 1px solid var(--border-soft);
+}
+
+.tmod-stat-row div:last-child {
+  border: none;
+}
+
+.tmod-stat-row b {
+  display: block;
+  font-size: 15px;
+  color: var(--purple);
+}
+
+.tmod-stat-row span {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* =========================================================
+   SECTIONS
+========================================================= */
+
+.tmod-section {
+  padding: 88px 0;
+}
+
+.tmod-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 58px;
+  align-items: center;
+}
+
+.tmod-section-head {
+  margin-bottom: 34px;
+}
+
+.tmod-section-head.center {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 40px;
+}
+
+.tmod-section-head h2 {
+  font-size: clamp(26px, 2.8vw, 36px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.tmod-head-sub {
+  color: var(--ink-soft);
+  font-size: 14.5px;
+  margin-top: 10px;
+}
+
+/* =========================================================
+   OVERVIEW
+========================================================= */
+
+.tmod-overview {
+  background: var(--white);
+  border-top: 1px solid var(--border-soft);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.tmod-overview-media {
+  position: relative;
+}
+
+.tmod-ov-img-1 {
+  width: 82%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 24px;
+  border: 1px solid var(--border-soft);
+}
+
+.tmod-ov-img-2 {
+  position: absolute;
+  width: 50%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 18px;
+  bottom: -26px;
+  right: 0;
+  border: 6px solid var(--cream);
+  box-shadow: var(--shadow-lg);
+}
+
+.tmod-ov-badge {
+  position: absolute;
+  top: 18px;
+  right: 8px;
+  background: var(--purple);
+  color: #fff;
+  padding: 14px 18px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-lg);
+}
+
+.tmod-ov-badge h4 {
+  font-size: 13px;
+  margin: 0;
+}
+
+.tmod-ov-badge p {
+  font-size: 11px;
+  opacity: 0.75;
+  margin: 0;
+}
+
+.tmod-quote {
+  background: var(--cream-2);
+  border: 1px dashed var(--border);
+  padding: 16px 18px;
+  border-radius: 14px;
+  margin: 18px 0 0;
+  font-weight: 500;
+  color: var(--purple-2);
+  font-size: 14px;
+}
+
+/* =========================================================
+   INCLUDED / TABS
+========================================================= */
+
+.tmod-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.tmod-tab {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: 16px;
+  padding: 14px 14px;
+  cursor: pointer;
+  text-align: left;
+  transition: 0.2s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tmod-tab:hover {
+  border-color: var(--purple-accent);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(21, 60, 45, 0.08);
+}
+
+.tmod-tab.active {
+  background: var(--purple);
+  border-color: var(--purple);
+  box-shadow: var(--shadow-lg);
+}
+
+.tmod-tab-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--cream-2);
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  font-size: 19px;
+  flex-shrink: 0;
+}
+
+.tmod-tab.active .tmod-tab-icon {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.tmod-tab b {
+  display: block;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.tmod-tab.active b {
+  color: #fff;
+}
+
+.tmod-tab em {
+  display: block;
+  font-size: 11px;
+  font-style: normal;
+  color: var(--ink-soft);
+  margin-top: 2px;
+}
+
+.tmod-tab.active em {
+  color: #cde4db;
+}
+
+/* TAB PANEL */
+
+.tmod-tab-panel {
+  margin-top: 26px;
+  background: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: 24px;
+  padding: 32px;
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 24px;
+  align-items: flex-start;
+  box-shadow: var(--shadow-sm);
+}
+
+.tmod-tab-panel-icon {
+  width: 84px;
+  height: 84px;
+  background: var(--purple-soft);
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+  font-size: 38px;
+  color: var(--purple-accent);
+}
+
+.tmod-inc-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: var(--cream-2);
+  border: 1px solid var(--border-soft);
+  padding: 4px 10px;
+  border-radius: 100px;
+  color: var(--purple-accent);
+  margin-bottom: 8px;
+}
+
+.tmod-tab-panel-body h3 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0 0 10px;
+}
+
+.tmod-tab-panel-body p {
+  color: var(--ink-soft);
+  font-size: 14.5px;
+  margin-bottom: 14px;
+}
+
+.tmod-tab-panel-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.tmod-tab-panel-body li {
+  font-size: 13.5px;
+  color: var(--ink);
+  display: flex;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.tmod-tab-panel-body li span {
+  color: var(--purple-accent);
+  font-weight: 800;
+}
+
+/* =========================================================
+   COMBINED CARD
+========================================================= */
+
+.tmod-combined-card {
+  margin-top: 22px;
+  background: var(--purple);
+  color: #fff;
+  border-radius: 20px;
+  padding: 22px 26px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  box-shadow: 0 16px 34px rgba(21, 60, 45, 0.16);
+}
+
+.tmod-combined-icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.tmod-combined-card h4 {
+  font-size: 15.5px;
+  margin: 0 0 4px;
+}
+
+.tmod-combined-card p {
+  font-size: 13px;
+  margin: 0;
+  color: #daeae4;
+}
+
+/* =========================================================
+   HOW / TIMELINE
+========================================================= */
+
+.tmod-how {
+  background: var(--cream-2);
+}
+
+.tmod-timeline {
+  max-width: 780px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 30px;
+}
+
+.tmod-timeline::before {
+  content: "";
+  position: absolute;
+  left: 17px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: var(--border);
+}
+
+.tmod-tl-item {
+  position: relative;
+  padding-bottom: 34px;
+  padding-left: 30px;
+}
+
+.tmod-tl-item:last-child {
+  padding-bottom: 0;
+}
+
+.tmod-tl-marker {
+  position: absolute;
+  left: -30px;
+  top: 0;
+  width: 36px;
+  height: 36px;
+  background: var(--purple);
+  color: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 11px;
+  font-weight: 800;
+  box-shadow: 0 0 0 6px var(--cream-2);
+}
+
+.tmod-tl-content {
+  background: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: 16px;
+  padding: 18px 20px;
+  box-shadow: var(--shadow-sm);
+  transition: 0.25s ease;
+}
+
+.tmod-tl-content:hover {
+  transform: translateY(-2px);
+  border-color: var(--purple-accent);
+  box-shadow: 0 12px 28px rgba(21, 60, 45, 0.09);
+}
+
+.tmod-tl-content h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.tmod-tl-content p {
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/* =========================================================
+   WHY DARK / PURPLE
+========================================================= */
+
+.tmod-why-dark {
+  background: var(--purple);
+  padding: 0;
+}
+
+.tmod-why-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  align-items: stretch;
+}
+
+.tmod-why-left {
+  padding: 60px 46px;
+  color: #fff;
+}
+
+.tmod-why-left h2 {
+  font-size: 32px;
+  line-height: 1.16;
+  margin-bottom: 16px;
+}
+
+.tmod-why-left p {
+  color: #cde4db;
+  font-size: 14.5px;
+  margin-bottom: 14px;
+}
+
+.tmod-why-points {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+}
+
+.tmod-why-points div {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 11px 14px;
+  border-radius: 12px;
+  font-size: 13px;
+  display: flex;
+  gap: 10px;
+  color: #ebf4f0;
+}
+
+.tmod-why-points div.good {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.tmod-convo-queries {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.tmod-convo-queries p {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #D4B56A;
+  margin: 0 0 8px;
+}
+
+.tmod-convo-queries span {
+  display: inline-block;
+  font-size: 11.5px;
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 6px 10px;
+  border-radius: 100px;
+  margin: 0 6px 6px 0;
+  color: #e1eee9;
+}
+
+/* RIGHT IMAGE */
+
+.tmod-why-right {
+  position: relative;
+}
+
+.tmod-why-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 550px;
+  display: block;
+}
+
+.tmod-why-card {
+  position: absolute;
+  bottom: 18px;
+  left: 18px;
+  right: 18px;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(8px);
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+
+.tmod-why-card h4 {
+  font-size: 14px;
+  color: var(--purple);
+  margin: 0 0 4px;
+}
+
+.tmod-why-card p {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/* =========================================================
+   WHO + TRUST
+========================================================= */
+
+.tmod-who-trust {
+  background: var(--cream);
+}
+
+.tmod-trust-box {
+  background: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: var(--shadow-sm);
+  margin-top: 18px;
+}
+
+.tmod-trust-box h4 {
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: var(--purple);
+}
+
+.tmod-trust-box p {
+  font-size: 13.5px;
+  color: var(--ink-soft);
+}
+
+.tmod-trust-list {
+  margin-top: 12px;
+  display: grid;
+  gap: 8px;
+}
+
+.tmod-trust-list div {
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  gap: 8px;
+  color: var(--ink);
+}
+
+.tmod-trust-list span {
+  width: 20px;
+  height: 20px;
+  background: var(--purple-soft);
+  color: var(--purple-accent);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 11px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.tmod-who-title {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  margin-bottom: 14px;
+  color: var(--purple);
+}
+
+.tmod-who-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.tmod-who-card {
+  background: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  transition: 0.25s ease;
+}
+
+.tmod-who-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--purple-accent);
+  box-shadow: 0 12px 28px rgba(21, 60, 45, 0.08);
+}
+
+.tmod-who-card span {
+  font-size: 20px;
+}
+
+.tmod-who-card p {
+  font-size: 12.8px;
+  color: var(--ink-soft);
+  margin: 0;
+  font-weight: 500;
+}
+
+/* =========================================================
+   RELATED
+========================================================= */
+
+.tmod-related {
+  margin-top: 20px;
+  background: var(--cream-2);
+  border: 1px solid var(--border-soft);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.tmod-related h4 {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: var(--purple);
+}
+
+.tmod-related-links {
+  display: grid;
+  gap: 8px;
+}
+
+.tmod-related-links a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--purple-2);
+  background: var(--white);
+  border: 1px solid var(--border-soft);
+  padding: 10px 12px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.tmod-related-links a:hover {
+  background: var(--purple);
+  color: #fff;
+  border-color: var(--purple);
+  transform: translateX(2px);
+}
+
+/* =========================================================
+   FAQ
+========================================================= */
+
+.tmod-faq {
+  background: var(--white);
+  border-top: 1px solid var(--border-soft);
+}
+
+.tmod-faq-list {
+  max-width: 830px;
+  margin: 0 auto;
+  display: grid;
+  gap: 12px;
+}
+
+.tmod-faq-item {
+  border: 1px solid var(--border-soft);
+  border-radius: 14px;
+  background: var(--cream);
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.tmod-faq-item:hover {
+  border-color: var(--purple-accent);
+}
+
+.tmod-faq-item.open {
+  background: var(--white);
+  box-shadow: var(--shadow-sm);
+  border-color: var(--border);
+}
+
+.tmod-faq-q {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  background: none;
+  border: none;
+  padding: 18px 20px;
+  font-size: 14.5px;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+  color: var(--ink);
+  font-family: 'Poppins', sans-serif;
+}
+
+.tmod-faq-q:hover {
+  color: var(--purple);
+}
+
+.tmod-faq-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--white);
+  border: 1px solid var(--border);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  font-weight: 700;
+  transition: 0.2s ease;
+}
+
+.tmod-faq-item.open .tmod-faq-icon {
+  background: var(--purple);
+  color: #fff;
+  border-color: var(--purple);
+}
+
+.tmod-faq-a {
+  padding: 0 20px 18px;
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  animation: tmodFade 0.2s ease;
+}
+
+@keyframes tmodFade {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.tmod-cta {
+  background: linear-gradient(
+    135deg,
+    var(--purple) 0%,
+    var(--purple-dark) 100%
+  );
+  padding: 46px 0;
+}
+
+.tmod-cta-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.tmod-cta-inner h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  max-width: 540px;
+}
+
+.tmod-cta-inner p {
+  color: #cde4db;
+  font-size: 13.5px;
+  margin: 0;
+}
+
+.tmod-cta-actions {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1024px) {
+
+  .tmod-tabs {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tmod-why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tmod-why-right img {
+    min-height: 340px;
+  }
+
+  .tmod-tab-panel {
+    grid-template-columns: 70px 1fr;
+    padding: 24px;
+  }
+
+  .tmod-tab-panel-icon {
+    width: 64px;
+    height: 64px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .tmod-hero-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .tmod-main-img {
+    height: 400px;
+  }
+
+  .tmod-grid-2 {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+}
+
+@media (max-width: 780px) {
+
+  .tmod-hero-inner {
+    padding: 0 20px;
+  }
+
+  .tmod-float-card.top {
+    left: 12px;
+  }
+
+  .tmod-float-card.bottom {
+    right: 12px;
+  }
+
+  .tmod-ov-img-2 {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    margin-top: 12px;
+    border: none;
+  }
+
+  .tmod-ov-img-1 {
+    width: 100%;
+  }
+
+  .tmod-section {
+    padding: 56px 0;
+  }
+
+  .tmod-cta-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tmod-tabs {
+    grid-template-columns: 1fr;
+  }
+
+  .tmod-who-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tmod-why-left {
+    padding: 36px 22px;
+  }
+
+  .tmod-tab-panel {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+}
+
+@media (max-width: 560px) {
+
+  .tmod-hero-left h1 {
+    font-size: 27px;
+  }
+
+  .tmod-container {
+    padding: 0 18px;
+  }
+
+  .tmod-stat-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .tmod-stat-row div {
+    border-right: none;
+    border-bottom: 1px solid var(--border-soft);
+    padding-bottom: 8px;
+  }
+
+  .tmod-stat-row div:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .tmod-combined-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tmod-cta-actions {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}

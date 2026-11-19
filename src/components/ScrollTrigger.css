@@ -1,0 +1,201 @@
+/* ========== ScrollTrigger – premium entrance system ========== */
+
+.st-section,
+.st-item {
+  --st-duration: 0.85s;
+  --st-delay: 0.15s;
+  --st-stagger: 0.12s;
+  will-change: transform, opacity, filter;
+}
+
+/* Hidden state – content waits until triggered */
+.st-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.st-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ----- Animation variants ----- */
+
+/* Fade + upward reveal */
+.st-fade-up.st-hidden {
+  opacity: 0;
+  transform: translate3d(0, 48px, 0) scale(0.985);
+  filter: blur(8px);
+}
+.st-fade-up.st-visible {
+  animation: stFadeUp var(--st-duration) cubic-bezier(0.22, 1, 0.36, 1) var(--st-delay) both;
+}
+
+/* Fade + downward */
+.st-fade-down.st-hidden {
+  opacity: 0;
+  transform: translate3d(0, -40px, 0) scale(0.985);
+  filter: blur(8px);
+}
+.st-fade-down.st-visible {
+  animation: stFadeDown var(--st-duration) cubic-bezier(0.22, 1, 0.36, 1) var(--st-delay) both;
+}
+
+/* From left */
+.st-fade-left.st-hidden {
+  opacity: 0;
+  transform: translate3d(-56px, 24px, 0) scale(0.98);
+  filter: blur(10px);
+}
+.st-fade-left.st-visible {
+  animation: stFadeLeft var(--st-duration) cubic-bezier(0.22, 1, 0.36, 1) var(--st-delay) both;
+}
+
+/* From right */
+.st-fade-right.st-hidden {
+  opacity: 0;
+  transform: translate3d(56px, 24px, 0) scale(0.98);
+  filter: blur(10px);
+}
+.st-fade-right.st-visible {
+  animation: stFadeRight var(--st-duration) cubic-bezier(0.22, 1, 0.36, 1) var(--st-delay) both;
+}
+
+/* Scale + blur */
+.st-scale.st-hidden {
+  opacity: 0;
+  transform: scale(0.92);
+  filter: blur(12px);
+}
+.st-scale.st-visible {
+  animation: stScale var(--st-duration) cubic-bezier(0.16, 1, 0.3, 1) var(--st-delay) both;
+}
+
+/* Blur-to-sharp focus */
+.st-blur.st-hidden {
+  opacity: 0;
+  filter: blur(16px);
+  transform: translate3d(0, 28px, 0);
+}
+.st-blur.st-visible {
+  animation: stBlur var(--st-duration) cubic-bezier(0.22, 1, 0.36, 1) var(--st-delay) both;
+}
+
+/* Parallax container – soft fade then track scroll */
+.st-parallax.st-hidden {
+  opacity: 0;
+  transform: translate3d(0, 36px, 0);
+  filter: blur(6px);
+}
+.st-parallax.st-visible {
+  opacity: 1;
+  filter: blur(0);
+  transition:
+    opacity var(--st-duration) cubic-bezier(0.22, 1, 0.36, 1) var(--st-delay),
+    filter var(--st-duration) cubic-bezier(0.22, 1, 0.36, 1) var(--st-delay);
+}
+
+/* ----- Staggered children ----- */
+.st-stagger-children.st-hidden .st-child {
+  opacity: 0;
+}
+
+.st-stagger-children.st-visible .st-child {
+  animation: stFadeUp var(--st-duration) cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: calc(var(--st-delay) + var(--st-child-index, 0) * var(--st-stagger));
+}
+
+/* ----- Keyframes ----- */
+@keyframes stFadeUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 48px, 0) scale(0.985);
+    filter: blur(8px);
+  }
+  60% {
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes stFadeDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -40px, 0) scale(0.985);
+    filter: blur(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes stFadeLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-56px, 24px, 0) scale(0.98);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes stFadeRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(56px, 24px, 0) scale(0.98);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes stScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.92);
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes stBlur {
+  0% {
+    opacity: 0;
+    filter: blur(16px);
+    transform: translate3d(0, 28px, 0);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .st-section,
+  .st-item,
+  .st-stagger-children .st-child {
+    animation: none !important;
+    transition: opacity 0.25s ease !important;
+    transform: none !important;
+    filter: none !important;
+    opacity: 1 !important;
+  }
+}

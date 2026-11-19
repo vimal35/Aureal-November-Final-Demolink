@@ -1,0 +1,137 @@
+/* Privacy / Terms / Cookies pages — Aureal green & gold */
+.legal-page {
+  --legal-green: #0b4f35;
+  --legal-green-deep: #073d29;
+  --legal-gold: #d4af37;
+  --legal-cream: #fffdf8;
+  --legal-text: #1b2a24;
+  --legal-muted: #4b5f57;
+  background: var(--legal-cream);
+  color: var(--legal-text);
+  font-family: "Poppins", sans-serif;
+}
+
+.legal-container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.legal-hero {
+  background: linear-gradient(135deg, var(--legal-green-deep) 0%, var(--legal-green) 100%);
+  color: #fff;
+  padding: 72px 0 56px;
+  border-bottom: 3px solid var(--legal-gold);
+}
+
+.legal-crumbs {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 18px;
+}
+
+.legal-crumbs a {
+  color: var(--legal-gold);
+  text-decoration: none;
+}
+
+.legal-hero h1 {
+  margin: 0 0 14px;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.legal-intro {
+  margin: 0 0 12px;
+  max-width: 680px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.legal-updated {
+  margin: 0;
+  font-size: 13px;
+  color: var(--legal-gold);
+  font-weight: 600;
+}
+
+.legal-body {
+  padding-top: 48px;
+  padding-bottom: 72px;
+}
+
+.legal-section {
+  margin-bottom: 36px;
+}
+
+.legal-section h2 {
+  margin: 0 0 12px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--legal-green);
+  padding-left: 14px;
+  border-left: 4px solid var(--legal-gold);
+}
+
+.legal-section p,
+.legal-section li {
+  margin: 0 0 10px;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--legal-muted);
+}
+
+.legal-contact ul {
+  list-style: none;
+  padding: 18px 22px;
+  margin: 0;
+  background: #fff;
+  border: 1px solid rgba(11, 79, 53, 0.12);
+  border-radius: 14px;
+}
+
+.legal-contact a {
+  color: var(--legal-green);
+  font-weight: 600;
+}
+
+.legal-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(11, 79, 53, 0.12);
+}
+
+.legal-switch a {
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(11, 79, 53, 0.25);
+  color: var(--legal-green);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.legal-switch a.active,
+.legal-switch a:hover {
+  background: var(--legal-gold);
+  border-color: var(--legal-gold);
+  color: #1b2a24;
+}
+
+@media (max-width: 640px) {
+  .legal-container {
+    padding: 0 16px;
+  }
+
+  .legal-hero {
+    padding: 52px 0 40px;
+  }
+
+  .legal-body {
+    padding-top: 32px;
+  }
+}

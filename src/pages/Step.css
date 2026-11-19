@@ -1,0 +1,621 @@
+/* ==========================================================================
+   Apple / Ferrari Grade Scroll Interactive Experience
+   ========================================================================== */
+
+
+:root {
+  --bg-deep-space: #030712;
+  --bg-surface-glass: rgba(15, 23, 42, 0.72);
+  --border-glass: rgba(255, 255, 255, 0.09);
+  --border-highlight: rgba(255, 255, 255, 0.22);
+  --text-pure: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* 700vh height creates smooth scroll scrub distance for 7 distinct steps */
+.care-journey-container {
+  position: relative;
+  height: 700vh;
+  background-color: var(--bg-deep-space);
+  color: var(--text-pure);
+  font-family: var(--font-main);
+  box-sizing: border-box;
+}
+
+/* Sticky viewport pinned while scrolling */
+.care-journey-sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: radial-gradient(circle at 50% 15%, #0d1527 0%, #030712 90%);
+}
+
+/* Atmospheric Ambient Spotlight */
+.ambient-glow-mesh {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+  transition: background 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  filter: blur(40px);
+}
+
+/* ==========================================================================
+   Header Glass Dock
+   ========================================================================== */
+.care-dock-header {
+  position: relative;
+  z-index: 30;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 2rem 0.5rem 2rem;
+}
+
+.dock-glass-capsule {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.65rem 1.25rem;
+  background: var(--bg-surface-glass);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid var(--border-glass);
+  border-radius: 9999px;
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.7),
+              inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.brand-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-right: 1rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pulsing-emerald-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #10b981;
+  box-shadow: 0 0 12px #10b981;
+  animation: pulseBeacon 2s infinite ease-in-out;
+}
+
+@keyframes pulseBeacon {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.75); }
+}
+
+.brand-text {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #cbd5e1;
+}
+
+.step-counter-tag {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--text-pure);
+}
+
+.step-counter-tag .slash {
+  color: var(--text-muted);
+  margin: 0 3px;
+}
+
+.step-counter-tag .total-num {
+  color: var(--text-muted);
+}
+
+/* Nav Pills */
+.step-pills-rail {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.step-nav-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid transparent;
+  border-radius: 9999px;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.step-nav-pill .pill-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  transition: all 0.3s ease;
+}
+
+.step-nav-pill:hover {
+  color: var(--text-pure);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.step-nav-pill.active {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.step-nav-pill.active .pill-dot {
+  background: #38bdf8;
+  box-shadow: 0 0 8px #38bdf8;
+}
+
+.step-nav-pill.passed {
+  color: #94a3b8;
+}
+
+.step-nav-pill.passed .pill-dot {
+  background: #10b981;
+}
+
+.dock-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding-left: 0.5rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.arrow-nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-pure);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.arrow-nav-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.18);
+  transform: scale(1.06);
+}
+
+.arrow-nav-btn:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+
+/* ==========================================================================
+   Visual Stage Carousel (75% Screen Prominence + Inactive 50% opacity)
+   ========================================================================== */
+.main-visual-stage {
+  position: relative;
+  z-index: 10;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: 48vh;
+  margin-top: 0.25rem;
+  padding: 0 2rem;
+  perspective: 1200px;
+}
+
+.cards-slider-track {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stage-card-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: all 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity, filter;
+}
+
+/* Active Step: 75% visual prominence */
+.stage-card-wrapper.card-active {
+  width: 75vw;
+  max-width: 1100px;
+  height: 100%;
+  z-index: 20;
+  transform: translateX(0) scale(1);
+  opacity: 1;
+  cursor: default;
+}
+
+/* Inactive Previous Step: Left flanking, 50% opacity & smaller size */
+.stage-card-wrapper.card-prev {
+  width: 58vw;
+  max-width: 800px;
+  height: 86%;
+  z-index: 10;
+  transform: translateX(-48vw) scale(0.85);
+  opacity: 0.45;
+}
+
+/* Inactive Next Step: Right flanking, 50% opacity & smaller size */
+.stage-card-wrapper.card-next {
+  width: 58vw;
+  max-width: 800px;
+  height: 86%;
+  z-index: 10;
+  transform: translateX(48vw) scale(0.85);
+  opacity: 0.45;
+}
+
+.card-glass-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 1px solid var(--border-glass);
+  background: #000;
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.9),
+              inset 0 1px 1px rgba(255, 255, 255, 0.18);
+}
+
+.stage-card-wrapper.card-active .card-glass-frame {
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 35px 80px -20px rgba(0, 0, 0, 0.95),
+              0 0 40px rgba(255, 255, 255, 0.05),
+              inset 0 1px 2px rgba(255, 255, 255, 0.25);
+}
+
+.image-viewport {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.cinematic-step-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  transform: scale(1.02);
+  transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.stage-card-wrapper.card-active:hover .cinematic-step-image {
+  transform: scale(1.05);
+}
+
+/* Apple Vignette Gradient */
+.image-vignette-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 7, 18, 0.1) 0%,
+    rgba(3, 7, 18, 0.25) 50%,
+    rgba(3, 7, 18, 0.85) 100%
+  );
+  pointer-events: none;
+}
+
+/* Floating Status Pill */
+.floating-hero-badge {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.75rem;
+  z-index: 5;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 1rem;
+  background: rgba(10, 15, 28, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.live-beacon {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px currentColor;
+}
+
+/* Inactive peek details */
+.inactive-card-peek {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  right: 1.5rem;
+  z-index: 5;
+  background: rgba(3, 7, 18, 0.85);
+  backdrop-filter: blur(12px);
+  padding: 0.85rem 1.25rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.inactive-num {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #38bdf8;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.inactive-title {
+  margin: 0.2rem 0 0 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #f1f5f9;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ==========================================================================
+   Bottom Info Deck (Apple Glassmorphism UI)
+   ========================================================================== */
+.bottom-info-deck {
+  position: relative;
+  z-index: 25;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem 2rem 1.75rem 2rem;
+}
+
+.docked-content-card {
+  width: 100%;
+  max-width: 1320px;
+  background: rgba(15, 23, 42, 0.78);
+  backdrop-filter: blur(32px) saturate(190%);
+  -webkit-backdrop-filter: blur(32px) saturate(190%);
+  border: 1px solid var(--border-glass);
+  border-radius: 24px;
+  padding: 1.75rem 2.25rem;
+  box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.85),
+              inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.deck-grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.35fr;
+  gap: 2.75rem;
+  align-items: center;
+}
+
+/* Left Narrative */
+.deck-left-narrative {
+  display: flex;
+  flex-direction: column;
+}
+
+.step-tag-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.45rem;
+}
+
+.step-accent-badge {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 0.2rem 0.65rem;
+  border-radius: 6px;
+  letter-spacing: 0.08em;
+}
+
+.step-subheading-tag {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.step-primary-title {
+  font-family: var(--font-display);
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0.15rem 0 0.75rem 0;
+  color: #ffffff;
+  background: linear-gradient(135deg, #ffffff 40%, #cbd5e1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.step-narrative-paragraph {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Right Quad Bullet Grid */
+.deck-right-bullets {
+  width: 100%;
+}
+
+.bullets-quad-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.bullet-micro-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding: 0.85rem 1rem;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bullet-micro-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.bullet-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.bullet-text-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.bullet-title {
+  margin: 0 0 0.15rem 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+.bullet-desc {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  color: var(--text-muted);
+}
+
+/* ==========================================================================
+   Global Scroll Progress Line
+   ========================================================================== */
+.global-scroll-track-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #06b6d4, #3b82f6, #8b5cf6, #10b981);
+  transform-origin: 0%;
+  z-index: 50;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.8);
+}
+
+/* ==========================================================================
+   Responsive Breakpoints
+   ========================================================================== */
+@media (max-width: 1200px) {
+  .stage-card-wrapper.card-active {
+    width: 82vw;
+  }
+  .deck-grid-layout {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .step-pills-rail .pill-label {
+    display: none;
+  }
+  .step-nav-pill {
+    padding: 0.4rem;
+  }
+  .main-visual-stage {
+    max-height: 42vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .care-journey-sticky {
+    padding-bottom: 0.5rem;
+  }
+  .care-dock-header {
+    padding: 0.75rem 1rem 0 1rem;
+  }
+  .dock-glass-capsule {
+    gap: 0.75rem;
+    padding: 0.5rem 0.85rem;
+  }
+  .brand-badge {
+    display: none;
+  }
+  .main-visual-stage {
+    max-height: 34vh;
+    padding: 0 1rem;
+  }
+  .stage-card-wrapper.card-active {
+    width: 90vw;
+  }
+  .stage-card-wrapper.card-prev,
+  .stage-card-wrapper.card-next {
+    display: none;
+  }
+  .bottom-info-deck {
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+  .docked-content-card {
+    padding: 1.15rem 1.25rem;
+    border-radius: 18px;
+  }
+  .step-primary-title {
+    font-size: 1.35rem;
+  }
+  .step-narrative-paragraph {
+    font-size: 0.82rem;
+    line-height: 1.5;
+  }
+  .bullets-quad-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  .bullet-micro-item {
+    padding: 0.6rem 0.75rem;
+  }
+}

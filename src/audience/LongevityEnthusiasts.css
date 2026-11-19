@@ -1,0 +1,1182 @@
+/* Matches the live site, recoloured to the Aureal green & gold palette */
+
+.longevity-page {
+  --longevity-gold:#d4af37;
+  --longevity-gold-dark:#bd8420;
+  --longevity-gold-light:#e8cb6a;
+  --longevity-gold-soft:#fff6df;
+  --longevity-line:#e1eee9;
+  --longevity-muted:#716882;
+  --longevity-primary:#082419;
+  --longevity-primary-soft:#f1f9f6;
+  --longevity-shadow:0 18px 45px #0824191f;
+  --longevity-text:#1d2b26;
+  --longevity-white:#fff;
+}
+
+.longevity-page {
+  color:var(--longevity-text);
+  background:var(--longevity-white);
+  font-family:Poppins,sans-serif;
+  line-height:1.7;
+  overflow-x:hidden;
+}
+
+.longevity-page * {
+  box-sizing:border-box;
+}
+
+.longevity-page img {
+  max-width:100%;
+  display:block;
+}
+
+.longevity-page a {
+  text-decoration:none;
+}
+
+.longevity-container {
+  width:min(1180px,92%);
+  margin:0 auto;
+}
+
+.longevity-container--narrow {
+  width:min(880px,92%);
+}
+
+.longevity-section {
+  padding:5.5rem 0;
+}
+
+.longevity-section--tint {
+  background:radial-gradient(circle at 95% 8%, #d4af371a, transparent 24rem), var(--longevity-primary-soft);
+}
+
+.longevity-eyebrow {
+  color:var(--longevity-gold-dark);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  margin-bottom:.85rem;
+  padding-left:2.6rem;
+  font-size:.75rem;
+  font-weight:700;
+  display:inline-block;
+  position:relative;
+}
+
+.longevity-eyebrow:before {
+  content:"";
+  background:var(--longevity-gold);
+  width:2rem;
+  height:2px;
+  position:absolute;
+  top:50%;
+  left:0;
+  transform:translateY(-50%);
+}
+
+.longevity-eyebrow--light {
+  color:var(--longevity-gold-light);
+}
+
+.longevity-heading {
+  margin-bottom:2.8rem;
+}
+
+.longevity-heading--center {
+  text-align:center;
+  flex-direction:column;
+  align-items:center;
+  display:flex;
+}
+
+.longevity-heading--center .longevity-eyebrow {
+  padding-left:0;
+}
+
+.longevity-heading--center .longevity-eyebrow:before {
+  display:none;
+}
+
+.longevity-heading h2, .longevity-overview h2, .longevity-difference h2, .longevity-dark-band h2, .longevity-trust h2 {
+  color:var(--longevity-primary);
+  letter-spacing:-.7px;
+  margin:0;
+  font-size:clamp(1.7rem,3.1vw,2.5rem);
+  font-weight:700;
+  line-height:1.28;
+}
+
+.longevity-heading h2 em, .longevity-overview h2 em, .longevity-difference h2 em, .longevity-dark-band h2 em {
+  color:var(--longevity-gold-dark);
+  font-style:normal;
+}
+
+.longevity-heading p {
+  max-width:650px;
+  color:var(--longevity-muted);
+  margin:.9rem auto 0;
+  font-size:.96rem;
+}
+
+.longevity-btn {
+  border-radius:999px;
+  justify-content:center;
+  align-items:center;
+  gap:.65rem;
+  padding:.95rem 1.65rem;
+  font-family:Poppins,sans-serif;
+  font-size:.88rem;
+  font-weight:600;
+  transition:all .3s;
+  display:inline-flex;
+}
+
+.longevity-btn svg {
+  width:18px;
+  height:18px;
+}
+
+.longevity-btn--gold {
+  color:var(--longevity-primary);
+  background:linear-gradient(135deg, var(--longevity-gold-light), var(--longevity-gold));
+  box-shadow:0 13px 25px #d4af3759;
+}
+
+.longevity-btn--gold:hover {
+  transform:translateY(-3px);
+  box-shadow:0 18px 30px #d4af3780;
+}
+
+.longevity-btn--outline {
+  color:var(--longevity-white);
+  background:0 0;
+  border:1px solid #ffffff73;
+}
+
+.longevity-btn--outline:hover {
+  border-color:var(--longevity-gold);
+  background:#ffffff17;
+  transform:translateY(-3px);
+}
+
+.longevity-hero {
+  background:radial-gradient(circle at 89% 14%,#d4af372e,#0000 22rem),radial-gradient(circle at 2% 100%,#285c488c,#0000 26rem),linear-gradient(135deg,#082419 0%,#103929 100%);
+  padding:5.7rem 0 6.8rem;
+  position:relative;
+  overflow:hidden;
+}
+
+.longevity-hero:before {
+  content:"";
+  opacity:.25;
+  background-image:radial-gradient(#e8cb6a6b 1px,#0000 1px);
+  background-size:28px 28px;
+  position:absolute;
+  inset:0;
+}
+
+.longevity-hero:after {
+  content:"";
+  border:1px solid #d4af374d;
+  border-radius:50%;
+  width:430px;
+  height:430px;
+  position:absolute;
+  top:-160px;
+  right:-130px;
+}
+
+.longevity-hero__grid {
+  z-index:1;
+  grid-template-columns:1.08fr .92fr;
+  align-items:center;
+  gap:3.8rem;
+  display:grid;
+  position:relative;
+}
+
+.longevity-breadcrumb {
+  color:#fff9;
+  gap:.6rem;
+  margin-bottom:1.5rem;
+  font-size:.78rem;
+  display:flex;
+}
+
+.longevity-breadcrumb strong {
+  color:var(--longevity-gold-light);
+  font-weight:500;
+}
+
+.longevity-hero__badge {
+  color:var(--longevity-gold-light);
+  letter-spacing:1.3px;
+  text-transform:uppercase;
+  background:#d4af371c;
+  border:1px solid #d4af3761;
+  border-radius:999px;
+  align-items:center;
+  gap:.55rem;
+  margin-bottom:1.35rem;
+  padding:.48rem 1rem;
+  font-size:.7rem;
+  font-weight:600;
+  display:inline-flex;
+}
+
+.longevity-hero__badge span {
+  background:var(--longevity-gold);
+  border-radius:50%;
+  width:8px;
+  height:8px;
+  box-shadow:0 0 0 4px #d4af372e;
+}
+
+.longevity-hero h1 {
+  color:#fff;
+  letter-spacing:-1.2px;
+  max-width:650px;
+  margin:0 0 1.35rem;
+  font-size:clamp(2rem,4.2vw,3.2rem);
+  font-weight:800;
+  line-height:1.18;
+}
+
+.longevity-hero h1 em {
+  color:var(--longevity-gold-light);
+  font-style:normal;
+}
+
+.longevity-hero__lead {
+  color:#ffffffc7;
+  max-width:590px;
+  margin:0 0 2.1rem;
+  font-size:.98rem;
+  font-weight:300;
+}
+
+.longevity-hero__actions {
+  flex-wrap:wrap;
+  gap:.9rem;
+  margin-bottom:2.6rem;
+  display:flex;
+}
+
+.longevity-hero__stats {
+  border-top:1px solid #ffffff29;
+  gap:2rem;
+  padding-top:1.4rem;
+  display:flex;
+}
+
+.longevity-hero__stats div {
+  flex-direction:column;
+  display:flex;
+}
+
+.longevity-hero__stats strong {
+  color:var(--longevity-gold-light);
+  font-size:1.4rem;
+  font-weight:800;
+}
+
+.longevity-hero__stats span {
+  color:#ffffffa6;
+  max-width:120px;
+  font-size:.72rem;
+  line-height:1.4;
+}
+
+.longevity-hero__media {
+  position:relative;
+}
+
+.longevity-hero__image-wrap {
+  border-radius:26px;
+  position:relative;
+  overflow:hidden;
+  box-shadow:0 28px 65px #0000006b;
+}
+
+.longevity-hero__image-wrap:after {
+  content:"";
+  background:linear-gradient(#0000 50%,#08241957);
+  position:absolute;
+  inset:0;
+}
+
+.longevity-hero__image-wrap img {
+  object-fit:cover;
+  width:100%;
+  height:485px;
+}
+
+.longevity-hero__media:before {
+  content:"";
+  border:2px solid var(--longevity-gold);
+  opacity:.75;
+  border-radius:26px;
+  width:60%;
+  height:60%;
+  position:absolute;
+  top:-15px;
+  right:-15px;
+}
+
+.longevity-hero__floating-card {
+  max-width:270px;
+  box-shadow:var(--longevity-shadow);
+  background:#fffffff5;
+  border-radius:15px;
+  align-items:center;
+  gap:.85rem;
+  padding:.95rem 1.1rem;
+  display:flex;
+  position:absolute;
+  bottom:28px;
+  left:-35px;
+}
+
+.longevity-icon-box {
+  width:42px;
+  height:42px;
+  color:var(--longevity-primary);
+  background:linear-gradient(135deg, var(--longevity-gold-light), var(--longevity-gold));
+  border-radius:12px;
+  flex:0 0 42px;
+  place-items:center;
+  display:grid;
+}
+
+.longevity-icon-box svg {
+  width:22px;
+  height:22px;
+}
+
+.longevity-hero__floating-card strong {
+  color:var(--longevity-primary);
+  font-size:.78rem;
+  display:block;
+}
+
+.longevity-hero__floating-card p {
+  color:var(--longevity-muted);
+  margin:0;
+  font-size:11px;
+  line-height:1.45;
+}
+
+.longevity-hero__floating-pill {
+  color:var(--longevity-primary);
+  background:linear-gradient(135deg, var(--longevity-gold-light), var(--longevity-gold));
+  border-radius:999px;
+  align-items:center;
+  gap:.45rem;
+  padding:.55rem .95rem;
+  font-size:.7rem;
+  font-weight:700;
+  display:flex;
+  position:absolute;
+  top:22px;
+  right:-14px;
+  box-shadow:0 10px 24px #d4af3761;
+}
+
+.longevity-hero__floating-pill svg {
+  width:15px;
+  height:15px;
+}
+
+.longevity-quick {
+  z-index:3;
+  margin-top:-3.2rem;
+  position:relative;
+}
+
+.longevity-quick__card {
+  border:1px solid var(--longevity-line);
+  border-left:5px solid var(--longevity-gold);
+  box-shadow:var(--longevity-shadow);
+  background:#fff;
+  border-radius:16px;
+  padding:1.65rem 2rem;
+}
+
+.longevity-quick__card span {
+  color:var(--longevity-gold-dark);
+  letter-spacing:1.8px;
+  text-transform:uppercase;
+  margin-bottom:.45rem;
+  font-size:.7rem;
+  font-weight:700;
+  display:block;
+}
+
+.longevity-quick__card p {
+  color:var(--longevity-text);
+  margin:0;
+  font-size:.92rem;
+}
+
+.longevity-overview {
+  grid-template-columns:1.1fr .9fr;
+  align-items:center;
+  gap:3.7rem;
+  display:grid;
+}
+
+.longevity-overview__content p, .longevity-difference__content p {
+  color:var(--longevity-muted);
+  margin:0 0 1.05rem;
+  font-size:.93rem;
+}
+
+.longevity-area-box {
+  border:1px dashed var(--longevity-gold);
+  background:var(--longevity-gold-soft);
+  border-radius:14px;
+  margin-top:1.5rem;
+  padding:1rem 1.2rem;
+}
+
+.longevity-area-box strong {
+  color:var(--longevity-gold-dark);
+  letter-spacing:.7px;
+  text-transform:uppercase;
+  margin-bottom:.65rem;
+  font-size:.74rem;
+  display:block;
+}
+
+.longevity-area-box div {
+  flex-wrap:wrap;
+  gap:.45rem;
+  display:flex;
+}
+
+.longevity-area-box span {
+  color:var(--longevity-primary);
+  background:#fff;
+  border:1px solid #edcd7c;
+  border-radius:999px;
+  padding:.27rem .7rem;
+  font-size:.72rem;
+}
+
+.longevity-overview__media {
+  position:relative;
+}
+
+.longevity-overview__media img {
+  object-fit:cover;
+  width:100%;
+  height:515px;
+  box-shadow:var(--longevity-shadow);
+  border-radius:26px;
+}
+
+.longevity-overview__media:after {
+  content:"";
+  z-index:-1;
+  border:2px solid var(--longevity-gold);
+  border-radius:26px;
+  width:60%;
+  height:60%;
+  position:absolute;
+  bottom:-15px;
+  left:-15px;
+}
+
+.longevity-overview__badge {
+  color:#fff;
+  background:var(--longevity-primary);
+  border:1px solid #d4af3766;
+  border-radius:15px;
+  align-items:center;
+  gap:.8rem;
+  padding:.9rem 1.2rem;
+  display:flex;
+  position:absolute;
+  top:28px;
+  left:-25px;
+  box-shadow:0 16px 35px #0824194d;
+}
+
+.longevity-overview__badge strong {
+  color:var(--longevity-gold-light);
+  font-size:1.6rem;
+}
+
+.longevity-overview__badge span {
+  font-size:.7rem;
+  font-weight:500;
+  line-height:1.4;
+}
+
+.longevity-included-grid {
+  grid-template-columns:repeat(3,1fr);
+  gap:1.45rem;
+  display:grid;
+}
+
+.longevity-included-card {
+  border:1px solid var(--longevity-line);
+  background:#fff;
+  border-radius:17px;
+  padding:2rem 1.65rem;
+  transition:all .3s;
+  position:relative;
+  overflow:hidden;
+}
+
+.longevity-included-card:before {
+  content:"";
+  background:linear-gradient(90deg, var(--longevity-gold-light), var(--longevity-gold-dark));
+  transform-origin:0;
+  width:100%;
+  height:4px;
+  transition:all .3s;
+  position:absolute;
+  top:0;
+  left:0;
+  transform:scaleX(0);
+}
+
+.longevity-included-card:hover {
+  border-color:var(--longevity-gold);
+  box-shadow:var(--longevity-shadow);
+  transform:translateY(-7px);
+}
+
+.longevity-included-card:hover:before {
+  transform:scaleX(1);
+}
+
+.longevity-included-card__number {
+  color:#e8f3ef;
+  font-size:2rem;
+  font-weight:800;
+  position:absolute;
+  top:1.1rem;
+  right:1.2rem;
+}
+
+.longevity-included-card__icon {
+  width:56px;
+  height:56px;
+  color:var(--longevity-gold-dark);
+  background:var(--longevity-gold-soft);
+  border:1px solid #f1d58f;
+  border-radius:15px;
+  place-items:center;
+  margin-bottom:1.2rem;
+  display:grid;
+}
+
+.longevity-included-card__icon svg {
+  width:27px;
+  height:27px;
+}
+
+.longevity-included-card h3 {
+  color:var(--longevity-primary);
+  margin:0 0 .55rem;
+  font-size:1rem;
+  line-height:1.4;
+}
+
+.longevity-included-card p {
+  color:var(--longevity-muted);
+  margin:0;
+  font-size:.84rem;
+}
+
+.longevity-steps {
+  grid-template-columns:repeat(4,1fr);
+  gap:1.4rem;
+  display:grid;
+  position:relative;
+}
+
+.longevity-steps:before {
+  content:"";
+  background:repeating-linear-gradient(90deg, var(--longevity-gold) 0 10px, transparent 10px 18px);
+  height:2px;
+  position:absolute;
+  top:34px;
+  left:8%;
+  right:8%;
+}
+
+.longevity-step {
+  z-index:1;
+  text-align:center;
+  padding:0 .6rem;
+  position:relative;
+}
+
+.longevity-step>span {
+  width:68px;
+  height:68px;
+  color:var(--longevity-gold-dark);
+  border:2px solid var(--longevity-gold);
+  background:#fff;
+  border-radius:50%;
+  place-items:center;
+  margin:0 auto 1.2rem;
+  font-size:1.3rem;
+  font-weight:800;
+  display:grid;
+  box-shadow:0 9px 22px #d4af3733;
+}
+
+.longevity-step h3 {
+  color:var(--longevity-primary);
+  margin:0 0 .4rem;
+  font-size:.98rem;
+}
+
+.longevity-step p {
+  color:var(--longevity-muted);
+  margin:0;
+  font-size:.82rem;
+}
+
+.longevity-dark-band {
+  color:#fff;
+  background:radial-gradient(circle at 90% 20%, #d4af3724, transparent 23rem), linear-gradient(135deg, var(--longevity-primary), #123d2d);
+  padding:5.3rem 0;
+}
+
+.longevity-dark-band__grid {
+  grid-template-columns:1fr 1fr;
+  align-items:center;
+  gap:3.5rem;
+  display:grid;
+}
+
+.longevity-dark-band h2 {
+  color:#fff;
+}
+
+.longevity-dark-band h2 em {
+  color:var(--longevity-gold-light);
+}
+
+.longevity-dark-band blockquote {
+  color:var(--longevity-gold-light);
+  border-left:4px solid var(--longevity-gold);
+  background:#d4af3714;
+  border-radius:0 13px 13px 0;
+  margin:1.6rem 0 0;
+  padding:1.1rem 1.3rem;
+  font-size:.91rem;
+  font-style:italic;
+}
+
+.longevity-dark-band__text p {
+  color:#ffffffc7;
+  margin:0 0 1.1rem;
+  font-size:.92rem;
+}
+
+.longevity-difference {
+  grid-template-columns:.92fr 1.08fr;
+  align-items:center;
+  gap:3.7rem;
+  display:grid;
+}
+
+.longevity-difference__media {
+  position:relative;
+}
+
+.longevity-difference__media>img {
+  object-fit:cover;
+  width:100%;
+  height:460px;
+  box-shadow:var(--longevity-shadow);
+  border-radius:25px;
+}
+
+.longevity-difference__media:before {
+  content:"";
+  z-index:-1;
+  border:2px solid var(--longevity-gold);
+  border-radius:25px;
+  width:57%;
+  height:57%;
+  position:absolute;
+  top:-15px;
+  right:-15px;
+}
+
+.longevity-difference__media>div {
+  color:var(--longevity-primary);
+  background:linear-gradient(135deg, var(--longevity-gold-light), var(--longevity-gold));
+  white-space:nowrap;
+  border-radius:999px;
+  align-items:center;
+  gap:.5rem;
+  padding:.6rem 1rem;
+  font-size:.7rem;
+  font-weight:700;
+  display:flex;
+  position:absolute;
+  bottom:22px;
+  left:50%;
+  transform:translate(-50%);
+  box-shadow:0 12px 25px #d4af3759;
+}
+
+.longevity-difference__media svg {
+  width:16px;
+  height:16px;
+}
+
+.longevity-difference__content ul {
+  margin:1.2rem 0 0;
+  padding:0;
+  list-style:none;
+}
+
+.longevity-difference__content li {
+  color:var(--longevity-text);
+  border-bottom:1px dashed var(--longevity-line);
+  gap:.75rem;
+  padding:.7rem 0;
+  font-size:.88rem;
+  font-weight:500;
+  display:flex;
+}
+
+.longevity-difference__content li span {
+  width:25px;
+  height:25px;
+  color:var(--longevity-primary);
+  background:linear-gradient(135deg, var(--longevity-gold-light), var(--longevity-gold));
+  border-radius:50%;
+  flex:0 0 25px;
+  place-items:center;
+  display:grid;
+}
+
+.longevity-difference__content li svg {
+  width:14px;
+  height:14px;
+}
+
+.longevity-who-grid {
+  grid-template-columns:repeat(2,1fr);
+  gap:1.3rem;
+  display:grid;
+}
+
+.longevity-who-card {
+  border:1px solid var(--longevity-line);
+  background:#fff;
+  border-radius:16px;
+  min-height:135px;
+  padding:1.55rem 1.5rem 1.55rem 5rem;
+  transition:all .3s;
+  position:relative;
+}
+
+.longevity-who-card:hover {
+  border-color:var(--longevity-gold);
+  box-shadow:var(--longevity-shadow);
+  transform:translateY(-5px);
+}
+
+.longevity-who-card strong {
+  width:45px;
+  height:45px;
+  color:var(--longevity-primary);
+  background:linear-gradient(135deg, var(--longevity-gold-light), var(--longevity-gold));
+  border-radius:13px;
+  place-items:center;
+  font-size:.92rem;
+  display:grid;
+  position:absolute;
+  top:1.35rem;
+  left:1.25rem;
+}
+
+.longevity-who-card p {
+  color:var(--longevity-muted);
+  margin:0;
+  font-size:.87rem;
+}
+
+.longevity-trust {
+  color:#fff;
+  background:radial-gradient(circle at 8% 100%,#d4af3724,#0000 22rem),linear-gradient(120deg,#123a2a,#082419);
+  padding:4.8rem 0;
+}
+
+.longevity-trust__inner {
+  align-items:flex-start;
+  gap:2rem;
+  display:flex;
+}
+
+.longevity-trust__icon {
+  width:72px;
+  height:72px;
+  color:var(--longevity-gold-light);
+  background:#d4af371a;
+  border:1px solid #d4af3766;
+  border-radius:20px;
+  flex:0 0 72px;
+  place-items:center;
+  display:grid;
+}
+
+.longevity-trust__icon svg {
+  width:33px;
+  height:33px;
+}
+
+.longevity-trust h2 {
+  color:#fff;
+  margin-bottom:.9rem;
+}
+
+.longevity-trust p {
+  color:#ffffffc4;
+  max-width:780px;
+  margin:0 0 .8rem;
+  font-size:.9rem;
+}
+
+.longevity-trust__tags {
+  flex-wrap:wrap;
+  gap:.55rem;
+  margin-top:1.3rem;
+  display:flex;
+}
+
+.longevity-trust__tags span {
+  color:var(--longevity-gold-light);
+  background:#d4af3714;
+  border:1px solid #d4af3761;
+  border-radius:999px;
+  padding:.4rem .85rem;
+  font-size:.7rem;
+  font-weight:600;
+}
+
+.longevity-faq {
+  flex-direction:column;
+  gap:.85rem;
+  display:flex;
+}
+
+.longevity-faq__item {
+  border:1px solid var(--longevity-line);
+  background:#fff;
+  border-radius:14px;
+  transition:all .3s;
+  overflow:hidden;
+}
+
+.longevity-faq__item.is-open {
+  border-color:var(--longevity-gold);
+  box-shadow:0 12px 30px #08241917;
+}
+
+.longevity-faq__item button {
+  width:100%;
+  color:var(--longevity-primary);
+  cursor:pointer;
+  text-align:left;
+  background:0 0;
+  border:0;
+  justify-content:space-between;
+  align-items:center;
+  gap:1rem;
+  padding:1.15rem 1.35rem;
+  font-family:Poppins,sans-serif;
+  font-size:.9rem;
+  font-weight:600;
+  display:flex;
+}
+
+.longevity-faq__item button i {
+  border:1px solid var(--longevity-gold);
+  background:var(--longevity-gold-soft);
+  border-radius:50%;
+  flex:0 0 29px;
+  width:29px;
+  height:29px;
+  display:block;
+  position:relative;
+}
+
+.longevity-faq__item button i:before, .longevity-faq__item button i:after {
+  content:"";
+  background:var(--longevity-gold-dark);
+  width:12px;
+  height:2px;
+  transition:all .3s;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.longevity-faq__item button i:after {
+  transform:translate(-50%,-50%)rotate(90deg);
+}
+
+.longevity-faq__item.is-open button i {
+  border-color:var(--longevity-primary);
+  background:var(--longevity-primary);
+}
+
+.longevity-faq__item.is-open button i:before, .longevity-faq__item.is-open button i:after {
+  background:var(--longevity-gold-light);
+}
+
+.longevity-faq__item.is-open button i:after {
+  transform:translate(-50%,-50%)rotate(0);
+}
+
+.longevity-faq__answer {
+  grid-template-rows:0fr;
+  transition:grid-template-rows .35s;
+  display:grid;
+}
+
+.longevity-faq__item.is-open .longevity-faq__answer {
+  grid-template-rows:1fr;
+}
+
+.longevity-faq__answer>div {
+  overflow:hidden;
+}
+
+.longevity-faq__answer p {
+  color:var(--longevity-muted);
+  margin:0;
+  padding:0 1.35rem 1.25rem;
+  font-size:.84rem;
+}
+
+.longevity-related-grid {
+  grid-template-columns:repeat(4,1fr);
+  gap:1.15rem;
+  display:grid;
+}
+
+.longevity-related-grid a {
+  color:var(--longevity-primary);
+  border:1px solid var(--longevity-line);
+  background:#fff;
+  border-radius:16px;
+  justify-content:space-between;
+  align-items:center;
+  gap:.8rem;
+  padding:1.4rem 1.2rem;
+  font-size:.85rem;
+  font-weight:600;
+  transition:all .3s;
+  display:flex;
+}
+
+.longevity-related-grid a:hover {
+  color:#fff;
+  border-color:var(--longevity-primary);
+  background:var(--longevity-primary);
+  box-shadow:var(--longevity-shadow);
+  transform:translateY(-5px);
+}
+
+.longevity-related-grid i {
+  width:36px;
+  height:36px;
+  color:var(--longevity-gold-dark);
+  background:var(--longevity-gold-soft);
+  border-radius:50%;
+  flex:0 0 36px;
+  place-items:center;
+  display:grid;
+}
+
+.longevity-related-grid i svg {
+  width:17px;
+  height:17px;
+}
+
+.longevity-cta {
+  text-align:center;
+  background:radial-gradient(circle at 50% -5%, #d4af373b, transparent 22rem), linear-gradient(135deg, var(--longevity-primary), #154532);
+  padding:5.7rem 0;
+  position:relative;
+  overflow:hidden;
+}
+
+.longevity-cta:before {
+  content:"";
+  opacity:.2;
+  background-image:radial-gradient(#e8cb6a80 1px,#0000 1px);
+  background-size:27px 27px;
+  position:absolute;
+  inset:0;
+}
+
+.longevity-cta__inner {
+  z-index:1;
+  max-width:790px;
+  position:relative;
+}
+
+.longevity-cta__inner>span {
+  color:var(--longevity-gold-light);
+  letter-spacing:1.7px;
+  background:#d4af3717;
+  border:1px solid #d4af3761;
+  border-radius:999px;
+  margin-bottom:1.3rem;
+  padding:.45rem 1rem;
+  font-size:11px;
+  font-weight:700;
+  display:inline-block;
+}
+
+.longevity-cta h2 {
+  color:#fff;
+  margin:0 0 .9rem;
+  font-size:clamp(1.65rem,3.3vw,2.45rem);
+  line-height:1.3;
+}
+
+.longevity-cta p {
+  color:#ffffffbf;
+  margin:0 auto 2rem;
+  font-size:.93rem;
+}
+
+.longevity-cta__actions {
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:.8rem;
+  display:flex;
+}
+
+@media (width<=992px) {
+  .longevity-hero__grid, .longevity-overview, .longevity-dark-band__grid, .longevity-difference {
+    grid-template-columns:1fr;
+  }
+  .longevity-hero__grid {
+    gap:3rem;
+  }
+  .longevity-hero__image-wrap img, .longevity-overview__media img, .longevity-difference__media>img {
+    height:390px;
+  }
+  .longevity-included-grid {
+    grid-template-columns:repeat(2,1fr);
+  }
+  .longevity-steps {
+    grid-template-columns:repeat(2,1fr);
+    row-gap:2.2rem;
+  }
+  .longevity-steps:before {
+    display:none;
+  }
+  .longevity-related-grid {
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (width<=640px) {
+  .longevity-section {
+    padding:3.8rem 0;
+  }
+  .longevity-hero {
+    padding:3.8rem 0 6.5rem;
+  }
+  .longevity-hero__actions, .longevity-cta__actions {
+    flex-direction:column;
+  }
+  .longevity-btn {
+    width:100%;
+  }
+  .longevity-hero__stats {
+    flex-wrap:wrap;
+    gap:1.25rem;
+  }
+  .longevity-hero__stats div {
+    flex:40%;
+  }
+  .longevity-hero__image-wrap img {
+    height:300px;
+  }
+  .longevity-hero__floating-card {
+    max-width:100%;
+    margin-top:1rem;
+    position:static;
+  }
+  .longevity-hero__floating-pill {
+    font-size:11px;
+    top:14px;
+    right:8px;
+  }
+  .longevity-quick {
+    margin-top:-4rem;
+  }
+  .longevity-quick__card {
+    padding:1.25rem 1.3rem;
+  }
+  .longevity-included-grid, .longevity-steps, .longevity-who-grid, .longevity-related-grid {
+    grid-template-columns:1fr;
+  }
+  .longevity-overview__media img, .longevity-difference__media>img {
+    height:285px;
+  }
+  .longevity-overview__badge {
+    padding:.75rem .9rem;
+    top:14px;
+    left:8px;
+  }
+  .longevity-difference__media>div {
+    font-size:11px;
+  }
+  .longevity-who-card {
+    padding-left:4.6rem;
+  }
+  .longevity-who-card strong {
+    width:40px;
+    height:40px;
+    left:1rem;
+  }
+  .longevity-trust__inner {
+    flex-direction:column;
+    gap:1.3rem;
+  }
+  .longevity-trust__icon {
+    flex-basis:60px;
+    width:60px;
+    height:60px;
+  }
+  .longevity-faq__item button {
+    padding:1rem 1.05rem;
+    font-size:.83rem;
+  }
+  .longevity-faq__answer p {
+    padding:0 1.05rem 1.1rem;
+  }
+}
+
+.longevity-page a:focus-visible, .longevity-page button:focus-visible {
+  outline:3px solid var(--longevity-gold);
+  outline-offset:3px;
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .longevity-page *, .longevity-page :before, .longevity-page :after {
+    scroll-behavior:auto!important;
+    transition:none!important;
+  }
+}

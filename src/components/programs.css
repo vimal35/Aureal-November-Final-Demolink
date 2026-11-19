@@ -1,0 +1,797 @@
+/* ============================================================
+   HEALTHCARE PROGRAMS
+   Static design — no GSAP, animations, transitions or movement
+   ============================================================ */
+
+
+/* ============================================================
+   SECTION
+   ============================================================ */
+
+.prg-section {
+  position: relative;
+  width: 100%;
+  padding: 92px 0 110px;
+  overflow: hidden;
+  background-color: #ffffff;
+  color: #111111;
+  font-family: "Poppins", sans-serif;
+}
+
+.prg-section,
+.prg-section *,
+.prg-section *::before,
+.prg-section *::after {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.prg-container {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+
+.prg-header {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto 68px;
+  text-align: center;
+}
+
+.prg-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 38px;
+  margin-bottom: 24px;
+  padding: 8px 20px;
+  border: 1px solid rgba(212, 175, 55, 0.55);
+  border-radius: 999px;
+  background-color: #fffdf7;
+  color: #176143;
+  box-shadow: 0 3px 12px rgba(160, 124, 27, 0.07);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1.55px;
+  text-transform: uppercase;
+}
+
+.prg-badge-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 21px;
+  height: 21px;
+  flex: 0 0 21px;
+  border-radius: 50%;
+  background-color: #d4af37;
+  color: #ffffff;
+}
+
+.prg-badge-icon svg {
+  width: 12px;
+  height: 12px;
+}
+
+.prg-title {
+  margin: 0 0 21px;
+  font-size: clamp(36px, 4.6vw, 58px);
+  font-weight: 800;
+  line-height: 1.02;
+  letter-spacing: -1.8px;
+}
+
+.prg-title span,
+.prg-title strong {
+  display: block;
+}
+
+.prg-title span {
+  color: #444444;
+  font-weight: 800;
+}
+
+.prg-title strong {
+  color: #050505;
+  font-weight: 800;
+}
+
+.prg-subtitle {
+  max-width: 750px;
+  margin: 0 auto;
+  color: #737373;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+/* ============================================================
+   PROGRAM GRID
+   ============================================================ */
+
+.prg-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 32px;
+}
+
+/* ============================================================
+   PROGRAM CARD
+   ============================================================ */
+
+.prg-card {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #cfe0d7;
+  border-radius: 22px;
+  background-color: #ffffff;
+  box-shadow:
+    0 10px 30px rgba(18, 74, 51, 0.08),
+    0 2px 5px rgba(0, 0, 0, 0.035);
+}
+
+.prg-card:hover {
+  border-color: #a8c9b9;
+  box-shadow:
+    0 14px 34px rgba(18, 74, 51, 0.12),
+    0 3px 7px rgba(0, 0, 0, 0.04);
+}
+
+/* ============================================================
+   CARD IMAGE
+   ============================================================ */
+
+.prg-card-media {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  flex-shrink: 0;
+  overflow: hidden;
+  background-color: #eeeeee;
+}
+
+.prg-card-image {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+.prg-card-media-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.94) 5%,
+      rgba(255, 255, 255, 0.52) 25%,
+      rgba(255, 255, 255, 0.1) 52%,
+      rgba(255, 255, 255, 0) 75%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0)
+    );
+  pointer-events: none;
+}
+
+/* ============================================================
+   IMAGE LABEL
+   ============================================================ */
+
+.prg-card-tag {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 29px;
+  padding: 7px 15px;
+  border: 1px solid rgba(212, 175, 55, 0.48);
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.96);
+  color: #176143;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.prg-card:hover .prg-card-tag {
+  border-color: #d4af37;
+  background-color: #d4af37;
+  color: #123f2d;
+}
+
+/* ============================================================
+   IMAGE ICON
+   ============================================================ */
+
+.prg-card-icon {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  border-radius: 14px;
+  background-color: rgba(255, 255, 255, 0.96);
+  color: #176143;
+  box-shadow: 0 5px 15px rgba(18, 74, 51, 0.1);
+}
+
+.prg-card-icon svg {
+  width: 21px;
+  height: 21px;
+}
+
+.prg-card:hover .prg-card-icon {
+  border-color: #176143;
+  background-color: #176143;
+  color: #e8cb6a;
+}
+
+/* ============================================================
+   IMAGE STAT BOX
+   ============================================================ */
+
+.prg-card-stat {
+  position: absolute;
+  right: 18px;
+  bottom: 16px;
+  z-index: 2;
+  display: flex;
+  min-width: 112px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 4px;
+  padding: 11px 15px;
+  border: 1px solid rgba(212, 175, 55, 0.48);
+  border-radius: 13px;
+  background-color: rgba(255, 255, 255, 0.97);
+  box-shadow:
+    0 7px 20px rgba(18, 74, 51, 0.1),
+    0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.prg-stat-value {
+  color: #176143;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.6px;
+}
+
+.prg-stat-label {
+  color: #777777;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* ============================================================
+   CARD CONTENT
+   ============================================================ */
+
+.prg-card-body {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 27px 27px 29px;
+  background-color: #ffffff;
+}
+
+.prg-card-title {
+  margin: 0 0 13px;
+  color: #111111;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.45px;
+}
+
+.prg-card-description {
+  flex: 1;
+  margin: 0 0 21px;
+  color: #747474;
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 1.82;
+}
+
+/* ============================================================
+   CARD META
+   ============================================================ */
+
+.prg-card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-bottom: 21px;
+  padding: 17px 0;
+  border-top: 1px solid #d9e6df;
+  border-bottom: 1px solid #d9e6df;
+}
+
+.prg-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  color: #747474;
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.prg-meta-item svg {
+  width: 15px;
+  height: 15px;
+  flex: 0 0 15px;
+  color: #d4af37;
+}
+
+/* ============================================================
+   LEARN MORE BUTTON
+   ============================================================ */
+
+.prg-card-button {
+  display: inline-flex;
+  min-height: 46px;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 11px 25px;
+  border: 1.5px solid #77a58f;
+  border-radius: 999px;
+  background-color: #ffffff;
+  color: #176143;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+}
+
+.prg-card-button svg {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+.prg-card-button:hover {
+  border-color: #176143;
+  background-color: #176143;
+  color: #e8cb6a;
+}
+
+.prg-card-button:focus-visible {
+  outline: 3px solid rgba(212, 175, 55, 0.48);
+  outline-offset: 4px;
+}
+
+/* ============================================================
+   LARGE TABLET
+   ============================================================ */
+
+@media (max-width: 1100px) {
+  .prg-section {
+    padding: 85px 0 95px;
+  }
+
+  .prg-container {
+    padding: 0 28px;
+  }
+
+  .prg-grid {
+    gap: 25px;
+  }
+
+  .prg-card-media {
+    height: 235px;
+  }
+
+  .prg-card-body {
+    padding: 25px 24px 27px;
+  }
+
+  .prg-card-title {
+    font-size: 19px;
+  }
+
+  .prg-card-description {
+    font-size: 13px;
+  }
+}
+
+/* ============================================================
+   TABLET
+   ============================================================ */
+
+@media (max-width: 900px) {
+  .prg-section {
+    padding: 78px 0 85px;
+  }
+
+  .prg-header {
+    margin-bottom: 52px;
+  }
+
+  .prg-grid {
+    gap: 22px;
+  }
+
+  .prg-card-media {
+    height: 215px;
+  }
+
+  .prg-card-body {
+    padding: 23px 21px 25px;
+  }
+
+  .prg-card-stat {
+    right: 15px;
+    bottom: 14px;
+    min-width: 100px;
+    padding: 10px 13px;
+  }
+
+  .prg-stat-value {
+    font-size: 21px;
+  }
+
+  .prg-card-tag {
+    top: 15px;
+    left: 15px;
+  }
+
+  .prg-card-icon {
+    top: 15px;
+    right: 15px;
+    width: 44px;
+    height: 44px;
+  }
+}
+
+/* ============================================================
+   SMALL TABLET AND MOBILE
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .prg-container {
+    padding: 0 22px;
+  }
+
+  .prg-header {
+    max-width: 600px;
+    margin-bottom: 45px;
+  }
+
+  .prg-title {
+    font-size: clamp(34px, 8vw, 48px);
+  }
+
+  .prg-subtitle {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .prg-grid {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 28px;
+  }
+
+  .prg-card-media {
+    height: 250px;
+  }
+
+  .prg-card-body {
+    padding: 26px 25px 28px;
+  }
+
+  .prg-card-description {
+    font-size: 13.5px;
+  }
+}
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+
+@media (max-width: 560px) {
+  .prg-section {
+    padding: 64px 0 70px;
+  }
+
+  .prg-container {
+    padding: 0 18px;
+  }
+
+  .prg-header {
+    margin-bottom: 38px;
+  }
+
+  .prg-badge {
+    min-height: 34px;
+    margin-bottom: 20px;
+    padding: 7px 15px;
+    font-size: 11px;
+    letter-spacing: 1.2px;
+  }
+
+  .prg-badge-icon {
+    width: 19px;
+    height: 19px;
+    flex-basis: 19px;
+  }
+
+  .prg-title {
+    margin-bottom: 18px;
+    font-size: clamp(31px, 10vw, 40px);
+    letter-spacing: -1.2px;
+  }
+
+  .prg-subtitle {
+    font-size: 13.5px;
+    line-height: 1.7;
+  }
+
+  .prg-card {
+    border-radius: 18px;
+  }
+
+  .prg-card-media {
+    height: 220px;
+  }
+
+  .prg-card-body {
+    padding: 24px 21px 25px;
+  }
+
+  .prg-card-title {
+    font-size: 18px;
+  }
+
+  .prg-card-description {
+    font-size: 13px;
+    line-height: 1.75;
+  }
+
+  .prg-card-button {
+    width: 100%;
+    align-self: stretch;
+  }
+}
+
+/* ============================================================
+   SMALL MOBILE
+   ============================================================ */
+
+@media (max-width: 420px) {
+  .prg-section {
+    padding: 56px 0 62px;
+  }
+
+  .prg-container {
+    padding: 0 15px;
+  }
+
+  .prg-title {
+    font-size: 29px;
+  }
+
+  .prg-card-media {
+    height: 195px;
+  }
+
+  .prg-card-tag {
+    top: 13px;
+    left: 13px;
+    min-height: 26px;
+    padding: 6px 11px;
+    font-size: 11px;
+  }
+
+  .prg-card-icon {
+    top: 13px;
+    right: 13px;
+    width: 41px;
+    height: 41px;
+    border-radius: 12px;
+  }
+
+  .prg-card-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .prg-card-stat {
+    right: 13px;
+    bottom: 12px;
+    min-width: 92px;
+    padding: 9px 11px;
+  }
+
+  .prg-stat-value {
+    font-size: 19px;
+  }
+
+  .prg-stat-label {
+    font-size: 11px;
+  }
+
+  .prg-card-body {
+    padding: 22px 18px 23px;
+  }
+
+  .prg-card-title {
+    font-size: 17px;
+  }
+
+  .prg-card-description {
+    font-size: 12.5px;
+  }
+
+  .prg-meta-item {
+    align-items: flex-start;
+    font-size: 11.5px;
+  }
+}
+
+/* ============================================================
+   EXTRA SMALL MOBILE
+   ============================================================ */
+
+@media (max-width: 350px) {
+  .prg-container {
+    padding: 0 12px;
+  }
+
+  .prg-title {
+    font-size: 26px;
+  }
+
+  .prg-subtitle {
+    font-size: 12.5px;
+  }
+
+  .prg-card-media {
+    height: 180px;
+  }
+
+  .prg-card-body {
+    padding: 20px 16px 21px;
+  }
+}
+
+/* ============================================================
+   PRINT
+   ============================================================ */
+
+@media print {
+  .prg-section {
+    padding: 35px 0;
+    background-color: #ffffff;
+  }
+
+  .prg-grid {
+    gap: 20px;
+  }
+
+  .prg-card {
+    break-inside: avoid;
+    box-shadow: none;
+  }
+
+  .prg-card-button {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   SCROLL REVEAL — re-triggers every time in/out of view
+   ========================================================================== */
+.pr {
+  opacity: 0;
+  filter: blur(9px);
+  transition:
+    opacity var(--pr-dur, 0.9s) cubic-bezier(0.22, 1, 0.36, 1) var(--pr-delay, 0.75s),
+    transform var(--pr-dur, 0.9s) cubic-bezier(0.22, 1, 0.36, 1) var(--pr-delay, 0.75s),
+    filter var(--pr-dur, 0.9s) cubic-bezier(0.22, 1, 0.36, 1) var(--pr-delay, 0.75s);
+  will-change: opacity, transform, filter;
+}
+.pr.up    { transform: translateY(55px) scale(0.97); }
+.pr.down  { transform: translateY(-55px) scale(0.97); }
+.pr.left  { transform: translateX(70px) scale(0.97); }
+.pr.right { transform: translateX(-70px) scale(0.97); }
+.pr.scale { transform: scale(0.85); }
+
+.pr.in {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translate(0, 0) scale(1);
+}
+
+/* Reveal wrapper must behave like the grid cell (fill height) */
+.prg-card-reveal {
+  display: flex;
+  min-width: 0;
+}
+.prg-card-reveal > .prg-card {
+  width: 100%;
+}
+
+/* Word-by-word title */
+.pr-title { display: block; }
+.pr-line { display: block; }
+.pr-word-mask {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  margin-right: 0.22em;
+  padding-bottom: 0.12em;
+}
+.pr-word {
+  display: inline-block;
+  transform: translateY(115%) rotateX(40deg);
+  opacity: 0;
+  filter: blur(9px);
+  transform-origin: bottom center;
+  will-change: transform, opacity, filter;
+  transition:
+    transform 0.85s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.85s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.85s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: calc(0.3s + (var(--w) * 0.08s));
+}
+.pr-title.in .pr-word {
+  transform: translateY(0) rotateX(0);
+  opacity: 1;
+  filter: blur(0px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pr, .pr-word {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+    transition: none !important;
+  }
+}
