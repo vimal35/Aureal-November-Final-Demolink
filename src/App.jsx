@@ -25,7 +25,7 @@ const pages = [
   ["/services", () => import("./pages/Services")],
   ["/updates", () => import("./pages/Updates")],
   ["/Appointment", () => import("./pages/Appointment")],
-  ["/Care", () => import("./pages/Care")],
+  ["/Care", () => import("./components/Care")],
 
   ["/Multi-Specialty-Consultations", () => import("./clinical-care/Multi-Specialty Consultations")],
   ["/Integrated-Doctor-Led-Team", () => import("./clinical-care/Integrated Doctor-Led Team")],
