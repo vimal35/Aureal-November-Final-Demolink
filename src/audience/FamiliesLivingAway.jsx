@@ -5,7 +5,7 @@ const Vk = [
   {
     icon: `coordinator`,
     title: `Named Local Care Coordinator`,
-    text: `Your family has one dependable point of contact in Pondicherry — not a rotating call centre or a different person every time.`,
+    text: `Your family has one dependable point of contact in Chennai — not a rotating call centre or a different person every time.`,
   },
   {
     icon: `updates`,
@@ -40,7 +40,7 @@ const Hk = [
   },
   {
     title: `Care Delivered Locally`,
-    text: `Day-to-day care is delivered at your parent's home in Pondicherry under the guidance of the doctor-led plan.`,
+    text: `Day-to-day care is delivered at your parent's home in Chennai under the guidance of the doctor-led plan.`,
   },
   {
     title: `Updates You Can Rely On`,
@@ -49,14 +49,14 @@ const Hk = [
 ];
 
 const Uk = [
-  `Adult children living abroad or in another Indian city while their parents continue to live independently in Pondicherry.`,
-  `Families looking for elderly care for parents living alone in Pondicherry with a more accountable local structure.`,
+  `Adult children living abroad or in another Indian city while their parents continue to live independently in Chennai.`,
+  `Families looking for elderly care for parents living alone in Chennai with a more accountable local structure.`,
   `Families who have relied on neighbours, relatives, or part-time helpers but now need dependable long-distance caregiving support.`,
   `Adult children planning a visit who want an honest, current understanding of their parent's health and home-care needs.`,
 ];
 
 const Wk = [
-  `Puducherry Town`,
+  `Chennai Town`,
   `White Town`,
   `Lawspet`,
   `Muthialpet`,
@@ -86,8 +86,8 @@ const Gk = [
 
 const Kk = [
   {
-    q: `How can I arrange care for my parents in Pondicherry if I live abroad?`,
-    a: `Aureal Healthcare can conduct the initial assessment and care-planning discussion with you remotely. A physician-led care plan is created, a named local care coordinator is assigned, and care can be arranged without you needing to be physically present in Pondicherry.`,
+    q: `How can I arrange care for my parents in Chennai if I live abroad?`,
+    a: `Aureal Healthcare can conduct the initial assessment and care-planning discussion with you remotely. A physician-led care plan is created, a named local care coordinator is assigned, and care can be arranged without you needing to be physically present in Chennai.`,
   },
   {
     q: `How often will I receive updates on my parents' health?`,
@@ -102,7 +102,7 @@ const Kk = [
     a: `Yes. Families can be involved in planning and major care decisions remotely. The care team keeps the responsible family member informed, ensuring distance does not prevent meaningful participation in a parent's care.`,
   },
   {
-    q: `What happens during an emergency if I am not in Pondicherry?`,
+    q: `What happens during an emergency if I am not in Chennai?`,
     a: `The local team follows the emergency escalation process, manages the immediate situation, and informs the family promptly. Your care coordinator helps keep you updated while the physician guides clinical decisions where required.`,
   },
   {
@@ -230,7 +230,7 @@ const FamiliesLivingAway = () => {
               NRI & Out-of-Town Parent Care
             </span>
             <h1 className="fla-hero__title">
-              Trusted, Doctor-Led Care for Parents in Pondicherry —{" "}
+              Trusted, Doctor-Led Care for Parents in Chennai —{" "}
               <span className="fla-text-gold">Wherever You Are</span>
             </h1>
             <p className="fla-hero__lead">
@@ -258,7 +258,7 @@ const FamiliesLivingAway = () => {
               </div>
               <div className="fla-stat">
                 <span className="fla-stat__num">7+</span>
-                <span className="fla-stat__label">Areas Across Pondicherry</span>
+                <span className="fla-stat__label">Areas Across Chennai</span>
               </div>
             </div>
           </div>
@@ -291,7 +291,7 @@ const FamiliesLivingAway = () => {
         <div className="fla-quick__card">
           <span className="fla-quick__label">Quick Answer</span>
           <p>
-            Aureal Healthcare provides doctor-led parent care in Pondicherry for families living
+            Aureal Healthcare provides doctor-led parent care in Chennai for families living
             abroad or in another city. A physician-designed care plan, named local care coordinator,
             and regular updates help ensure distance does not mean losing track of your parent's
             health and wellbeing.
@@ -325,7 +325,7 @@ const FamiliesLivingAway = () => {
             <p className="fla-text">
               This is long-distance caregiving with real local accountability — designed for
               families who need reassurance, visibility, and reliable clinical support in
-              Pondicherry.
+              Chennai.
             </p>
             <div className="fla-areas">
               <span className="fla-areas__title">
@@ -408,7 +408,7 @@ const FamiliesLivingAway = () => {
       <section className="fla-why">
         <div className="fla-container fla-why__grid">
           <div className="fla-why__left">
-            <span className="fla-eyebrow fla-eyebrow--light">Why This Matters in Pondicherry</span>
+            <span className="fla-eyebrow fla-eyebrow--light">Why This Matters in Chennai</span>
             <h2 className="fla-title fla-title--light">
               Replace Uncertainty With{" "}
               <span className="fla-text-gold">One Accountable Structure</span>
@@ -420,7 +420,7 @@ const FamiliesLivingAway = () => {
           </div>
           <div className="fla-why__right">
             <p>
-              Families living away from Pondicherry often piece together parent care through a
+              Families living away from Chennai often piece together parent care through a
               neighbour, a relative visiting occasionally, or an informal caregiver. While these
               arrangements may help, they can leave families anxious about what happens if no one
               notices a concern in time.
@@ -516,7 +516,7 @@ const FamiliesLivingAway = () => {
             </h2>
             <p>
               Parent care for families living away follows the same doctor-led clinical governance
-              used across every Aureal Healthcare and AUREAL program in Pondicherry.
+              used across every Aureal Healthcare and AUREAL program in Chennai.
             </p>
             <p>
               With a named physician and a named care coordinator, trust is built through clear
@@ -580,7 +580,7 @@ const FamiliesLivingAway = () => {
         <div className="fla-container fla-cta__inner">
           <span className="fla-cta__label">Care That Travels Beyond Distance</span>
           <h2>
-            Arrange trusted, doctor-led care for your parents in Pondicherry —{" "}
+            Arrange trusted, doctor-led care for your parents in Chennai —{" "}
             <span className="fla-text-gold">wherever you are in the world.</span>
           </h2>
           <p>

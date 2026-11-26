@@ -9,6 +9,7 @@ import Why from "../components/Why";
 import MainServices from "../components/mainservices";
 import Partner from "../components/partner";
 import Team from "../components/Team";
+import Care from "../components/Care";
 
 
 
@@ -24,6 +25,7 @@ function Home() {
       <Slider />
       {/* <Programs /> */}
         <Team />
+        <Care />
       <Testimonials />
       <FAQ />
       <Emerycontact />

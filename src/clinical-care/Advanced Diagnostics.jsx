@@ -6,7 +6,7 @@ const includedData = [
   {
     icon: "🧪",
     title: "Home Blood Collection",
-    desc: "Trained phlebotomy staff collect samples at home across Pondicherry, under protocols set by the overseeing physician.",
+    desc: "Trained phlebotomy staff collect samples at home across Chennai, under protocols set by the overseeing physician.",
     tag: "Blood Test at Home",
   },
   {
@@ -39,8 +39,8 @@ const includedData = [
 
 const faqs = [
   {
-    q: "Is home blood collection available across Pondicherry?",
-    a: "Yes — home blood collection and other diagnostic services are available across Puducherry town and surrounding areas as part of a doctor-led care plan.",
+    q: "Is home blood collection available across Chennai?",
+    a: "Yes — home blood collection and other diagnostic services are available across Chennai town and surrounding areas as part of a doctor-led care plan.",
   },
   {
     q: "Who reviews my test results?",
@@ -52,7 +52,7 @@ const faqs = [
   },
   {
     q: "How is home ECG testing done?",
-    a: "Trained staff perform ECG and other point-of-care testing at the patient's home in Pondicherry, with results reviewed by the overseeing physician.",
+    a: "Trained staff perform ECG and other point-of-care testing at the patient's home in Chennai, with results reviewed by the overseeing physician.",
   },
   {
     q: "How often are diagnostic tests repeated for chronic conditions?",
@@ -74,21 +74,21 @@ export default function AdvancedDiagnostics() {
         <div className="advd-hero-left">
           <div className="advd-breadcrumb">
             Clinical Care /{" "}
-            <span>Home Diagnostics Pondicherry</span>
+            <span>Home Diagnostics Chennai</span>
           </div>
 
           <div className="advd-pill">
-            <span></span> DOCTOR-LED • PHYSICIAN-REVIEWED • PONDICHERRY
+            <span></span> DOCTOR-LED • PHYSICIAN-REVIEWED • Chennai
           </div>
 
           <h1>
-            Doctor-Led Home Diagnostics in Pondicherry — Blood Collection,
+            Doctor-Led Home Diagnostics in Chennai — Blood Collection,
             ECG, and More
           </h1>
 
           <p className="advd-hero-sub">
             Home blood collection, ECG, and diagnostic testing across
-            Pondicherry — ordered, interpreted, and acted on by a physician as
+            Chennai — ordered, interpreted, and acted on by a physician as
             part of your doctor-led care plan, not a disconnected lab result.
           </p>
 
@@ -97,7 +97,7 @@ export default function AdvancedDiagnostics() {
 
             <p>
               Aureal Healthcare provides home blood collection, ECG, and
-              other diagnostic tests across Pondicherry, always ordered and
+              other diagnostic tests across Chennai, always ordered and
               reviewed by the overseeing physician as part of the patient's
               doctor-led care plan — so results directly inform the next
               clinical decision rather than sitting unreviewed.
@@ -130,8 +130,8 @@ export default function AdvancedDiagnostics() {
 </div>
 
           <div className="advd-loc-tags">
-            <span>Home blood test near me Pondicherry</span>
-            <span>ECG at home Puducherry</span>
+            <span>Home blood test near me Chennai</span>
+            <span>ECG at home Chennai</span>
             <span>White Town</span>
             <span>Lawspet</span>
             <span>Muthialpet</span>
@@ -144,7 +144,7 @@ export default function AdvancedDiagnostics() {
             <img
               className="advd-main-img"
               src="/advance1.jpg"
-              alt="Home diagnostics Pondicherry"
+              alt="Home diagnostics Chennai"
             />
 
             <div className="advd-float-card top">
@@ -220,7 +220,7 @@ export default function AdvancedDiagnostics() {
 
               <p className="advd-p">
                 Home blood collection is one of the most commonly searched home
-                healthcare services in Pondicherry — but a standalone lab
+                healthcare services in Chennai — but a standalone lab
                 result, without a physician reviewing it in the context of the
                 patient's overall condition, is only half the value. Aureal Healthcare's diagnostics service is built to close that
                 gap.
@@ -236,7 +236,7 @@ export default function AdvancedDiagnostics() {
 
               <div className="advd-quote">
                 For elderly patients and those managing chronic conditions
-                across Pondicherry, regular monitoring can happen without
+                across Chennai, regular monitoring can happen without
                 repeated trips to a lab or hospital, while still being
                 interpreted by a physician who knows the patient's full
                 history.
@@ -312,7 +312,7 @@ export default function AdvancedDiagnostics() {
                 <h4>Home Sample Collection or Testing</h4>
 
                 <p>
-                  Trained staff visit the patient's home in Pondicherry to
+                  Trained staff visit the patient's home in Chennai to
                   collect samples or perform point-of-care testing.
                 </p>
               </div>
@@ -350,7 +350,7 @@ export default function AdvancedDiagnostics() {
           <div className="advd-why-grid">
             <div className="advd-why-left">
               <span className="advd-eyebrow light">
-                WHY THIS MATTERS IN PONDICHERRY
+                WHY THIS MATTERS IN Chennai
               </span>
 
               <h2>
@@ -359,10 +359,10 @@ export default function AdvancedDiagnostics() {
 
               <p>
                 Standalone home lab collection services are common across
-                Pondicherry, but a result delivered without physician
+                Chennai, but a result delivered without physician
                 interpretation often leaves families unsure what to do next.
                 That gap is common across the wider home healthcare landscape
-                in Puducherry, not specific to any one lab or provider.
+                in Chennai, not specific to any one lab or provider.
               </p>
 
               <p>
@@ -388,7 +388,7 @@ export default function AdvancedDiagnostics() {
                 <p>People also ask:</p>
 
                 <span>
-                  can I get blood tests done at home in Pondicherry?
+                  can I get blood tests done at home in Chennai?
                 </span>
 
                 <span>how does home ECG testing work?</span>
@@ -450,7 +450,7 @@ export default function AdvancedDiagnostics() {
                 <h4>Trust & Credibility</h4>
 
                 <p>
-                  All diagnostic services in Pondicherry follow the same
+                  All diagnostic services in Chennai follow the same
                   doctor-led clinical governance used across every Aureal Healthcare program.
                 </p>
 
@@ -476,7 +476,7 @@ export default function AdvancedDiagnostics() {
                   <span>👴</span>
 
                   <p>
-                    Elderly patients in Pondicherry who need regular blood work
+                    Elderly patients in Chennai who need regular blood work
                     but for whom repeated hospital or lab visits are difficult
                   </p>
                 </div>
@@ -574,7 +574,7 @@ export default function AdvancedDiagnostics() {
         <div className="advd-container advd-cta-inner">
           <div>
             <h2>
-              Arrange doctor-led home diagnostics in Pondicherry
+              Arrange doctor-led home diagnostics in Chennai
             </h2>
 
             <p>

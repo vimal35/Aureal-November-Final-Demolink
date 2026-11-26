@@ -65,7 +65,7 @@ const steps = [
   {
     tag: "Delivery",
     title: "Ongoing Routine Visits",
-    desc: "Scheduled visits across Pondicherry track health trends over time and help catch emerging issues early.",
+    desc: "Scheduled visits across Chennai track health trends over time and help catch emerging issues early.",
   },
   {
     tag: "Review",
@@ -77,7 +77,7 @@ const steps = [
 const whoCards = [
   {
     icon: "🏠",
-    text: "Elderly parents living independently or with limited daily supervision in Pondicherry",
+    text: "Elderly parents living independently or with limited daily supervision in Chennai",
   },
   {
     icon: "🚶",
@@ -108,7 +108,7 @@ const marqueeItems = [
   "Physician Review",
   "Preventive Care",
   "Elderly Home Care",
-  "Pondicherry",
+  "Chennai",
 ];
 
 const faqs = [
@@ -129,8 +129,8 @@ const faqs = [
     a: "Wellness and preventive care specifically focuses on catching and managing issues early — fall risk, chronic condition trends, and medication adherence — rather than only responding to an existing acute need.",
   },
   {
-    q: "Which parts of Pondicherry are covered for elderly wellness visits?",
-    a: "Coverage spans Puducherry town and surrounding areas including White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, Ariyankuppam, and Villianur.",
+    q: "Which parts of Chennai are covered for elderly wellness visits?",
+    a: "Coverage spans Chennai town and surrounding areas including White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, Ariyankuppam, and Villianur.",
   },
   {
     q: "What happens if a wellness check-in identifies a concerning change?",
@@ -139,7 +139,7 @@ const faqs = [
 ];
 
 const locationTags = [
-  "Elderly home care Pondicherry",
+  "Elderly home care Chennai",
   "White Town",
   "Muthialpet",
   "Lawspet",
@@ -188,19 +188,19 @@ export default function WellnessPreventiveCare() {
         <div className="wpc-hero-left">
           <div className="wpc-breadcrumb">
             <b>Elderly Care</b> <span>›</span>{" "}
-            <span>Wellness &amp; Preventive Care Pondicherry</span>
+            <span>Wellness &amp; Preventive Care Chennai</span>
           </div>
 
           <div className="wpc-pill">
-            <i></i> DOCTOR-GUIDED · PREVENTIVE CARE · PONDICHERRY
+            <i></i> DOCTOR-GUIDED · PREVENTIVE CARE · Chennai
           </div>
 
           <h1>
-            Elderly Wellness and Preventive Care at Home in Pondicherry
+            Elderly Wellness and Preventive Care at Home in Chennai
           </h1>
 
           <p className="wpc-hero-sub">
-            Doctor-led elderly home care in Pondicherry focused on preventing
+            Doctor-led elderly home care in Chennai focused on preventing
             problems before they escalate — routine wellness check-ins,
             fall-risk assessment, and chronic condition management under one
             ongoing plan.
@@ -225,7 +225,7 @@ export default function WellnessPreventiveCare() {
 
             <p>
               Aureal Healthcare's wellness and preventive care service
-              supports elderly home care across Pondicherry through routine
+              supports elderly home care across Chennai through routine
               physician-guided check-ins, fall-risk assessment, and chronic
               condition monitoring — aimed at catching and managing problems
               early, rather than only responding after a health crisis.
@@ -261,7 +261,7 @@ export default function WellnessPreventiveCare() {
             <div className="wpc-arch">
               <img
                 src="/well1.jpg"
-                alt="Doctor providing elderly wellness care at home in Pondicherry"
+                alt="Doctor providing elderly wellness care at home in Chennai"
               />
             </div>
 
@@ -438,7 +438,7 @@ export default function WellnessPreventiveCare() {
               <p className="wpc-p">
                 Much of home healthcare, understandably, focuses on recovery
                 after an event — a surgery, a stroke, a hospitalization. Aureal Healthcare's wellness and preventive care service
-                addresses the other half of elderly home care in Pondicherry:
+                addresses the other half of elderly home care in Chennai:
                 keeping older adults stable and independent before a crisis
                 happens.
               </p>
@@ -455,7 +455,7 @@ export default function WellnessPreventiveCare() {
 
               <div className="wpc-quote">
                 <p>
-                  For Pondicherry families, especially those with a parent
+                  For Chennai families, especially those with a parent
                   living independently or with limited daily supervision,
                   this preventive layer is often what helps prevent the next
                   hospitalization, rather than simply reacting to it after
@@ -576,7 +576,7 @@ export default function WellnessPreventiveCare() {
         <div className="wpc-why-grid">
           <div className="wpc-why-left">
             <span className="wpc-eyebrow light wpc-reveal">
-              WHY THIS MATTERS IN PONDICHERRY
+              WHY THIS MATTERS IN Chennai
             </span>
 
             <h2 className="wpc-reveal wpc-d1">
@@ -584,10 +584,10 @@ export default function WellnessPreventiveCare() {
             </h2>
 
             <p className="wpc-reveal wpc-d2">
-              Elderly home care in Pondicherry is often structured
+              Elderly home care in Chennai is often structured
               reactively — care begins only after a fall, a hospitalization,
               or a significant health decline. That pattern is common across
-              the wider home healthcare landscape in Puducherry, not specific
+              the wider home healthcare landscape in Chennai, not specific
               to any one provider.
             </p>
 
@@ -827,7 +827,7 @@ export default function WellnessPreventiveCare() {
           <div>
             <h2>
               Set up proactive elderly wellness and preventive care in
-              Pondicherry
+              Chennai
             </h2>
 
             <p>

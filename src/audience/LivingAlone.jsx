@@ -40,7 +40,7 @@ const Xk = [
   },
   {
     title: `Ongoing Monitoring`,
-    text: `Regular check-ins continue across Pondicherry, with missed or concerning contact triggering timely follow-up.`,
+    text: `Regular check-ins continue across Chennai, with missed or concerning contact triggering timely follow-up.`,
   },
   {
     title: `Escalation When Needed`,
@@ -49,7 +49,7 @@ const Xk = [
 ];
 
 const Zk = [
-  `Seniors in Pondicherry who want to remain safely in their own home rather than move in with family or into a facility.`,
+  `Seniors in Chennai who want to remain safely in their own home rather than move in with family or into a facility.`,
   `Families who live locally but work full-time and cannot check on an elderly parent as often as they would like.`,
   `Seniors recovering from a recent fall, hospital visit, or health scare who need a more reliable safety net.`,
   `Families deciding whether a parent can safely continue living alone and need a structured way to assess support needs.`,
@@ -57,7 +57,7 @@ const Zk = [
 
 const Qk = [
   {
-    q: `How can I keep an elderly parent living alone safe in Pondicherry?`,
+    q: `How can I keep an elderly parent living alone safe in Chennai?`,
     a: `A structured daily or scheduled check-in routine, a home fall-risk assessment, medication and routine support, and a clear escalation pathway to a physician can create a reliable safety net while allowing the senior to remain independent.`,
   },
   {
@@ -77,8 +77,8 @@ const Qk = [
     a: `Yes. Any concerning finding identified during check-ins can be escalated to a physician as part of the doctor-led care model, rather than being handled as only a caregiving or logistical matter.`,
   },
   {
-    q: `Which areas around Pondicherry are covered?`,
-    a: `Coverage includes Puducherry town and surrounding areas such as White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, and Ariyankuppam.`,
+    q: `Which areas around Chennai are covered?`,
+    a: `Coverage includes Chennai town and surrounding areas such as White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, and Ariyankuppam.`,
   },
 ];
 
@@ -102,7 +102,7 @@ const $k = [
 ];
 
 const eA = [
-  `Puducherry Town`,
+  `Chennai Town`,
   `White Town`,
   `Muthialpet`,
   `Lawspet`,
@@ -230,7 +230,7 @@ const LivingAlone = () => {
             </span>
             <h1 className="la-hero__title">
               A Safety Net for Seniors Living Alone in{" "}
-              <span className="la-text-gold">Pondicherry</span>
+              <span className="la-text-gold">Chennai</span>
             </h1>
             <p className="la-hero__lead">
               Doctor-led support for seniors managing independently — with regular check-ins,
@@ -257,7 +257,7 @@ const LivingAlone = () => {
               </div>
               <div className="la-stat">
                 <span className="la-stat__num">7+</span>
-                <span className="la-stat__label">Areas Across Pondicherry</span>
+                <span className="la-stat__label">Areas Across Chennai</span>
               </div>
             </div>
           </div>
@@ -290,7 +290,7 @@ const LivingAlone = () => {
         <div className="la-quick__card">
           <span className="la-quick__label">Quick Answer</span>
           <p>
-            Aureal Healthcare supports seniors living alone in Pondicherry through a doctor-led
+            Aureal Healthcare supports seniors living alone in Chennai through a doctor-led
             safety net: regular daily or scheduled check-ins, structured fall-risk reduction, and a
             clear pathway to physician support when a concern is identified.
           </p>
@@ -306,12 +306,12 @@ const LivingAlone = () => {
               </h2>
             </div>
             <p className="la-text">
-              Many seniors in Pondicherry choose to live independently in their own home,
+              Many seniors in Chennai choose to live independently in their own home,
               maintaining familiar routines and a sense of freedom. Independence is not the risk —
               being unnoticed when something goes wrong is.
             </p>
             <p className="la-text">
-              Aureal Healthcare provides elderly living alone care in Pondicherry that focuses on
+              Aureal Healthcare provides elderly living alone care in Chennai that focuses on
               closing this gap. Regular check-ins, home-safety awareness, medication support, and a
               defined escalation pathway create a dependable layer of support around the senior.
             </p>
@@ -404,7 +404,7 @@ const LivingAlone = () => {
       <section className="la-why">
         <div className="la-container la-why__grid">
           <div className="la-why__left">
-            <span className="la-eyebrow la-eyebrow--light">Why This Matters in Pondicherry</span>
+            <span className="la-eyebrow la-eyebrow--light">Why This Matters in Chennai</span>
             <h2 className="la-title la-title--light">
               Don't Leave Safety to <span className="la-text-gold">Chance or Guesswork</span>
             </h2>
@@ -509,7 +509,7 @@ const LivingAlone = () => {
             <h2 className="la-title la-title--light">Reassurance Built Into Every Check-In</h2>
             <p>
               Care for seniors living alone follows the same doctor-led clinical governance applied
-              across Aureal Healthcare and AUREAL programs in Pondicherry.
+              across Aureal Healthcare and AUREAL programs in Chennai.
             </p>
             <p>
               Because check-ins are scheduled and consistent, families receive meaningful
@@ -573,7 +573,7 @@ const LivingAlone = () => {
         <div className="la-container la-cta__inner">
           <span className="la-cta__brand">Independent Living, Reliably Supported</span>
           <h2>
-            Set up a doctor-led safety net for a senior living alone in Pondicherry —{" "}
+            Set up a doctor-led safety net for a senior living alone in Chennai —{" "}
             <span className="la-text-gold">regular check-ins, real accountability.</span>
           </h2>
           <p>

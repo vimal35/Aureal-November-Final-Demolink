@@ -36,7 +36,7 @@ const faqs = [
     a: "It is structured medical and nursing support provided at home after a hospital discharge — covering medication management, wound care, mobility support, and monitoring during the highest-risk recovery period."
   },
   {
-    q: "When should I arrange post hospitalisation care in Pondicherry?",
+    q: "When should I arrange post hospitalisation care in Chennai?",
     a: "Ideally before discharge — Aureal Healthcare reviews the discharge summary and puts a home care plan in place so there is no gap between leaving the hospital and receiving structured care at home."
   },
   {
@@ -48,8 +48,8 @@ const faqs = [
     a: "Duration depends on the condition and recovery pace; care intensity is stepped down under the same physician's oversight as the patient improves."
   },
   {
-    q: "Can this service coordinate with a hospital outside Pondicherry?",
-    a: "Yes — the home recovery plan can be built around a discharge summary from any hospital, with the home care itself delivered across Puducherry town and surrounding areas."
+    q: "Can this service coordinate with a hospital outside Chennai?",
+    a: "Yes — the home recovery plan can be built around a discharge summary from any hospital, with the home care itself delivered across Chennai town and surrounding areas."
   },
   {
     q: "What is included in a discharge-to-home care plan?",
@@ -66,20 +66,20 @@ export default function ContinuumOfCare() {
       <section className="coc-hero">
         <div className="coc-hero-left">
           <div className="coc-breadcrumb">
-            Clinical Care / <span>Continuum of Care Pondicherry</span>
+            Clinical Care / <span>Continuum of Care Chennai</span>
           </div>
 
           <div className="coc-pill">
-            <span></span> DOCTOR-LED TRANSITION MODEL • PONDICHERRY
+            <span></span> DOCTOR-LED TRANSITION MODEL • Chennai
           </div>
 
           <h1>
             A True Continuum of Care — From Hospital Discharge to Recovery at
-            Home in Pondicherry
+            Home in Chennai
           </h1>
 
           <p className="coc-hero-sub">
-            Doctor-led post hospitalisation care in Pondicherry that starts
+            Doctor-led post hospitalisation care in Chennai that starts
             before discharge and continues through recovery at home — one
             physician, one plan, no gap between hospital and home.
           </p>
@@ -90,7 +90,7 @@ export default function ContinuumOfCare() {
             <p>
               Aureal Healthcare's continuum-of-care model manages the full
               journey from hospital discharge through recovery at home in
-              Pondicherry — the same overseeing physician who reviews the
+              Chennai — the same overseeing physician who reviews the
               hospital discharge summary designs and leads the home recovery
               plan, closing the gap where care often breaks down.
             </p>
@@ -242,7 +242,7 @@ export default function ContinuumOfCare() {
               </p>
 
               <p className="coc-p">
-                Pondicherry families searching for{" "}
+                Chennai families searching for{" "}
                 <strong>post hospitalisation care</strong> or{" "}
                 <strong>recovery care at home</strong> are usually looking for
                 exactly this transition support.
@@ -313,7 +313,7 @@ export default function ContinuumOfCare() {
             <span className="coc-eyebrow">HOW IT WORKS</span>
 
             <h2>
-              From hospital discharge to full recovery at home in Pondicherry
+              From hospital discharge to full recovery at home in Chennai
             </h2>
           </div>
 
@@ -340,7 +340,7 @@ export default function ContinuumOfCare() {
 
                 <p>
                   A doctor-led home care plan is put in place from day one at
-                  home in Pondicherry, covering medication, wound care, and
+                  home in Chennai, covering medication, wound care, and
                   mobility.
                 </p>
               </div>
@@ -378,7 +378,7 @@ export default function ContinuumOfCare() {
           <div className="coc-why-grid">
             <div className="coc-why-left">
               <span className="coc-eyebrow light">
-                WHY THIS MATTERS IN PONDICHERRY
+                WHY THIS MATTERS IN Chennai
               </span>
 
               <h2>The hospital-to-home handover is where care can break.</h2>
@@ -393,13 +393,13 @@ export default function ContinuumOfCare() {
 
               <p>
                 This is a widely recognized gap across home healthcare in
-                Puducherry, not a shortcoming specific to any one hospital or
+                Chennai, not a shortcoming specific to any one hospital or
                 provider.
               </p>
 
               <p>
                 Aureal Healthcare's continuum-of-care model exists
-                specifically to close that gap for Pondicherry families — the
+                specifically to close that gap for Chennai families — the
                 same physician who reviews the discharge plan stays
                 accountable for the home recovery that follows.
               </p>
@@ -422,7 +422,7 @@ export default function ContinuumOfCare() {
             <div className="coc-why-right">
               <img
                 src="/con5.jpg"
-                alt="Pondicherry family care"
+                alt="Chennai family care"
               />
 
               <div className="coc-why-card">
@@ -469,7 +469,7 @@ export default function ContinuumOfCare() {
                 <h4>Trust & Credibility</h4>
 
                 <p>
-                  Every continuum-of-care plan in Pondicherry follows the same
+                  Every continuum-of-care plan in Chennai follows the same
                   doctor-led clinical governance used across all Aureal Healthcare programs.
                 </p>
 
@@ -531,8 +531,8 @@ export default function ContinuumOfCare() {
                   <span>👨‍⚕️</span>
 
                   <p>
-                    Patients whose discharging hospital is outside Pondicherry
-                    but who are recovering at home in Puducherry
+                    Patients whose discharging hospital is outside Chennai
+                    but who are recovering at home in Chennai
                   </p>
                 </div>
               </div>
@@ -602,7 +602,7 @@ export default function ContinuumOfCare() {
         <div className="coc-container coc-cta-inner">
           <div>
             <h2>
-              Arrange doctor-led post hospitalisation care in Pondicherry
+              Arrange doctor-led post hospitalisation care in Chennai
               before discharge
             </h2>
 

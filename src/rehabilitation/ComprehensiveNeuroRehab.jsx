@@ -44,8 +44,8 @@ const faqs = [
     a: "It typically includes physiotherapy for mobility, occupational therapy for daily-living skills, physician oversight of the overall neurological recovery plan, and family caregiver training — coordinated as one plan rather than separate services.",
   },
   {
-    q: "Can a bedridden stroke patient be cared for at home in Pondicherry?",
-    a: "Yes — bedridden patient care in Pondicherry includes positioning, pressure-area management, and gradual mobilization, coordinated under physician guidance alongside rehabilitation therapy.",
+    q: "Can a bedridden stroke patient be cared for at home in Chennai?",
+    a: "Yes — bedridden patient care in Chennai includes positioning, pressure-area management, and gradual mobilization, coordinated under physician guidance alongside rehabilitation therapy.",
   },
   {
     q: "How soon after a stroke should rehabilitation start?",
@@ -60,8 +60,8 @@ const faqs = [
     a: "Yes — families are trained in safe transfer techniques, positioning, and supporting exercises to use between professional visits.",
   },
   {
-    q: "Which parts of Pondicherry are covered for neuro rehab home visits?",
-    a: "Coverage spans Puducherry town and surrounding areas including White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, and Ariyankuppam.",
+    q: "Which parts of Chennai are covered for neuro rehab home visits?",
+    a: "Coverage spans Chennai town and surrounding areas including White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, and Ariyankuppam.",
   },
 ];
 
@@ -79,15 +79,15 @@ export default function ComprehensiveNeuroRehab() {
           <div className="cnr-hero-left">
             <div className="cnr-breadcrumb">
               Home Healthcare /{" "}
-              <span>Comprehensive Neuro Rehabilitation Pondicherry</span>
+              <span>Comprehensive Neuro Rehabilitation Chennai</span>
             </div>
 
             <div className="cnr-pill">
-              <span></span> DOCTOR-LED · HOME-BASED · PONDICHERRY
+              <span></span> DOCTOR-LED · HOME-BASED · Chennai
             </div>
 
             <h1 className="cnr-h1">
-              Comprehensive Neuro Rehabilitation at Home in Pondicherry —{" "}
+              Comprehensive Neuro Rehabilitation at Home in Chennai —{" "}
               <span className="cnr-accent">
                 Stroke & Paralysis Care
               </span>
@@ -97,14 +97,14 @@ export default function ComprehensiveNeuroRehab() {
               Doctor-led neuro rehabilitation for stroke, paralysis, and other
               neurological conditions — physiotherapy, occupational therapy,
               and physician oversight coordinated under one recovery plan at
-              home in Pondicherry.
+              home in Chennai.
             </p>
 
             <div className="cnr-quick">
               <div className="cnr-quick-label">⚡ QUICK ANSWER</div>
               <p>
                 Aureal Healthcare provides comprehensive neuro
-                rehabilitation at home across Pondicherry for stroke,
+                rehabilitation at home across Chennai for stroke,
                 paralysis, and other neurological conditions — combining
                 physiotherapy, occupational therapy, and physician oversight
                 under one doctor-led recovery plan rather than disconnected
@@ -132,9 +132,9 @@ export default function ComprehensiveNeuroRehab() {
 </div>
 
             <div className="cnr-loc-tags">
-              <span>Stroke care at home near me Pondicherry</span>
-              <span>Paralysis care Puducherry</span>
-              <span>Neuro rehab Pondicherry</span>
+              <span>Stroke care at home near me Chennai</span>
+              <span>Paralysis care Chennai</span>
+              <span>Neuro rehab Chennai</span>
               <span>White Town</span>
               <span>Lawspet</span>
               <span>Ozhukarai</span>
@@ -147,7 +147,7 @@ export default function ComprehensiveNeuroRehab() {
               <img
                 className="cnr-main-img"
                 src="/neuro1.jpg"
-                alt="Neuro rehabilitation at home in Pondicherry"
+                alt="Neuro rehabilitation at home in Chennai"
               />
 
               <div className="cnr-float-card top">
@@ -180,7 +180,7 @@ export default function ComprehensiveNeuroRehab() {
               </div>
               <div>
                 <b>Home-Based</b>
-                <span>Pondicherry Care</span>
+                <span>Chennai Care</span>
               </div>
               <div>
                 <b>One Team</b>
@@ -222,7 +222,7 @@ export default function ComprehensiveNeuroRehab() {
                 Neurological recovery — after a stroke, spinal injury, or
                 other condition causing paralysis or significant mobility loss
                 — is rarely something a single therapy discipline can manage
-                alone. Pondicherry families searching for “stroke
+                alone. Chennai families searching for “stroke
                 rehabilitation at home” or “paralysis care at home” usually
                 need a coordinated team, not a single physiotherapist working
                 in isolation.
@@ -352,7 +352,7 @@ export default function ComprehensiveNeuroRehab() {
 
                 <p>
                   Therapy sessions and medical management are delivered at
-                  home across Pondicherry, coordinated on a shared schedule.
+                  home across Chennai, coordinated on a shared schedule.
                 </p>
               </div>
 
@@ -377,7 +377,7 @@ export default function ComprehensiveNeuroRehab() {
         <div className="cnr-container cnr-why-grid">
           <div className="cnr-why-left">
             <span className="cnr-eyebrow light">
-              WHY THIS MATTERS IN PONDICHERRY
+              WHY THIS MATTERS IN Chennai
             </span>
 
             <h2 className="cnr-why-h">
@@ -394,7 +394,7 @@ export default function ComprehensiveNeuroRehab() {
 
             <p className="cnr-why-p">
               Aureal Healthcare's comprehensive, doctor-led model exists to
-              close that gap for Pondicherry families — one physician tracking
+              close that gap for Chennai families — one physician tracking
               the full neurological recovery picture, with therapy disciplines
               coordinated underneath that oversight.
             </p>
@@ -417,23 +417,23 @@ export default function ComprehensiveNeuroRehab() {
               <p>People also ask:</p>
 
               <span>
-                how to care for a stroke patient at home in Pondicherry
+                how to care for a stroke patient at home in Chennai
               </span>
 
               <span>what does neuro rehabilitation include</span>
 
-              <span>paralysis home care services Pondicherry cost</span>
+              <span>paralysis home care services Chennai cost</span>
 
               <span>how long does stroke recovery take at home</span>
 
-              <span>is neuro rehabilitation available at home in Pondicherry</span>
+              <span>is neuro rehabilitation available at home in Chennai</span>
             </div>
           </div>
 
           <div className="cnr-why-right">
             <img
               src="/neuro4.jpg"
-              alt="Doctor-led neuro rehabilitation at home in Pondicherry"
+              alt="Doctor-led neuro rehabilitation at home in Chennai"
             />
 
             <div className="cnr-why-card">
@@ -532,7 +532,7 @@ export default function ComprehensiveNeuroRehab() {
                   <span>🏠</span>
 
                   <p>
-                    Families caring for a bedridden relative in Pondicherry
+                    Families caring for a bedridden relative in Chennai
                     who need training in safe positioning and transfers
                   </p>
                 </div>
@@ -575,7 +575,7 @@ export default function ComprehensiveNeuroRehab() {
             <p className="cnr-section-sub">
               Clear answers about stroke rehabilitation, paralysis care,
               bedridden patient care, and doctor-led neuro rehabilitation at
-              home in Pondicherry.
+              home in Chennai.
             </p>
           </div>
 
@@ -617,7 +617,7 @@ export default function ComprehensiveNeuroRehab() {
           <div>
             <h2>
               Arrange a doctor-led neuro rehabilitation assessment in
-              Pondicherry
+              Chennai
             </h2>
 
             <p>

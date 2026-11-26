@@ -6,7 +6,7 @@ const coordinationServices = [
   {
     icon: "👤",
     title: "Named Care Coordinator",
-    desc: "Every patient in Pondicherry is assigned a single, named point of contact for scheduling and logistics, not a rotating call center.",
+    desc: "Every patient in Chennai is assigned a single, named point of contact for scheduling and logistics, not a rotating call center.",
     tag: "Single Point",
     highlight: true,
   },
@@ -40,7 +40,7 @@ const coordinationServices = [
 
 const coordinationFaqs = [
   {
-    q: "Is cashless treatment available for home care in Pondicherry?",
+    q: "Is cashless treatment available for home care in Chennai?",
     a: "Where applicable, Aureal Healthcare's coordination team assists families with cashless treatment documentation and processes — ask your care coordinator to confirm eligibility and requirements for your specific policy.",
   },
   {
@@ -60,8 +60,8 @@ const coordinationFaqs = [
     a: "Families receive clear, itemized billing information for the services provided, coordinated through the named care coordinator.",
   },
   {
-    q: "Is patient coordination available across all of Pondicherry?",
-    a: "Yes — coordination support is available for patients across Puducherry town and surrounding areas.",
+    q: "Is patient coordination available across all of Chennai?",
+    a: "Yes — coordination support is available for patients across Chennai town and surrounding areas.",
   },
 ];
 
@@ -79,22 +79,22 @@ export default function PatientCoordination() {
             <div className="pc-hero-left">
               <div className="pc-breadcrumb">
                 Seamless Access /{" "}
-                <span>Patient Coordination Pondicherry</span>
+                <span>Patient Coordination Chennai</span>
               </div>
 
               <div className="pc-pill">
                 <span className="pc-pulse-dot"></span>
-                DEDICATED COORDINATOR • DOCTOR-LED • PONDICHERRY
+                DEDICATED COORDINATOR • DOCTOR-LED • Chennai
               </div>
 
               <h1>
                 Dedicated Patient Coordination and Cashless Treatment Support
-                in Pondicherry
+                in Chennai
               </h1>
 
               <p className="pc-hero-sub">
                 A single point of contact manages scheduling, paperwork, and
-                cashless treatment coordination across Pondicherry — so
+                cashless treatment coordination across Chennai — so
                 families can focus on the patient, not logistics.
               </p>
 
@@ -103,7 +103,7 @@ export default function PatientCoordination() {
 
                 <p>
                   Aureal Healthcare provides dedicated patient coordination
-                  in Pondicherry, including cashless treatment support where
+                  in Chennai, including cashless treatment support where
                   applicable — a named care coordinator manages scheduling,
                   documentation, and insurance-related paperwork so families
                   are not left managing logistics alongside a medical crisis.
@@ -138,7 +138,7 @@ export default function PatientCoordination() {
                 <img
                   className="pc-main-img"
                   src="/support1.jpg"
-                  alt="Patient coordination and cashless treatment in Pondicherry"
+                  alt="Patient coordination and cashless treatment in Chennai"
                 />
 
                 <div className="pc-float-card pc-float-top">
@@ -181,7 +181,7 @@ export default function PatientCoordination() {
               <img
                 className="pc-ov-img-1"
                 src="/support3.jpg"
-                alt="Home healthcare coordination in Pondicherry"
+                alt="Home healthcare coordination in Chennai"
               />
 
              
@@ -210,7 +210,7 @@ export default function PatientCoordination() {
 
               <p className="pc-p">
                 Aureal Healthcare assigns a dedicated care coordinator to
-                every patient in Pondicherry — a single named point of contact
+                every patient in Chennai — a single named point of contact
                 who manages the scheduling of doctor visits, nursing, therapy,
                 and diagnostics, and who supports the family through cashless
                 treatment and insurance-related documentation where applicable.
@@ -310,7 +310,7 @@ export default function PatientCoordination() {
 
                 <p>
                   The coordinator manages the scheduling of every provider
-                  involved in the patient's care across Pondicherry.
+                  involved in the patient's care across Chennai.
                 </p>
               </div>
 
@@ -329,13 +329,13 @@ export default function PatientCoordination() {
         </div>
       </section>
 
-      {/* WHY MATTERS IN PONDICHERRY */}
+      {/* WHY MATTERS IN Chennai */}
       <section className="pc-why-dark">
         <div className="pc-container">
           <div className="pc-why-grid">
             <div className="pc-why-left">
               <span className="pc-eyebrow pc-light">
-                WHY THIS MATTERS IN PONDICHERRY
+                WHY THIS MATTERS IN Chennai
               </span>
 
               <h2>
@@ -343,11 +343,11 @@ export default function PatientCoordination() {
               </h2>
 
               <p>
-                Families managing home healthcare in Pondicherry are frequently
+                Families managing home healthcare in Chennai are frequently
                 left to coordinate multiple providers and paperwork on their
                 own — a burden that compounds the stress of an existing medical
                 situation. This gap is common across the wider home healthcare
-                landscape in Puducherry, not specific to any one provider.
+                landscape in Chennai, not specific to any one provider.
               </p>
 
               <p>
@@ -375,11 +375,11 @@ export default function PatientCoordination() {
 
                 <span>
                   how does patient coordination work for home care in
-                  Puducherry?
+                  Chennai?
                 </span>
 
                 <span>
-                  is cashless treatment available for home care in Pondicherry?
+                  is cashless treatment available for home care in Chennai?
                 </span>
 
                 <span>
@@ -391,7 +391,7 @@ export default function PatientCoordination() {
             <div className="pc-why-right">
               <img
                 src="/support4.jpg"
-                alt="Home healthcare coordination in Pondicherry"
+                alt="Home healthcare coordination in Chennai"
               />
 
               <div className="pc-why-card">
@@ -486,7 +486,7 @@ export default function PatientCoordination() {
                   <span>🌍</span>
 
                   <p>
-                    Families coordinating care for a relative in Pondicherry
+                    Families coordinating care for a relative in Chennai
                     from another city or abroad who need a reliable local point
                     of contact
                   </p>
@@ -570,7 +570,7 @@ export default function PatientCoordination() {
         <div className="pc-container pc-cta-inner">
           <div>
             <h2>
-              Ask for a dedicated care coordinator in Pondicherry
+              Ask for a dedicated care coordinator in Chennai
             </h2>
 
             <p>

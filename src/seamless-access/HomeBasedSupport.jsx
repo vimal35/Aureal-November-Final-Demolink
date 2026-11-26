@@ -6,7 +6,7 @@ const homeServices = [
   {
     icon: "👩‍⚕️",
     title: "Trained Home Nurses & Attendants",
-    desc: "Day-to-day hands-on care including bathing, mobility assistance, medication reminders, and general support delivered by trained staff across Pondicherry.",
+    desc: "Day-to-day hands-on care including bathing, mobility assistance, medication reminders, and general support delivered by trained staff across Chennai.",
     tag: "Daily Home Support",
     highlight: true,
   },
@@ -46,7 +46,7 @@ const homeServices = [
 
 const homeFaqs = [
   {
-    q: "What does home nursing care in Puducherry typically include?",
+    q: "What does home nursing care in Chennai typically include?",
     a: "It typically includes hands-on daily support such as bathing, mobility assistance, medication reminders, wound care, and monitoring, delivered by trained nurses or attendants.",
   },
   {
@@ -62,8 +62,8 @@ const homeFaqs = [
     a: "Support ranges from a few hours a day to round-the-clock care, depending on the patient's needs and the care plan set with the family.",
   },
   {
-    q: "Which parts of Pondicherry are covered for home nursing care?",
-    a: "Coverage spans Puducherry town and surrounding areas including White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, and Ariyankuppam.",
+    q: "Which parts of Chennai are covered for home nursing care?",
+    a: "Coverage spans Chennai town and surrounding areas including White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, and Ariyankuppam.",
   },
   {
     q: "What happens if the nurse notices a concerning change in the patient?",
@@ -85,21 +85,21 @@ export default function HomeBasedSupport() {
             <div className="hbs-hero-left">
               <div className="hbs-breadcrumb">
                 Seamless Access /{" "}
-                <span>Home Nursing Care Pondicherry</span>
+                <span>Home Nursing Care Chennai</span>
               </div>
 
               <div className="hbs-pill">
                 <span className="hbs-pulse-dot"></span>
-                DOCTOR-LED • HOME NURSING • PONDICHERRY
+                DOCTOR-LED • HOME NURSING • Chennai
               </div>
 
               <h1>
-                Doctor-Led Home Nursing and Daily Support Across Pondicherry
+                Doctor-Led Home Nursing and Daily Support Across Chennai
               </h1>
 
               <p className="hbs-hero-sub">
                 Trained nurses and attendants delivering day-to-day home based
-                support across Pondicherry — executing a physician-designed
+                support across Chennai — executing a physician-designed
                 care plan, not operating as an independent, unsupervised
                 service.
               </p>
@@ -109,7 +109,7 @@ export default function HomeBasedSupport() {
 
                 <p>
                   Aureal Healthcare provides home nursing care and daily
-                  home based support across Pondicherry — trained nurses and
+                  home based support across Chennai — trained nurses and
                   attendants deliver hands-on care for elderly, bedridden, and
                   recovering patients, executing a plan designed and reviewed
                   by the overseeing physician rather than working without
@@ -150,7 +150,7 @@ export default function HomeBasedSupport() {
                 <img
                   className="hbs-main-img"
                   src="/homel1.jpg"
-                  alt="Doctor-led home nursing care in Pondicherry"
+                  alt="Doctor-led home nursing care in Chennai"
                 />
 
                 <div className="hbs-float-card hbs-float-top">
@@ -165,7 +165,7 @@ export default function HomeBasedSupport() {
                 <div className="hbs-float-card hbs-float-bottom">
                   <img
                     src="/homel3.jpg"
-                    alt="Home nursing support Pondicherry"
+                    alt="Home nursing support Chennai"
                   />
 
                   <div>
@@ -208,12 +208,12 @@ export default function HomeBasedSupport() {
               <span className="hbs-eyebrow">OVERVIEW</span>
 
               <h2>
-                Home nursing care in Puducherry with clinical structure behind
+                Home nursing care in Chennai with clinical structure behind
                 daily support.
               </h2>
 
               <p className="hbs-p">
-                “Home nursing care Puducherry” is one of the most searched
+                “Home nursing care Chennai” is one of the most searched
                 terms among families arranging support for an elderly or
                 recovering relative — and it typically means day-to-day,
                 hands-on help: bathing, mobility assistance, medication
@@ -337,13 +337,13 @@ export default function HomeBasedSupport() {
         </div>
       </section>
 
-      {/* WHY MATTERS IN PONDICHERRY */}
+      {/* WHY MATTERS IN Chennai */}
       <section className="hbs-why-dark">
         <div className="hbs-container">
           <div className="hbs-why-grid">
             <div className="hbs-why-left">
               <span className="hbs-eyebrow hbs-light">
-                WHY THIS MATTERS IN PONDICHERRY
+                WHY THIS MATTERS IN Chennai
               </span>
 
               <h2>
@@ -351,12 +351,12 @@ export default function HomeBasedSupport() {
               </h2>
 
               <p>
-                Independent home nursing arrangements across Pondicherry can
+                Independent home nursing arrangements across Chennai can
                 vary significantly in how much clinical structure sits behind
                 the day-to-day caregiver — some are well-supervised, others
                 operate with little defined protocol or escalation guidance.
                 This variability is common across the wider home healthcare
-                landscape in Puducherry.
+                landscape in Chennai.
               </p>
 
               <p>
@@ -384,12 +384,12 @@ export default function HomeBasedSupport() {
                 <p>People also ask:</p>
 
                 <span>
-                  is home nursing care available in Pondicherry?
+                  is home nursing care available in Chennai?
                 </span>
 
                 <span>
                   how does Aureal Healthcare provide home based support in
-                  Puducherry?
+                  Chennai?
                 </span>
 
                 <span>
@@ -476,7 +476,7 @@ export default function HomeBasedSupport() {
 
                   <p>
                     Families needing daily hands-on support for an elderly
-                    parent living at home in Pondicherry
+                    parent living at home in Chennai
                   </p>
                 </div>
 
@@ -577,12 +577,12 @@ export default function HomeBasedSupport() {
         <div className="hbs-container hbs-cta-inner">
           <div>
             <h2>
-              Arrange doctor-led home nursing and daily support in Pondicherry
+              Arrange doctor-led home nursing and daily support in Chennai
             </h2>
 
             <p>
               Structured home nursing, daily patient support, and physician-led
-              care — delivered at home across Pondicherry.
+              care — delivered at home across Chennai.
             </p>
           </div>
 

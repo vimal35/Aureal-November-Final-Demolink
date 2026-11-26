@@ -3,83 +3,76 @@ import "./Care.css";
 
 const nodes = [
   {
-    id: "nutrition",
+    id: "nursing",
     side: "is-left",
     className: "node-nutrition",
-    title: "Nutrition & Diet",
-    body: "Personalized diet plans for better health.",
-    accent: "#2a9b88",
-    image:
-      "/nutrition.jpg",
+    title: "Skilled Nursing Care",
+    body: "Doctor-led nursing care.",
+    accent: "#c9971c",
+    image: "/Skilled Nursing Care.jpg",
   },
   {
-    id: "consultation",
+    id: "specialist",
     side: "is-right",
     className: "node-consultation",
-    title: "Consultation",
-    body: "Expert doctors, every step of the way.",
-    accent: "#62ac90",
-    image:
-      "/consultation.jpg",
+    title: "Specialist Doctor Visits",
+    body: "Expert doctor home consultations.",
+    accent: "#1f6b47",
+    image: "/Specialist Doctor Visits.jpg",
   },
   {
-    id: "preventive",
+    id: "caregivers",
     side: "is-left",
     className: "node-preventive",
-    title: "Preventive Care",
-    body: "Prevention today for a healthier tomorrow.",
-    accent: "#1c5a42",
-    image: "/preventive1.jpg",
+    title: "Trained Caregivers",
+    body: "Assisted daily living support.",
+    accent: "#e0b232",
+    image: "/Trained Caregivers.jpg",
   },
   {
-    id: "diagnostics",
+    id: "doctor-visits",
     side: "is-right",
     className: "node-diagnostics",
-    title: "Diagnostics",
-    body: "Advanced tests for accurate insights.",
-    accent: "#3c725d",
-    image:
-      "/diagnostics.jpg",
-  },
-  {
-    id: "fitness",
-    side: "is-left",
-    className: "node-fitness",
-    title: "Fitness Guidance",
-    body: "Stay active with expert guidance.",
-    accent: "#26644c",
-    image:
-      "/fitness.jpg",
-  },
-  {
-    id: "treatment",
-    side: "is-right",
-    className: "node-treatment",
-    title: "Treatment",
-    body: "Evidence-based treatments tailored for you.",
-    accent: "#3aa996",
-    image:
-      "/treatment.jpg",
-  },
-  {
-    id: "mental",
-    side: "is-left",
-    className: "node-mental",
-    title: "Mental Wellness",
-    body: "Emotional support for a healthier you.",
-    accent: "#54b9a8",
-    image:
-      "/mental.jpg",
+    title: "Doctor Home Visits",
+    body: "In-home doctor medical check-ups.",
+    accent: "#174d35",
+    image: "/Doctor Home Visits.jpg",
   },
   {
     id: "rehabilitation",
+    side: "is-left",
+    className: "node-fitness",
+    title: "Integrated Rehabilitation",
+    body: "Physiotherapy, speech therapy, OT.",
+    accent: "#1f6b47",
+    image: "/Integrated Rehabilitation.jpg",
+  },
+  {
+    id: "nutrition",
+    side: "is-right",
+    className: "node-treatment",
+    title: "Nutrition & Diet",
+    body: "Personalized clinical diet planning.",
+    accent: "#c9971c",
+    image: "/NutritionDiet.jpg",
+  },
+  {
+    id: "diagnostics",
+    side: "is-left",
+    className: "node-mental",
+    title: "Diagnostics at Home",
+    body: "At-home X-ray, lab sample collection.",
+    accent: "#174d35",
+    image: "/Diagnostics at Home.jpg",
+  },
+  {
+    id: "care-team",
     side: "is-right",
     className: "node-rehabilitation",
-    title: "Rehabilitation",
-    body: "Recover strength, rebuild life.",
-    accent: "#205a44",
-    image:
-      "/rehabilitation.jpg",
+    title: "24/7 Care Team",
+    body: "Providing seamless healthcare.",
+    accent: "#e0b232",
+    image: "/care-team.jpg",
   },
 ];
 
@@ -130,7 +123,7 @@ function BenefitIcon({ type }) {
         <path
           d="M18 24h4l2-5 3 10 2-5h4"
           fill="none"
-          stroke="#2a6a51"
+          stroke="#c9971c"
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -151,7 +144,7 @@ function BenefitIcon({ type }) {
         <path
           d="m16.5 24 5 5 10-11"
           fill="none"
-          stroke="#2a6a51"
+          stroke="#c9971c"
           strokeWidth="2.5"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -180,7 +173,7 @@ function BenefitIcon({ type }) {
         />
         <path
           d="M24 25h.1"
-          stroke="#2a6a51"
+          stroke="#c9971c"
           strokeWidth="4"
           strokeLinecap="round"
         />
@@ -215,7 +208,7 @@ function BenefitIcon({ type }) {
       />
       <path
         d="M24 11v10M19 16h10"
-        stroke="#2a6a51"
+        stroke="#c9971c"
         strokeWidth="2"
         strokeLinecap="round"
       />
@@ -241,7 +234,7 @@ function Care() {
             COMPLETE CARE, <span>360° AROUND YOU</span>
           </h1>
 
-          <p>Expertise. Compassion. Better Health Outcomes.</p>
+          <p>SPECIALIST LED · PERSONALISED PLANS · PRECISION CARE</p>
 
           <div className="heading-line">
             <i />
@@ -366,7 +359,7 @@ function Care() {
               <div className="core-photo">
                 <img
                   src="/dr-sanjay.png"
-                  alt="Patient receiving compassionate healthcare"
+                  alt="Patient receiving compassionate home healthcare"
                 />
                 <div className="core-photo-shine" />
               </div>
@@ -374,7 +367,6 @@ function Care() {
 
             <div className="core-caption">
               <strong>Care Calibrated to you</strong>
-              {/* <span>Better Every Day</span> */}
             </div>
           </div>
         </div>

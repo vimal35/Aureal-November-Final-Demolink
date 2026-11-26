@@ -24,7 +24,7 @@ const dO = [
   },
 ];
 
-const fO = `Aureal Healthcare — Redefining healthcare delivery across Puducherry, Tamil Nadu & Kerala with UK-standard clinical governance.`;
+const fO = `Aureal Healthcare — Redefining healthcare delivery across Chennai, Tamil Nadu & Kerala with UK-standard clinical governance.`;
 
 export default function Call() {
   let e = useRef(null);

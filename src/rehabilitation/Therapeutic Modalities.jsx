@@ -77,7 +77,7 @@ const modalities = [
     tag: "In-Home Rehabilitation",
     title: "Equipment Brought to Your Home",
     short: "Necessary therapeutic equipment delivered to you.",
-    desc: "Necessary therapeutic equipment is brought to the patient's home in Pondicherry as part of the scheduled physiotherapy session, making clinical rehabilitation more convenient without requiring travel.",
+    desc: "Necessary therapeutic equipment is brought to the patient's home in Chennai as part of the scheduled physiotherapy session, making clinical rehabilitation more convenient without requiring travel.",
     points: [
       "Equipment brought to the patient's home",
       "No travel required for scheduled sessions",
@@ -100,7 +100,7 @@ const steps = [
   {
     n: "03",
     title: "In-Home Delivery",
-    desc: "Sessions are delivered at the patient's home in Pondicherry, with necessary therapeutic equipment brought to the home as needed.",
+    desc: "Sessions are delivered at the patient's home in Chennai, with necessary therapeutic equipment brought to the home as needed.",
   },
   {
     n: "04",
@@ -120,7 +120,7 @@ const whoFor = [
   },
   {
     icon: "👴",
-    text: "Elderly patients in Pondicherry managing arthritis or chronic musculoskeletal pain who prefer treatment at home",
+    text: "Elderly patients in Chennai managing arthritis or chronic musculoskeletal pain who prefer treatment at home",
   },
   {
     icon: "👨‍👩‍👧",
@@ -139,15 +139,15 @@ const faqs = [
   },
   {
     q: "Do I need to bring my own equipment for home therapy sessions?",
-    a: "No — necessary therapeutic equipment is brought to the patient's home in Pondicherry as part of the scheduled session.",
+    a: "No — necessary therapeutic equipment is brought to the patient's home in Chennai as part of the scheduled session.",
   },
   {
     q: "How is manual therapy different from exercise-based physiotherapy?",
     a: "Manual therapy uses hands-on techniques to address joint stiffness and soft-tissue restrictions, typically combined with therapeutic exercise as part of one broader rehabilitation plan rather than used alone.",
   },
   {
-    q: "Are these modalities available across all of Pondicherry?",
-    a: "Yes — therapeutic modalities are delivered at home across Puducherry town and surrounding areas as part of the broader home physiotherapy service.",
+    q: "Are these modalities available across all of Chennai?",
+    a: "Yes — therapeutic modalities are delivered at home across Chennai town and surrounding areas as part of the broader home physiotherapy service.",
   },
   {
     q: "Will my pain management be coordinated with my doctor?",
@@ -180,21 +180,21 @@ export default function TherapeuticModalities() {
           <div className="tmod-hero-left">
             <div className="tmod-breadcrumb">
               Rehabilitation /{" "}
-              <span>Therapeutic Modalities Pondicherry</span>
+              <span>Therapeutic Modalities Chennai</span>
             </div>
 
             <div className="tmod-pill">
-              <span></span> HOME REHABILITATION · CLINICAL MODALITIES · PONDICHERRY
+              <span></span> HOME REHABILITATION · CLINICAL MODALITIES · Chennai
             </div>
 
             <h1>
               Therapeutic Modalities for Comprehensive Home Rehabilitation in
-              Pondicherry
+              Chennai
             </h1>
 
             <p className="tmod-hero-sub">
               Electrotherapy, manual therapy, and other clinical rehab
-              modalities delivered at home in Pondicherry — selected and
+              modalities delivered at home in Chennai — selected and
               applied as part of a doctor-informed physiotherapy plan, not
               offered as standalone equipment sessions.
             </p>
@@ -204,7 +204,7 @@ export default function TherapeuticModalities() {
               <p>
                 Aureal Healthcare applies a range of therapeutic
                 modalities — including electrotherapy, manual therapy, and
-                targeted therapeutic exercise — at home across Pondicherry,
+                targeted therapeutic exercise — at home across Chennai,
                 each selected by the treating physiotherapist as part of a
                 broader, individualized rehabilitation plan rather than
                 offered as an isolated equipment-based session.
@@ -287,9 +287,9 @@ export default function TherapeuticModalities() {
                 often draws on specific clinical modalities — electrotherapy
                 for pain modulation and muscle re-education, manual therapy
                 for joint and soft-tissue restrictions, and targeted
-                therapeutic exercise for strength and function. Pondicherry
+                therapeutic exercise for strength and function. Chennai
                 families researching{" "}
-                <strong>home rehabilitation Pondicherry</strong> options
+                <strong>home rehabilitation Chennai</strong> options
                 increasingly ask what modalities are actually used, not just
                 whether “physiotherapy” is offered.
               </p>
@@ -443,7 +443,7 @@ export default function TherapeuticModalities() {
           <div className="tmod-why-grid">
             <div className="tmod-why-left">
               <span className="tmod-eyebrow light">
-                WHY THIS MATTERS IN PONDICHERRY
+                WHY THIS MATTERS IN Chennai
               </span>
 
               <h2>
@@ -454,7 +454,7 @@ export default function TherapeuticModalities() {
               <p>
                 Standalone modality services — a single electrotherapy or
                 manual therapy session without a broader clinical plan — are
-                available across the Pondicherry market, but they can leave
+                available across the Chennai market, but they can leave
                 the underlying functional recovery need unaddressed.
               </p>
 
@@ -646,7 +646,7 @@ export default function TherapeuticModalities() {
           <div>
             <h2>
               Ask about therapeutic modalities as part of your home
-              rehabilitation plan in Pondicherry
+              rehabilitation plan in Chennai
             </h2>
 
             <p>

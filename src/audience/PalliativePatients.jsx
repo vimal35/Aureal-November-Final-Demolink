@@ -40,7 +40,7 @@ const Ek = [
   },
   {
     title: `Ongoing Home-Based Care`,
-    text: `Care is delivered at home across Pondicherry, with the plan adjusted as the patient's needs change.`,
+    text: `Care is delivered at home across Chennai, with the plan adjusted as the patient's needs change.`,
   },
   {
     title: `Continuous Physician Involvement`,
@@ -49,7 +49,7 @@ const Ek = [
 ];
 
 const Dk = [
-  `Patients with a serious or life-limiting illness who want to remain at home in Pondicherry rather than in a hospital setting`,
+  `Patients with a serious or life-limiting illness who want to remain at home in Chennai rather than in a hospital setting`,
   `Families who feel overwhelmed navigating what palliative care means and how to arrange it`,
   `Patients already receiving other treatment who also need dedicated symptom and comfort management`,
   `Families who want emotional support and guidance for themselves, not just clinical care for the patient`,
@@ -65,8 +65,8 @@ const Ok = [
     a: `Palliative care focuses on comfort, symptom relief, and quality of life for anyone facing a serious illness, and can be provided alongside other treatment; hospice care specifically applies in the final phase of a terminal illness. The care team can help families understand which applies to their situation.`,
   },
   {
-    q: `Can palliative care be provided at home in Pondicherry?`,
-    a: `Yes — Aureal Healthcare provides doctor-led palliative care at home across Puducherry town and surrounding areas, focused on comfort, symptom management, and family support.`,
+    q: `Can palliative care be provided at home in Chennai?`,
+    a: `Yes — Aureal Healthcare provides doctor-led palliative care at home across Chennai town and surrounding areas, focused on comfort, symptom management, and family support.`,
   },
   {
     q: `Does starting palliative care mean stopping other treatment?`,
@@ -81,8 +81,8 @@ const Ok = [
     a: `Yes — the palliative care model recognizes that serious illness affects the whole family and extends emotional and practical support accordingly.`,
   },
   {
-    q: `Which areas around Pondicherry are covered for palliative care?`,
-    a: `Coverage includes Puducherry town and surrounding areas such as White Town, Muthialpet, Lawspet, Reddiarpalayam, and Ozhukarai.`,
+    q: `Which areas around Chennai are covered for palliative care?`,
+    a: `Coverage includes Chennai town and surrounding areas such as White Town, Muthialpet, Lawspet, Reddiarpalayam, and Ozhukarai.`,
   },
 ];
 
@@ -106,7 +106,7 @@ const kk = [
 ];
 
 const Ak = [
-  `Puducherry Town`,
+  `Chennai Town`,
   `White Town`,
   `Muthialpet`,
   `Lawspet`,
@@ -218,14 +218,14 @@ const PalliativePatients = () => {
             </nav>
             <span className="palli-hero__badge">
               <span className="palli-hero__badge-dot" />
-              COMPASSIONATE, DOCTOR-LED CARE · PONDICHERRY
+              COMPASSIONATE, DOCTOR-LED CARE · Chennai
             </span>
             <h1 className="palli-hero__title">
               Compassionate, Doctor-Led <span className="palli-text-gold">Palliative Care</span>
-              {" at Home in Pondicherry"}
+              {" at Home in Chennai"}
             </h1>
             <p className="palli-hero__lead">
-              Compassionate, holistic support for patients and families across Pondicherry facing
+              Compassionate, holistic support for patients and families across Chennai facing
               serious illness — prioritizing comfort, emotional well-being, and dignity at every
               step, under physician-led clinical guidance.
             </p>
@@ -257,7 +257,7 @@ const PalliativePatients = () => {
             <div className="palli-hero__img-frame">
               <img
                 src="/Palliative1.jpg"
-                alt="Compassionate caregiver providing comfort to a patient at home in Pondicherry"
+                alt="Compassionate caregiver providing comfort to a patient at home in Chennai"
                 className="palli-hero__img"
                 loading="eager"
               />
@@ -282,7 +282,7 @@ const PalliativePatients = () => {
         <div className="palli-quick__card">
           <span className="palli-quick__label">Quick Answer</span>
           <p>
-            Aureal Healthcare provides doctor-led palliative care at home across Pondicherry for
+            Aureal Healthcare provides doctor-led palliative care at home across Chennai for
             patients and families facing serious illness — combining symptom and pain management,
             emotional support, and family guidance under a physician-designed plan aligned with
             Pallium India's palliative care protocols, focused on comfort and dignity rather than
@@ -304,7 +304,7 @@ const PalliativePatients = () => {
               Palliative care is often misunderstood as care only for the final days of life — in
               reality, it is specialized support for anyone facing a serious illness, focused on
               comfort, symptom relief, and quality of life, which can run alongside other treatment
-              for months or longer. Pondicherry families searching for "palliative care services" or
+              for months or longer. Chennai families searching for "palliative care services" or
               "hospice care" are usually navigating this territory for the first time, often during
               an already overwhelming period.
             </p>
@@ -315,7 +315,7 @@ const PalliativePatients = () => {
               the whole household, not just the patient.
             </p>
             <p className="palli-text">
-              For families across Puducherry town, White Town, Muthialpet, Lawspet, Reddiarpalayam,
+              For families across Chennai town, White Town, Muthialpet, Lawspet, Reddiarpalayam,
               and Ozhukarai, receiving this care at home — in a familiar, comfortable setting — is
               often what patients and families want most, and this doctor-led structure makes that
               genuinely safe to do.
@@ -400,7 +400,7 @@ const PalliativePatients = () => {
         <div className="palli-container palli-why__grid">
           <div className="palli-why__left">
             <span className="palli-eyebrow palli-eyebrow--light">
-              Why This Matters in Pondicherry
+              Why This Matters in Chennai
             </span>
             <h2 className="palli-title palli-title--light">
               Making Palliative Care <span className="palli-text-gold">Clearly Available</span>
@@ -412,14 +412,14 @@ const PalliativePatients = () => {
           </div>
           <div className="palli-why__right">
             <p>
-              Families in Pondicherry facing a serious illness diagnosis often don't know palliative
+              Families in Chennai facing a serious illness diagnosis often don't know palliative
               care is an option separate from hospital-based treatment, or assume it means giving up
               on other care — this confusion is common and not specific to any one provider or
               hospital.
             </p>
             <p>
               Aureal Healthcare's doctor-led palliative care model exists to make this option
-              clearly available and well-managed for Pondicherry families — comfort-focused,
+              clearly available and well-managed for Chennai families — comfort-focused,
               physician-guided, and respectful of what the patient and family actually want.
             </p>
           </div>
@@ -505,7 +505,7 @@ const PalliativePatients = () => {
             <span className="palli-eyebrow palli-eyebrow--light">Trust & Credibility</span>
             <h2 className="palli-title palli-title--light">Clinical Governance You Can Rely On</h2>
             <p>
-              Palliative care in Pondicherry follows the same doctor-led clinical governance applied
+              Palliative care in Chennai follows the same doctor-led clinical governance applied
               across every Aureal Healthcare and AUREAL program, structured around Pallium India's
               palliative care protocols, with a named physician accountable throughout.
             </p>
@@ -570,7 +570,7 @@ const PalliativePatients = () => {
         <div className="palli-container palli-cta__inner">
           <span className="palli-cta__brand">Aureal Healthcare</span>
           <h2>
-            Speak with Aureal Healthcare about doctor-led palliative care at home in Pondicherry —{" "}
+            Speak with Aureal Healthcare about doctor-led palliative care at home in Chennai —{" "}
             <span className="palli-text-gold">comfort and dignity, guided by a physician.</span>
           </h2>
           <p>

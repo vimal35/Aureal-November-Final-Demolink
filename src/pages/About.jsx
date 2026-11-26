@@ -372,7 +372,7 @@ const AboutUs = () => {
     }
     t.setAttribute(
       `content`,
-      `Aureal Healthcare is a specialist-led, tech-enabled home care provider across Puducherry, Tamil Nadu & Kerala — delivering geriatric, palliative, and perioperative care under WHO ICOPE, NABH & NICE standards`,
+      `Aureal Healthcare is a specialist-led, tech-enabled home care provider across Chennai, Tamil Nadu & Kerala — delivering geriatric, palliative, and perioperative care under WHO ICOPE, NABH & NICE standards`,
     );
     return () => {
       document.title = e;
@@ -494,7 +494,7 @@ const AboutUs = () => {
             </ScrollReveal>
             <h1>
               <SplitText
-                text="Hospital-Level Precision Care. Delivered at Your Doorstep in Puducherry."
+                text="Hospital-Level Precision Care. Delivered at Your Doorstep in Chennai."
                 delay={0.2}
               />
             </h1>
@@ -503,7 +503,7 @@ const AboutUs = () => {
             <div className="about-content">
               <ScrollReveal delay={0.75} direction="up">
                 <p>
-                  Aureal Healthcare brings a tech-enabled clinical ecosystem to Puducherry —
+                  Aureal Healthcare brings a tech-enabled clinical ecosystem to Chennai —
                   specialist-led precision medicine, delivered right where you live.
                 </p>
               </ScrollReveal>
@@ -520,7 +520,7 @@ const AboutUs = () => {
                   <br />
                   <br />
                   <strong>100% Specialist-Led</strong> — Multidisciplinary teams managing your
-                  complete health journey, right here in Puducherry.
+                  complete health journey, right here in Chennai.
                   <br />
                   <br />
                   <strong>Advanced Technology</strong> — Powered by Aureal Healthcare's Health Information
@@ -539,14 +539,14 @@ const AboutUs = () => {
               <ScrollReveal delay={1.05} direction="up">
                 <p>
                   Aureal Healthcare brings the same clinical excellence and governance to
-                  Puducherry — delivered locally.
+                  Chennai — delivered locally.
                 </p>
               </ScrollReveal>
             </div>
             <ScrollReveal delay={0.75} direction="left" duration={1.2} className="about-image">
               <motion.img
                 src="/aboutus01.jpg"
-                alt="Aureal Healthcare specialist reviewing patient diagnostic imaging as part of home-based precision care in Puducherry"
+                alt="Aureal Healthcare specialist reviewing patient diagnostic imaging as part of home-based precision care in Chennai"
                 onError={(e) => {
                   if (!e.currentTarget.dataset.fallbackApplied) {
                     e.currentTarget.dataset.fallbackApplied = `true`;
@@ -607,7 +607,7 @@ const AboutUs = () => {
             <ScrollReveal delay={0.75} direction="up" className="stat-item">
               <StatNumber target={5} />
               <p className="stat-label">Centre</p>
-              <span>Pondicherry • Kottayam • Kochi • Chennai • Bangalore</span>
+              <span>Chennai • Kottayam • Kochi • Chennai • Bangalore</span>
             </ScrollReveal>
             <ScrollReveal delay={0.9} direction="up" className="stat-item">
               <StatNumber target={100} suffix="%" />

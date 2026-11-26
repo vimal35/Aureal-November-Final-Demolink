@@ -102,8 +102,8 @@ const oA = [
     a: `No. Respite care can support the caregiver of a patient who is on a doctor-led care plan, whether the patient is elderly, recovering after surgery or living with a chronic or serious illness.`,
   },
   {
-    q: `Is respite care available across Pondicherry?`,
-    a: `Yes. Respite support is available across Puducherry town and surrounding areas including White Town, Muthialpet, Lawspet, Reddiarpalayam and Ozhukarai.`,
+    q: `Is respite care available across Chennai?`,
+    a: `Yes. Respite support is available across Chennai town and surrounding areas including White Town, Muthialpet, Lawspet, Reddiarpalayam and Ozhukarai.`,
   },
   {
     q: `How does respite care help with caregiver burnout?`,
@@ -135,7 +135,7 @@ const sA = [
 ];
 
 const cA = [
-  `Puducherry Town`,
+  `Chennai Town`,
   `White Town`,
   `Muthialpet`,
   `Lawspet`,
@@ -295,15 +295,15 @@ const SoleCaregiver = () => {
             </div>
             <div className="sole-kicker">
               <span className="sole-kicker__dot" />
-              Family Caregiver Support · Pondicherry
+              Family Caregiver Support · Chennai
             </div>
             <h1>
               Respite Care and <span>Real Support</span>
-              {" for Pondicherry's Family Caregivers"}
+              {" for Chennai's Family Caregivers"}
             </h1>
             <p className="sole-hero__lead">
               When one family member has become the entire care system, Aureal Healthcare provides
-              doctor-led respite care in Pondicherry — professional backup so you can rest without
+              doctor-led respite care in Chennai — professional backup so you can rest without
               your loved one's care ever pausing.
             </p>
             <div className="sole-hero__actions">
@@ -376,7 +376,7 @@ const SoleCaregiver = () => {
             <div>
               <span className="sole-mini-label">Quick Answer</span>
               <p>
-                Aureal Healthcare provides doctor-led respite care in Pondicherry for family
+                Aureal Healthcare provides doctor-led respite care in Chennai for family
                 caregivers carrying the full burden of caring for a parent or spouse alone. Trained
                 staff and physician oversight step in temporarily or regularly, allowing the primary
                 caregiver to rest while their loved one's care continues without interruption.
@@ -394,7 +394,7 @@ const SoleCaregiver = () => {
             </h2>
             <div className="sole-accent-line" />
             <p>
-              In many Pondicherry families, one person — often a spouse or the adult child who lives
+              In many Chennai families, one person — often a spouse or the adult child who lives
               closest — gradually becomes the entire care system for an ageing or unwell relative.
             </p>
             <p>
@@ -507,13 +507,13 @@ const SoleCaregiver = () => {
         <div className="sole-container sole-why__grid">
           <div className="sole-why__content">
             <span className="sole-eyebrow sole-eyebrow--light">
-              Why This Matters in Pondicherry
+              Why This Matters in Chennai
             </span>
             <h2>
               Caregiving Shouldn't Mean<span>{" Losing Yourself."}</span>
             </h2>
             <p>
-              Family caregivers in Pondicherry can often feel that taking time away means abandoning
+              Family caregivers in Chennai can often feel that taking time away means abandoning
               their responsibility. That pressure can make asking for help feel almost impossible.
             </p>
             <p>
@@ -680,7 +680,7 @@ const SoleCaregiver = () => {
               Stepping Away Doesn't Mean<span>{" Stepping Down the Quality of Care."}</span>
             </h2>
             <p>
-              Respite care in Pondicherry follows the same doctor-led clinical governance applied
+              Respite care in Chennai follows the same doctor-led clinical governance applied
               across Aureal Healthcare and the AUREAL program.
             </p>
             <p>
@@ -702,9 +702,9 @@ const SoleCaregiver = () => {
             <div>
               <span className="sole-eyebrow">Local Support</span>
               <h2>
-                Respite Care Across<span>{" Pondicherry"}</span>
+                Respite Care Across<span>{" Chennai"}</span>
               </h2>
-              <p>Supporting family caregivers across Puducherry town and surrounding localities.</p>
+              <p>Supporting family caregivers across Chennai town and surrounding localities.</p>
             </div>
             <div className="sole-area-list">
               {cA.map((e) => (
@@ -781,7 +781,7 @@ const SoleCaregiver = () => {
             You Don't Have to<span>{" Carry It All Alone."}</span>
           </h2>
           <p>
-            Arrange doctor-led respite care in Pondicherry and give yourself the space to rest,
+            Arrange doctor-led respite care in Chennai and give yourself the space to rest,
             recover and take care of what you need — without leaving your loved one's care behind.
           </p>
           <div className="sole-cta__actions">
@@ -804,7 +804,7 @@ const SoleCaregiver = () => {
             </span>
             <span>
               <C_lA name="check" />
-              Pondicherry support
+              Chennai support
             </span>
           </div>
         </div>

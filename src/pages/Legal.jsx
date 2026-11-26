@@ -4,7 +4,7 @@ import "./Legal.css";
 
 const CONTACT = {
   company: "Aureal Healthcare",
-  address: "No.3, Cardinal Street, Colas Nagar, Uppalam, Pondicherry - 605001",
+  address: "No.3, Cardinal Street, Colas Nagar, Uppalam, Chennai - 605001",
   phone: "9944969049 | 9600144633",
   phoneHref: "tel:+919944969049",
   email: "care@aurealhealthcare.com",

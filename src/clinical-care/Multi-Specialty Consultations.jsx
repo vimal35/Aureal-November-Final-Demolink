@@ -9,8 +9,8 @@ const faqs = [
     a: "It means a physician designs and owns the overall care plan before any specialist is brought in, and every specialist consulted afterward works from that same doctor-led plan and shared medical record, rather than operating as an independent, disconnected visit."
   },
   {
-    q: "Can I book a home visit doctor in Pondicherry through Aureal Healthcare?",
-    a: "Yes — a home visit doctor is available across Puducherry town and the surrounding communes, with the same doctor-led record used whether the consultation happens at home or in-clinic."
+    q: "Can I book a home visit doctor in Chennai through Aureal Healthcare?",
+    a: "Yes — a home visit doctor is available across Chennai town and the surrounding communes, with the same doctor-led record used whether the consultation happens at home or in-clinic."
   },
   {
     q: "How is this different from booking a single home doctor visit?",
@@ -21,8 +21,8 @@ const faqs = [
     a: "No separate referral process is required within the doctor-led network — your care coordinator arranges the right specialist based on the overseeing physician's assessment."
   },
   {
-    q: "Which areas of Pondicherry are covered?",
-    a: "Coverage spans Puducherry town and surrounding areas including White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, Ariyankuppam, and Villianur — ask your care coordinator to confirm coverage for your exact address."
+    q: "Which areas of Chennai are covered?",
+    a: "Coverage spans Chennai town and surrounding areas including White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, Ariyankuppam, and Villianur — ask your care coordinator to confirm coverage for your exact address."
   },
   {
     q: "How quickly can a multi-specialty consultation be arranged?",
@@ -52,13 +52,13 @@ export default function MultiSpecialtyConsultations() {
           </div>
 
           <div className="msc-badge">
-            <span className="dot"></span> Doctor-Led Model • Pondicherry
+            <span className="dot"></span> Doctor-Led Model • Chennai
           </div>
 
-          <h1>Doctor-Led Multi-Specialty Consultations in Pondicherry</h1>
+          <h1>Doctor-Led Multi-Specialty Consultations in Chennai</h1>
 
           <p className="msc-hero-sub">
-            A <strong>home visit doctor in Pondicherry</strong> backed by
+            A <strong>home visit doctor in Chennai</strong> backed by
             <strong> 20+ specialties and super-specialties</strong>, with a
             single shared medical record, led end-to-end by a physician — so
             every doctor involved in your care works from the same file,
@@ -69,7 +69,7 @@ export default function MultiSpecialtyConsultations() {
             <div className="msc-quick-label">QUICK ANSWER</div>
             <p>
               Aureal Healthcare's multi-specialty consultation service in
-              Pondicherry gives patients access to a home visit doctor plus
+              Chennai gives patients access to a home visit doctor plus
               20+ specialties and super-specialties under one doctor-led care
               plan, with every consulting physician working from a single
               shared medical record — so care stays coordinated instead of
@@ -91,7 +91,7 @@ export default function MultiSpecialtyConsultations() {
       }, 50);
     }}
   >
-    Book Consultation in Pondicherry
+    Book Consultation in Chennai
   </button>
 
   <a
@@ -119,7 +119,7 @@ export default function MultiSpecialtyConsultations() {
             </div>
 
             <p>
-              Trusted by families across Pondicherry & Puducherry
+              Trusted by families across Chennai & Chennai
             </p>
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function MultiSpecialtyConsultations() {
           <div className="msc-image-card main">
             <img
               src="/multi1.jpg"
-              alt="Doctor led multi-specialty consultation in Pondicherry"
+              alt="Doctor led multi-specialty consultation in Chennai"
             />
 
             <div className="msc-float-card top">
@@ -177,7 +177,7 @@ export default function MultiSpecialtyConsultations() {
               </h2>
 
               <p className="msc-p">
-                Pondicherry households searching for a{" "}
+                Chennai households searching for a{" "}
                 <strong>home visit doctor</strong> or{" "}
                 <strong>doctor at home</strong> are usually looking for more
                 than a single appointment — they need someone who can see the
@@ -195,7 +195,7 @@ export default function MultiSpecialtyConsultations() {
 
               <div className="msc-highlight-box">
                 <p>
-                  For families in Pondicherry managing a condition that touches
+                  For families in Chennai managing a condition that touches
                   more than one system of the body — an elderly parent with
                   diabetes, hypertension, and mobility issues, for example —
                   this doctor-led coordination removes the burden of being the
@@ -208,7 +208,7 @@ export default function MultiSpecialtyConsultations() {
                 The specialist network is accessible either at home or
                 in-clinic, with the same doctor-led record following the
                 patient regardless of where the consultation happens — a
-                distinction that matters across Puducherry town, White Town,
+                distinction that matters across Chennai town, White Town,
                 Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, and
                 Ariyankuppam, where travel itself can be a barrier to getting
                 the right care quickly.
@@ -260,7 +260,7 @@ export default function MultiSpecialtyConsultations() {
               <p>
                 From general medicine to geriatrics, cardiology, and neurology,
                 all coordinated within one doctor-led network serving
-                Pondicherry.
+                Chennai.
               </p>
             </div>
 
@@ -294,7 +294,7 @@ export default function MultiSpecialtyConsultations() {
               <h3>Home Visit or In-Clinic, Your Choice</h3>
 
               <p>
-                Patients across Pondicherry can choose a home visit doctor
+                Patients across Chennai can choose a home visit doctor
                 consultation or an in-clinic visit, with the doctor-led record
                 carrying over either way.
               </p>
@@ -350,7 +350,7 @@ export default function MultiSpecialtyConsultations() {
                 <h4>Consultation Delivery</h4>
 
                 <p>
-                  Consultations happen at home or in-clinic across Pondicherry
+                  Consultations happen at home or in-clinic across Chennai
                   and surrounding communes, based on the patient's condition
                   and preference.
                 </p>
@@ -380,7 +380,7 @@ export default function MultiSpecialtyConsultations() {
           <div className="msc-why-box">
             <div className="why-content">
               <span className="msc-eyebrow light">
-                WHY THIS MATTERS IN PONDICHERRY
+                WHY THIS MATTERS IN Chennai
               </span>
 
               <h2>
@@ -388,13 +388,13 @@ export default function MultiSpecialtyConsultations() {
               </h2>
 
               <p>
-                Pondicherry families searching for a home visit doctor today
+                Chennai families searching for a home visit doctor today
                 typically find single-doctor or single-service listings — a
                 doctor for one visit, a separate nursing agency for another, a
                 separate ambulance operator for a third. Coordinating those
                 three yourself, while also managing an elderly parent's
                 health, is a real burden common across the home healthcare
-                landscape in Puducherry, not a flaw specific to any one
+                landscape in Chennai, not a flaw specific to any one
                 provider.
               </p>
 
@@ -403,7 +403,7 @@ export default function MultiSpecialtyConsultations() {
                 exists specifically to close that gap — one physician-owned
                 care plan, one shared record, and every specialist working
                 inside the same coordinated structure, whether the patient is
-                seen in Puducherry town or in the surrounding communes.
+                seen in Chennai town or in the surrounding communes.
               </p>
 
               <ul className="msc-check-list">
@@ -415,7 +415,7 @@ export default function MultiSpecialtyConsultations() {
               </ul>
 
               <div className="msc-note">
-                Whether the patient is seen in Puducherry town or surrounding
+                Whether the patient is seen in Chennai town or surrounding
                 communes — coordination stays intact.
               </div>
             </div>
@@ -423,7 +423,7 @@ export default function MultiSpecialtyConsultations() {
             <div className="why-image">
               <img
                 src="/multi3.jpg"
-                alt="Home healthcare in Pondicherry"
+                alt="Home healthcare in Chennai"
               />
             </div>
           </div>
@@ -444,7 +444,7 @@ export default function MultiSpecialtyConsultations() {
               </h2>
 
               <p className="msc-p">
-                Every Aureal Healthcare service in Pondicherry is built
+                Every Aureal Healthcare service in Chennai is built
                 around a doctor-led model: a physician designs the care plan,
                 and every other professional involved — specialist, nurse,
                 therapist — works inside that plan rather than operating
@@ -486,7 +486,7 @@ export default function MultiSpecialtyConsultations() {
                 <h4>Trust & Credibility</h4>
 
                 <p>
-                  Every consultation in Pondicherry is governed by the same
+                  Every consultation in Chennai is governed by the same
                   doctor-led clinical protocols Aureal Healthcare applies
                   across all of its home care programs —
                   physician-designed, not just caregiver-delivered.
@@ -525,7 +525,7 @@ export default function MultiSpecialtyConsultations() {
                   <span>✈️</span>
 
                   <p>
-                    Families coordinating care for a relative in Pondicherry
+                    Families coordinating care for a relative in Chennai
                     from abroad or another city, who need one accountable
                     point of contact instead of many
                   </p>
@@ -627,7 +627,7 @@ export default function MultiSpecialtyConsultations() {
         <div className="msc-container">
           <div className="msc-cta-box">
             <h2>
-              Book a doctor-led multi-specialty consultation in Pondicherry
+              Book a doctor-led multi-specialty consultation in Chennai
             </h2>
 
             <p>
@@ -635,7 +635,7 @@ export default function MultiSpecialtyConsultations() {
             </p><br />
 
             <button className="msc-btn primary">
-              Book Consultation in Pondicherry
+              Book Consultation in Chennai
             </button>
           </div>
         </div>

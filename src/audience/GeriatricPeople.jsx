@@ -40,7 +40,7 @@ const uk = [
   },
   {
     title: `Ongoing Home-Based Care`,
-    text: `Caregiving staff and, where needed, nurses deliver the plan at home across Pondicherry and surrounding areas.`,
+    text: `Caregiving staff and, where needed, nurses deliver the plan at home across Chennai and surrounding areas.`,
   },
   {
     title: `Regular Physician Review`,
@@ -52,13 +52,13 @@ const dk = [
   `A parent in early-stage cognitive decline who needs daily supervision and monitoring, not just occasional check-ins`,
   `An elderly relative recovering from a fall who needs both medical follow-up and a structured fall-prevention plan going forward`,
   `A senior managing multiple chronic conditions whose medications and care need coordinated physician oversight`,
-  `Families in Pondicherry coordinating care for a parent from abroad or another city, who need one accountable local point of contact`,
+  `Families in Chennai coordinating care for a parent from abroad or another city, who need one accountable local point of contact`,
 ];
 
 const fk = [
   {
     q: `What is GERI ONE?`,
-    a: `GERI ONE is AUREAL's dedicated brand for integrated geriatric care, delivered in Pondicherry with Aureal Healthcare — multi speciality geriatric consultations, bringing mobility support, chronic condition management, cognitive wellness monitoring, and daily living assistance together under one doctor-led plan, rather than treating each need as a separate service.`,
+    a: `GERI ONE is AUREAL's dedicated brand for integrated geriatric care, delivered in Chennai with Aureal Healthcare — multi speciality geriatric consultations, bringing mobility support, chronic condition management, cognitive wellness monitoring, and daily living assistance together under one doctor-led plan, rather than treating each need as a separate service.`,
   },
   {
     q: `What clinical framework does GERI ONE follow?`,
@@ -69,7 +69,7 @@ const fk = [
     a: `It includes a physician-designed plan covering chronic condition management, mobility and fall-prevention support, cognitive wellness monitoring, and daily living assistance — all under one accountable doctor, not separate disconnected services.`,
   },
   {
-    q: `Is dementia or cognitive care available at home in Pondicherry?`,
+    q: `Is dementia or cognitive care available at home in Chennai?`,
     a: `Yes — cognitive wellness monitoring is part of GERI ONE's geriatric care model, with physician involvement as soon as signs of decline are noticed.`,
   },
   {
@@ -77,12 +77,12 @@ const fk = [
     a: `A caregiver alone provides daily assistance without a physician accountable for the overall clinical picture; Aureal Healthcare's model keeps a doctor designing and reviewing the plan that the caregiving team executes.`,
   },
   {
-    q: `Can elderly care be arranged for a parent living alone in Pondicherry?`,
+    q: `Can elderly care be arranged for a parent living alone in Chennai?`,
     a: `Yes — this is one of the most common situations supported, with a coordinated plan for daily supervision, health monitoring, and family communication.`,
   },
   {
-    q: `Which areas around Pondicherry are covered?`,
-    a: `Coverage includes Puducherry town and surrounding areas such as White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, and Ariyankuppam.`,
+    q: `Which areas around Chennai are covered?`,
+    a: `Coverage includes Chennai town and surrounding areas such as White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, and Ariyankuppam.`,
   },
   {
     q: `How often is the care plan reviewed?`,
@@ -110,7 +110,7 @@ const pk = [
 ];
 
 const mk = [
-  `Puducherry Town`,
+  `Chennai Town`,
   `White Town`,
   `Muthialpet`,
   `Lawspet`,
@@ -220,11 +220,11 @@ const GeriatricPeople = () => {
             </span>
             <h1 className="geri-hero__title">
               GERI ONE — <span className="geri-text-gold">Dignified, Doctor-Led</span> Elderly Care
-              at Home in Pondicherry
+              at Home in Chennai
             </h1>
             <p className="geri-hero__lead">
               GERI ONE, AUREAL's integrated geriatric care brand, brings comprehensive, doctor-led
-              care to our elders in Pondicherry — focused on mobility, cognitive wellness, and daily
+              care to our elders in Chennai — focused on mobility, cognitive wellness, and daily
               independence, so seniors can live fuller, safer lives in the comfort of their own
               home.
             </p>
@@ -248,7 +248,7 @@ const GeriatricPeople = () => {
               </div>
               <div className="geri-stat">
                 <span className="geri-stat__num">7+</span>
-                <span className="geri-stat__label">Areas Across Pondicherry</span>
+                <span className="geri-stat__label">Areas Across Chennai</span>
               </div>
             </div>
           </div>
@@ -256,7 +256,7 @@ const GeriatricPeople = () => {
             <div className="geri-hero__img-frame">
               <img
                 src="/ger1.jpg"
-                alt="Caregiver supporting a senior citizen at home in Pondicherry"
+                alt="Caregiver supporting a senior citizen at home in Chennai"
                 className="geri-hero__img"
                 loading="eager"
               />
@@ -282,7 +282,7 @@ const GeriatricPeople = () => {
           <span className="geri-quick__label">Quick Answer</span>
           <p>
             GERI ONE, AUREAL's dedicated integrated geriatric care brand, provides doctor-led
-            elderly care at home across Pondicherry through Aureal Healthcare — combining mobility
+            elderly care at home across Chennai through Aureal Healthcare — combining mobility
             support, cognitive wellness monitoring, and daily-living assistance under a
             physician-designed plan aligned with the WHO's ICOPE (Integrated Care for Older People)
             framework — so ageing in place stays safe without seniors giving up independence.
@@ -301,7 +301,7 @@ const GeriatricPeople = () => {
             </div>
             <p className="geri-text">
               GERI ONE is AUREAL's dedicated brand for integrated geriatric care, delivered in
-              Pondicherry through Aureal Healthcare — built specifically around the reality that
+              Chennai through Aureal Healthcare — built specifically around the reality that
               elderly care rarely means managing one condition in isolation. It brings mobility
               support, chronic disease management, cognitive monitoring, and daily assistance
               together under a single, physician-led plan, structured around WHO's ICOPE (Integrated
@@ -309,7 +309,7 @@ const GeriatricPeople = () => {
             </p>
             <p className="geri-text">
               Ageing in place — remaining in one's own home rather than moving to a facility — is
-              what most families in Pondicherry want for their elderly parents and relatives, but it
+              what most families in Chennai want for their elderly parents and relatives, but it
               only works safely when the right clinical structure is behind it. GERI ONE's model is
               built specifically for this: doctor-led, not just caregiver-delivered.
             </p>
@@ -405,7 +405,7 @@ const GeriatricPeople = () => {
         <div className="geri-container geri-why__grid">
           <div className="geri-why__left">
             <span className="geri-eyebrow geri-eyebrow--light">
-              Why This Matters in Pondicherry
+              Why This Matters in Chennai
             </span>
             <h2 className="geri-title geri-title--light">
               Closing the Gap in <span className="geri-text-gold">Fragmented Elder Care</span>
@@ -417,10 +417,10 @@ const GeriatricPeople = () => {
           </div>
           <div className="geri-why__right">
             <p>
-              Elderly care in Pondicherry is often delivered as a series of disconnected services —
+              Elderly care in Chennai is often delivered as a series of disconnected services —
               a caregiver for daily support, separate doctor visits for each condition, no single
               person tracking the whole picture. This fragmentation is common across the wider home
-              healthcare landscape in Puducherry, not specific to any one provider.
+              healthcare landscape in Chennai, not specific to any one provider.
             </p>
             <p>
               Aureal Healthcare's doctor-led geriatric care model exists to close that gap — one
@@ -452,7 +452,7 @@ const GeriatricPeople = () => {
               </h2>
             </div>
             <p className="geri-text">
-              Every GERI ONE care plan in Pondicherry is designed and reviewed by a physician — the
+              Every GERI ONE care plan in Chennai is designed and reviewed by a physician — the
               caregiving team executes that plan, structured around the WHO ICOPE framework, rather
               than making independent judgment calls about a senior's changing needs.
             </p>
@@ -509,7 +509,7 @@ const GeriatricPeople = () => {
             <span className="geri-eyebrow geri-eyebrow--light">Trust & Credibility</span>
             <h2 className="geri-title geri-title--light">Clinical Governance You Can Rely On</h2>
             <p>
-              GERI ONE's geriatric care model in Pondicherry follows the same doctor-led clinical
+              GERI ONE's geriatric care model in Chennai follows the same doctor-led clinical
               governance applied across every Aureal Healthcare and AUREAL program, structured
               around WHO's ICOPE (Integrated Care for Older People) framework for coordinated
               older-adult care.
@@ -575,7 +575,7 @@ const GeriatricPeople = () => {
         <div className="geri-container geri-cta__inner">
           <span className="geri-cta__brand">GERI ONE · AUREAL</span>
           <h2>
-            Arrange doctor-led elderly care at home in Pondicherry —{" "}
+            Arrange doctor-led elderly care at home in Chennai —{" "}
             <span className="geri-text-gold">one physician, one plan, real independence.</span>
           </h2>
           <p>

@@ -52,7 +52,7 @@ const emergencyServices = [
   {
     icon: "📞",
     title: "Phone & Video Consultation",
-    desc: "Families can connect with a physician through phone or video consultation at any hour across Pondicherry.",
+    desc: "Families can connect with a physician through phone or video consultation at any hour across Chennai.",
     tag: "Phone • Video",
   },
   {
@@ -65,7 +65,7 @@ const emergencyServices = [
 
 const emergencyFaqs = [
   {
-    q: "Is a doctor really available 24/7 in Pondicherry?",
+    q: "Is a doctor really available 24/7 in Chennai?",
     a: "Yes — patients on a Aureal Healthcare plan can reach a physician by phone or video at any hour, with the consultation logged into the same doctor-led record used for daytime care.",
   },
   {
@@ -93,8 +93,8 @@ const emergencyFaqs = [
     a: "When hospital-level care is required, the 24/7 team coordinates the transition, supports communication of relevant clinical information, and helps connect the patient with the designated nodal emergency centre.",
   },
   {
-    q: "Is 24/7 support available across all of Pondicherry?",
-    a: "Yes — teleconsultation is available across Puducherry town and surrounding areas for patients on a Aureal Healthcare plan.",
+    q: "Is 24/7 support available across all of Chennai?",
+    a: "Yes — teleconsultation is available across Chennai town and surrounding areas for patients on a Aureal Healthcare plan.",
   },
   {
     q: "How is an ambulance arranged if one is needed after hours?",
@@ -120,7 +120,7 @@ export default function EmergencySupport() {
               <div className="es-breadcrumb">
                 Seamless Access /{" "}
                 <span>
-                  24/7 Emergency Care & Teleconsultation Pondicherry
+                  24/7 Emergency Care & Teleconsultation Chennai
                 </span>
               </div>
 
@@ -130,7 +130,7 @@ export default function EmergencySupport() {
               </div>
 
               <h1>
-                24/7 Emergency Support and Teleconsultation Across Pondicherry
+                24/7 Emergency Support and Teleconsultation Across Chennai
               </h1>
 
               <p className="es-hero-sub">
@@ -147,7 +147,7 @@ export default function EmergencySupport() {
 
                 <p>
                   Aureal Healthcare provides 24/7 emergency support and
-                  teleconsultation across Pondicherry, giving patients on a
+                  teleconsultation across Chennai, giving patients on a
                   doctor-led care plan access to a physician at any hour
                   through phone or video consultation. When in-person care is
                   required, the pathway can extend to emergency home visits,
@@ -183,7 +183,7 @@ export default function EmergencySupport() {
                 <img
                   className="es-main-img"
                   src="/tel1.jpg"
-                  alt="24/7 emergency care and teleconsultation Pondicherry"
+                  alt="24/7 emergency care and teleconsultation Chennai"
                 />
 
                 <div className="es-float-card es-float-top">
@@ -241,7 +241,7 @@ export default function EmergencySupport() {
               <img
                 className="es-ov-img-1"
                 src="/tel2.jpg"
-                alt="emergency physician consultation Pondicherry"
+                alt="emergency physician consultation Chennai"
               />
 
               <div className="es-ov-badge">
@@ -268,7 +268,7 @@ export default function EmergencySupport() {
                 One of the most stressful moments in home-based care is
                 realizing something feels wrong at 2 a.m., with no clear sense
                 of whether it warrants an emergency room visit or can be
-                managed at home. Pondicherry families searching for
+                managed at home. Chennai families searching for
                 “24/7 emergency care” or a “doctor on call” are often in
                 exactly that moment.
               </p>
@@ -291,7 +291,7 @@ export default function EmergencySupport() {
               <div className="es-quote">
                 For elderly patients, post-surgical patients, and anyone
                 managing a chronic or high-acuity condition at home across
-                Pondicherry, round-the-clock access can help avoid an
+                Chennai, round-the-clock access can help avoid an
                 unnecessary emergency room trip when it is not clinically
                 required — or ensure a genuine emergency is escalated
                 immediately through a clearly coordinated pathway.
@@ -410,7 +410,7 @@ export default function EmergencySupport() {
 
                 <p>
                   Families reach the 24/7 line by phone or video at any hour
-                  across Pondicherry.
+                  across Chennai.
                 </p>
 
               </div>
@@ -494,7 +494,7 @@ export default function EmergencySupport() {
       </section>
 
 
-      {/* WHY MATTERS IN PONDICHERRY */}
+      {/* WHY MATTERS IN Chennai */}
       <section className="es-why-dark">
 
         <div className="es-container">
@@ -504,7 +504,7 @@ export default function EmergencySupport() {
             <div className="es-why-left">
 
               <span className="es-eyebrow es-light">
-                WHY THIS MATTERS IN PONDICHERRY
+                WHY THIS MATTERS IN Chennai
               </span>
 
               <h2>
@@ -512,7 +512,7 @@ export default function EmergencySupport() {
               </h2>
 
               <p>
-                Many home care arrangements in Pondicherry leave families
+                Many home care arrangements in Chennai leave families
                 without a clear after-hours point of contact — a generic
                 ambulance number, or no clinical guidance at all until the
                 next scheduled visit.
@@ -555,15 +555,15 @@ export default function EmergencySupport() {
                 </p>
 
                 <span>
-                  how to reach a doctor at night in Pondicherry?
+                  how to reach a doctor at night in Chennai?
                 </span>
 
                 <span>
-                  is teleconsultation available 24/7 in Puducherry?
+                  is teleconsultation available 24/7 in Chennai?
                 </span>
 
                 <span>
-                  can I get an emergency doctor home visit in Pondicherry?
+                  can I get an emergency doctor home visit in Chennai?
                 </span>
 
                 <span>
@@ -582,7 +582,7 @@ export default function EmergencySupport() {
 
               <img
                 src="/tel3.jpg"
-                alt="24/7 emergency physician consultation Pondicherry"
+                alt="24/7 emergency physician consultation Chennai"
               />
 
               <div className="es-why-card">
@@ -895,7 +895,7 @@ export default function EmergencySupport() {
             </h2>
 
             <p>
-              Doctor-led emergency support across Pondicherry — including
+              Doctor-led emergency support across Chennai — including
               teleconsultation, emergency home visits, hospital coordination
               and a designated nodal emergency centre for every client.
             </p>

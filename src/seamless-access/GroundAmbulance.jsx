@@ -7,7 +7,7 @@ const ambulanceServices = [
   {
     icon: "🚑",
     title: "Emergency Ambulance Coordination",
-    desc: "In an emergency, the 24/7 team coordinates ground ambulance dispatch across Pondicherry as part of the escalation process.",
+    desc: "In an emergency, the 24/7 team coordinates ground ambulance dispatch across Chennai as part of the escalation process.",
     tag: "24/7 Emergency",
     highlight: true,
   },
@@ -34,8 +34,8 @@ const ambulanceServices = [
   {
     icon: "📍",
     title: "Local Area Coverage",
-    desc: "Transfer coordination covers Puducherry town and surrounding communes, reducing delays for patients outside the immediate town center.",
-    tag: "Pondicherry Coverage",
+    desc: "Transfer coordination covers Chennai town and surrounding communes, reducing delays for patients outside the immediate town center.",
+    tag: "Chennai Coverage",
   },
 ];
 
@@ -45,7 +45,7 @@ const ambulanceFaqs = [
     a: "Ambulance and transfer coordination can be arranged as part of a patient's doctor-led care plan when clinically required; ambulance services are not routinely included in the care package and may incur an additional cost. Please speak with your care coordinator for details on transport arrangements applicable to your specific plan.",
   },
   {
-    q: "How is a routine hospital transfer arranged in Pondicherry?",
+    q: "How is a routine hospital transfer arranged in Chennai?",
     a: "Non-emergency transfers — to a scheduled appointment or between care settings — are arranged in advance as part of the ongoing care plan, with clinical information prepared to travel with the patient.",
   },
   {
@@ -53,8 +53,8 @@ const ambulanceFaqs = [
     a: "Relevant clinical summaries are shared with the receiving facility or team as part of the coordinated transfer process, maintaining continuity rather than starting from zero.",
   },
   {
-    q: "Is transfer support available outside Puducherry town?",
-    a: "Yes — transfer coordination covers Puducherry town and surrounding communes including Ozhukarai, Ariyankuppam, and Villianur; confirm exact coverage with your care coordinator.",
+    q: "Is transfer support available outside Chennai town?",
+    a: "Yes — transfer coordination covers Chennai town and surrounding communes including Ozhukarai, Ariyankuppam, and Villianur; confirm exact coverage with your care coordinator.",
   },
   {
     q: "What is the difference between emergency and non-emergency transfer?",
@@ -78,20 +78,20 @@ export default function GroundAmbulance() {
           <div className="ga-hero-grid">
             <div className="ga-hero-left">
               <div className="ga-breadcrumb">
-                Seamless Access / <span>Ambulance & Patient Transfer Pondicherry</span>
+                Seamless Access / <span>Ambulance & Patient Transfer Chennai</span>
               </div>
 
               <div className="ga-pill">
                 <span className="ga-pulse-dot"></span>
-                DOCTOR-LED CARE PLAN • CLINICAL CONTINUITY • PONDICHERRY
+                DOCTOR-LED CARE PLAN • CLINICAL CONTINUITY • Chennai
               </div>
 
               <h1>
-                Ground Ambulance and Local Patient Transfer Support Across Pondicherry
+                Ground Ambulance and Local Patient Transfer Support Across Chennai
               </h1>
 
               <p className="ga-hero-sub">
-                Ambulance and patient transfer coordination across Pondicherry,
+                Ambulance and patient transfer coordination across Chennai,
                 arranged as part of your doctor-led care plan — with clinical
                 information carrying over from home to hospital and back, not lost
                 in transit.
@@ -101,7 +101,7 @@ export default function GroundAmbulance() {
                 <div className="ga-quick-label">⚡ QUICK ANSWER</div>
                 <p>
                   Aureal Healthcare coordinates ground ambulance and local
-                  patient transfer support across Pondicherry as part of a
+                  patient transfer support across Chennai as part of a
                   patient's doctor-led care plan — arranging transport for
                   emergencies, hospital transfers, and non-emergency appointments
                   while carrying the patient's clinical information along, rather
@@ -138,7 +138,7 @@ export default function GroundAmbulance() {
                 <img
                   className="ga-main-img"
                   src="/ambulance.jpg"
-                  alt="Ground ambulance and patient transfer service in Pondicherry"
+                  alt="Ground ambulance and patient transfer service in Chennai"
                 />
 
                 <div className="ga-float-card ga-float-top">
@@ -207,7 +207,7 @@ export default function GroundAmbulance() {
 
               <p className="ga-p">
                 Aureal Healthcare coordinates ground ambulance and local
-                transfer support across Pondicherry as an extension of the
+                transfer support across Chennai as an extension of the
                 doctor-led plan — the overseeing physician's summary and relevant
                 clinical information travel with the patient, so the receiving
                 hospital or clinic isn't starting from zero.
@@ -233,7 +233,7 @@ export default function GroundAmbulance() {
 
             <h2>
               Ground ambulance and patient transfer coordination across
-              Pondicherry
+              Chennai
             </h2>
           </div>
 
@@ -325,13 +325,13 @@ export default function GroundAmbulance() {
         </div>
       </section>
 
-      {/* WHY MATTERS IN PONDICHERRY */}
+      {/* WHY MATTERS IN Chennai */}
       <section className="ga-why-dark">
         <div className="ga-container">
           <div className="ga-why-grid">
             <div className="ga-why-left">
               <span className="ga-eyebrow ga-light">
-                WHY THIS MATTERS IN PONDICHERRY
+                WHY THIS MATTERS IN Chennai
               </span>
 
               <h2>
@@ -340,7 +340,7 @@ export default function GroundAmbulance() {
               </h2>
 
               <p>
-                Ambulance and patient transfer services across Pondicherry are
+                Ambulance and patient transfer services across Chennai are
                 widely available, but when booked independently of a patient's
                 ongoing care plan, clinical context is often lost in the handoff
                 — the receiving team has no record of the patient's existing
@@ -371,25 +371,25 @@ export default function GroundAmbulance() {
                 <p>People also ask:</p>
 
                 <span>
-                  how to arrange patient transfer in Pondicherry
+                  how to arrange patient transfer in Chennai
                 </span>
 
                 <span>
-                  is ambulance service coordinated with home care in Puducherry
+                  is ambulance service coordinated with home care in Chennai
                 </span>
 
                 <span>
-                  how quickly can an ambulance reach my home in Pondicherry
+                  how quickly can an ambulance reach my home in Chennai
                 </span>
 
                 <span>
                   does Aureal Healthcare coordinate ambulance services in
-                  Pondicherry
+                  Chennai
                 </span>
 
                 <span>
                   how does patient transfer work for home care patients in
-                  Puducherry
+                  Chennai
                 </span>
               </div>
             </div>
@@ -397,7 +397,7 @@ export default function GroundAmbulance() {
             <div className="ga-why-right">
               <img
                 src="/am4.jpg"
-                alt="Doctor-coordinated patient transfer in Pondicherry"
+                alt="Doctor-coordinated patient transfer in Chennai"
               />
 
               <div className="ga-why-card">
@@ -580,7 +580,7 @@ export default function GroundAmbulance() {
         <div className="ga-container ga-cta-inner">
           <div>
             <h2>
-              Coordinate ambulance and patient transfer support in Pondicherry
+              Coordinate ambulance and patient transfer support in Chennai
             </h2>
 
             <p>

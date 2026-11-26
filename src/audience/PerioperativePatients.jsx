@@ -36,7 +36,7 @@ const vk = [
   },
   {
     title: `Post-Op Plan Activation`,
-    text: `From the day the patient returns home in Pondicherry, the doctor-led recovery plan is in effect — wound care, medication, mobility.`,
+    text: `From the day the patient returns home in Chennai, the doctor-led recovery plan is in effect — wound care, medication, mobility.`,
   },
   {
     title: `Close Early Monitoring`,
@@ -66,7 +66,7 @@ const bk = [
   },
   {
     q: `How soon after surgery should home care start?`,
-    a: `Ideally the recovery plan is prepared before the patient is discharged, so structured care begins the moment the patient returns home in Pondicherry.`,
+    a: `Ideally the recovery plan is prepared before the patient is discharged, so structured care begins the moment the patient returns home in Chennai.`,
   },
   {
     q: `Who manages my pain after surgery?`,
@@ -81,8 +81,8 @@ const bk = [
     a: `Where mobility rehabilitation is needed, physiotherapy at home is coordinated within the same recovery plan rather than arranged as a separate, disconnected service.`,
   },
   {
-    q: `Which areas around Pondicherry are covered for post-surgery home care?`,
-    a: `Coverage includes Puducherry town and surrounding areas such as White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, and Ariyankuppam.`,
+    q: `Which areas around Chennai are covered for post-surgery home care?`,
+    a: `Coverage includes Chennai town and surrounding areas such as White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, and Ariyankuppam.`,
   },
 ];
 
@@ -106,7 +106,7 @@ const xk = [
 ];
 
 const Sk = [
-  `Puducherry Town`,
+  `Chennai Town`,
   `White Town`,
   `Muthialpet`,
   `Lawspet`,
@@ -214,15 +214,15 @@ const PerioperativePatients = () => {
             </nav>
             <span className="periop-hero__badge">
               <span className="periop-hero__badge-dot" />
-              DOCTOR-LED PERIOPERATIVE CARE · PONDICHERRY
+              DOCTOR-LED PERIOPERATIVE CARE · Chennai
             </span>
             <h1 className="periop-hero__title">
               Seamless Perioperative Care —{" "}
               <span className="periop-text-gold">From Pre-Op to Full Recovery</span> at Home in
-              Pondicherry
+              Chennai
             </h1>
             <p className="periop-hero__lead">
-              A seamless surgical journey for patients across Pondicherry — from pre-op preparation
+              A seamless surgical journey for patients across Chennai — from pre-op preparation
               to post-op recovery at home, with a physician monitoring healing, managing pain, and
               preventing complications so patients recover faster.
             </p>
@@ -254,7 +254,7 @@ const PerioperativePatients = () => {
             <div className="periop-hero__img-frame">
               <img
                 src="/peri1.jpg"
-                alt="Physician reviewing post-surgery recovery plan during a home visit in Pondicherry"
+                alt="Physician reviewing post-surgery recovery plan during a home visit in Chennai"
                 className="periop-hero__img"
                 loading="eager"
               />
@@ -279,7 +279,7 @@ const PerioperativePatients = () => {
         <div className="periop-quick__card">
           <span className="periop-quick__label">Quick Answer</span>
           <p>
-            Aureal Healthcare provides doctor-led perioperative care across Pondicherry — covering
+            Aureal Healthcare provides doctor-led perioperative care across Chennai — covering
             pre-op preparation and post-op recovery at home, structured around CPOC (Centre for
             Perioperative Care) guidelines — with a physician monitoring healing, managing pain, and
             watching for complications, so patients recover in a familiar environment without losing
@@ -300,7 +300,7 @@ const PerioperativePatients = () => {
             <p className="periop-text">
               Recovery after surgery is one of the highest-risk periods in a patient's care journey
               — wound complications, pain that is poorly managed, or a missed early sign of
-              infection can turn a routine recovery into a hospital readmission. Pondicherry
+              infection can turn a routine recovery into a hospital readmission. Chennai
               families searching for "post hospitalisation care" or "post surgery care at home" are
               usually trying to avoid exactly that outcome.
             </p>
@@ -314,7 +314,7 @@ const PerioperativePatients = () => {
               This matters most in the first two to three weeks after surgery, when wound care,
               mobility restrictions, and medication management need close, informed attention —
               exactly the window where this doctor-led home recovery plan is most active, across
-              Puducherry town and surrounding communes.
+              Chennai town and surrounding communes.
             </p>
             <div className="periop-areas">
               <span className="periop-areas__title">Areas Covered:</span>
@@ -396,7 +396,7 @@ const PerioperativePatients = () => {
         <div className="periop-container periop-why__grid">
           <div className="periop-why__left">
             <span className="periop-eyebrow periop-eyebrow--light">
-              Why This Matters in Pondicherry
+              Why This Matters in Chennai
             </span>
             <h2 className="periop-title periop-title--light">
               Closing the Gap in <span className="periop-text-gold">Post-Surgical Care</span>
@@ -408,10 +408,10 @@ const PerioperativePatients = () => {
           </div>
           <div className="periop-why__right">
             <p>
-              Post-surgical recovery at home in Pondicherry is often managed by families alone,
+              Post-surgical recovery at home in Chennai is often managed by families alone,
               following written discharge instructions with no clinician available to answer
               questions or catch early complications. This gap is common across the wider home
-              healthcare landscape in Puducherry, not specific to any one hospital.
+              healthcare landscape in Chennai, not specific to any one hospital.
             </p>
             <p>
               Aureal Healthcare's perioperative care model exists to close that gap — a physician
@@ -504,7 +504,7 @@ const PerioperativePatients = () => {
               Clinical Governance You Can Rely On
             </h2>
             <p>
-              Perioperative care in Pondicherry follows the same doctor-led clinical governance
+              Perioperative care in Chennai follows the same doctor-led clinical governance
               applied across every Aureal Healthcare and AUREAL program, structured around CPOC
               (Centre for Perioperative Care) guidelines for pre- and post-operative care pathways.
             </p>
@@ -569,7 +569,7 @@ const PerioperativePatients = () => {
         <div className="periop-container periop-cta__inner">
           <span className="periop-cta__brand">Aureal Healthcare</span>
           <h2>
-            Arrange doctor-led perioperative care in Pondicherry before surgery —{" "}
+            Arrange doctor-led perioperative care in Chennai before surgery —{" "}
             <span className="periop-text-gold">one physician, through recovery.</span>
           </h2>
           <p>

@@ -52,7 +52,7 @@ const Fk = [
   `People with a family history of diabetes, hypertension, cardiovascular disease, or other chronic conditions.`,
   `Individuals who want a structured preventive plan instead of waiting for symptoms or a future diagnosis.`,
   `Patients already managing a chronic condition who want coordinated, root-cause-focused support alongside treatment.`,
-  `People in Pondicherry who have tried generic diets, fitness plans, or wellness advice without measurable progress.`,
+  `People in Chennai who have tried generic diets, fitness plans, or wellness advice without measurable progress.`,
 ];
 
 const Ik = [
@@ -77,8 +77,8 @@ const Ik = [
     a: `Progress is reviewed periodically through relevant health data, clinical follow-up, and measurable lifestyle or diagnostic markers. The physician can adjust the protocol according to your results.`,
   },
   {
-    q: `Is the wellness and longevity program available across Pondicherry?`,
-    a: `Yes. Aureal Healthcare offers doctor-led wellness and longevity support across Puducherry town and surrounding locations, including White Town, Lawspet, Muthialpet, Reddiarpalayam, and Ozhukarai.`,
+    q: `Is the wellness and longevity program available across Chennai?`,
+    a: `Yes. Aureal Healthcare offers doctor-led wellness and longevity support across Chennai town and surrounding locations, including White Town, Lawspet, Muthialpet, Reddiarpalayam, and Ozhukarai.`,
   },
 ];
 
@@ -102,7 +102,7 @@ const Lk = [
 ];
 
 const Rk = [
-  `Puducherry Town`,
+  `Chennai Town`,
   `White Town`,
   `Lawspet`,
   `Muthialpet`,
@@ -221,7 +221,7 @@ const LongevityEnthusiasts = () => {
             </span>
             <h1>
               Personalized, Doctor-Led <em>Wellness and Longevity Programs</em>
-              {" in Pondicherry"}
+              {" in Chennai"}
             </h1>
             <p className="longevity-hero__lead">
               Advanced, root-cause-focused programs designed to help you understand health risks
@@ -248,7 +248,7 @@ const LongevityEnthusiasts = () => {
               </div>
               <div>
                 <strong>7+</strong>
-                <span>Areas Across Pondicherry</span>
+                <span>Areas Across Chennai</span>
               </div>
             </div>
           </div>
@@ -280,7 +280,7 @@ const LongevityEnthusiasts = () => {
         <div className="longevity-quick__card">
           <span>Quick Answer</span>
           <p>
-            Aureal Healthcare's wellness and longevity program in Pondicherry is a doctor-led,
+            Aureal Healthcare's wellness and longevity program in Chennai is a doctor-led,
             personalized preventive health service. It combines diagnostic screening, root-cause
             assessment, and an individualized protocol designed to support long-term health — not
             simply treat illness after it appears.
@@ -296,7 +296,7 @@ const LongevityEnthusiasts = () => {
             </h2>
             <p>
               Most healthcare begins after a problem appears. Our wellness and longevity program in
-              Pondicherry takes a different approach: identifying risk factors for diabetes,
+              Chennai takes a different approach: identifying risk factors for diabetes,
               hypertension, cardiovascular disease, and other chronic conditions early — then
               creating a practical, physician-guided plan around them.
             </p>
@@ -311,7 +311,7 @@ const LongevityEnthusiasts = () => {
               profile, priorities, and progress.
             </p>
             <div className="longevity-area-box">
-              <strong>Available across Pondicherry:</strong>
+              <strong>Available across Chennai:</strong>
               <div>
                 {Rk.map((e) => (
                   <span key={e}>{e}</span>
@@ -343,7 +343,7 @@ const LongevityEnthusiasts = () => {
           <header className="longevity-heading longevity-heading--center">
             <span className="longevity-eyebrow">What's Included</span>
             <h2>
-              More Than a Preventive Health Checkup in <em>Pondicherry</em>
+              More Than a Preventive Health Checkup in <em>Chennai</em>
             </h2>
             <p>
               A structured wellness journey that turns health information into an actionable
@@ -390,7 +390,7 @@ const LongevityEnthusiasts = () => {
         <div className="longevity-container longevity-dark-band__grid">
           <div>
             <span className="longevity-eyebrow longevity-eyebrow--light">
-              Why This Matters in Pondicherry
+              Why This Matters in Chennai
             </span>
             <h2>
               Wellness Advice Is Easy to Find. <em>Clinical Direction Is Different.</em>
@@ -493,7 +493,7 @@ const LongevityEnthusiasts = () => {
             <h2>Personalized Care, Backed by Clinical Governance</h2>
             <p>
               Wellness and longevity protocols are developed under the same doctor-led clinical
-              governance used across Aureal Healthcare and AUREAL programs in Pondicherry.
+              governance used across Aureal Healthcare and AUREAL programs in Chennai.
             </p>
             <p>
               Because your protocol is grounded in diagnostic information and reviewed by a
@@ -558,7 +558,7 @@ const LongevityEnthusiasts = () => {
       <section className="longevity-cta" id="longevity-cta">
         <div className="longevity-container longevity-cta__inner">
           <span>YOUR LONG-TERM HEALTH, DESIGNED WITH INTENTION</span>
-          <h2>Start a personalized wellness and longevity program in Pondicherry.</h2>
+          <h2>Start a personalized wellness and longevity program in Chennai.</h2>
           <p>
             Build a doctor-led preventive health plan around your actual health data, goals, and
             future wellbeing.

@@ -280,9 +280,11 @@ export default function PresenceMap() {
           <NE />
           <ME direction="up" delay={0.75} duration={0.95}>
             <p className="pm_sub">
-              From our southern headquarters in Chennai to hubs in Bangalore, Pondicherry, Kochi and
-              Kottayam — tap any marker on the map, or choose a city from the list.
-            </p>
+  With our headquarters in Chennai, we are currently strengthening our presence
+  across South India, with a primary focus on Chennai and key markets including
+  Bangalore, Pondicherry, Kochi, and Kottayam. As we expand, our vision is to
+  establish a strong presence across India.
+</p>
           </ME>
           <ME direction="up" delay={0.85} duration={0.9}>
             <div className="pm_stats">

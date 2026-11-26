@@ -6,7 +6,7 @@ const rehabServices = [
   {
     icon: "🎯",
     title: "Individualized Assessment",
-    desc: "Every rehabilitation plan starts with an assessment of the patient's specific condition, goals, mobility, and home environment in Pondicherry — not a standard template.",
+    desc: "Every rehabilitation plan starts with an assessment of the patient's specific condition, goals, mobility, and home environment in Chennai — not a standard template.",
     tag: "Personalized Care",
     highlight: true,
   },
@@ -58,8 +58,8 @@ const rehabFaqs = [
     a: "For complex or post-surgical cases, the physiotherapy plan is coordinated with the overseeing physician as part of the broader doctor-led care plan. Straightforward cases are managed directly by the physiotherapist.",
   },
   {
-    q: "Which areas of Pondicherry offer home physiotherapy?",
-    a: "Home physiotherapy is available across Puducherry town and surrounding areas including White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, and Ariyankuppam.",
+    q: "Which areas of Chennai offer home physiotherapy?",
+    a: "Home physiotherapy is available across Chennai town and surrounding areas including White Town, Muthialpet, Lawspet, Reddiarpalayam, Ozhukarai, and Ariyankuppam.",
   },
   {
     q: "How often will the physiotherapist visit?",
@@ -88,21 +88,21 @@ export default function PersonCentricRehab() {
 
               <div className="pcr-breadcrumb">
                 Rehabilitation /{" "}
-                <span>Physiotherapy at Home Pondicherry</span>
+                <span>Physiotherapy at Home Chennai</span>
               </div>
 
               <div className="pcr-pill">
                 <span className="pcr-pulse-dot"></span>
-                PERSON-CENTRIC • DOCTOR-LED • PONDICHERRY
+                PERSON-CENTRIC • DOCTOR-LED • Chennai
               </div>
 
               <h1>
                 Person-Centric Physiotherapy and Rehabilitation at Home in
-                Pondicherry
+                Chennai
               </h1>
 
               <p className="pcr-hero-sub">
-                Physiotherapy at home in Pondicherry built around each
+                Physiotherapy at home in Chennai built around each
                 patient's specific goals and condition — designed with
                 physician input and adjusted as recovery progresses, not a
                 one-size-fits-all exercise sheet.
@@ -113,7 +113,7 @@ export default function PersonCentricRehab() {
 
                 <p>
                   Aureal Healthcare provides person-centric physiotherapy
-                  at home across Pondicherry — each rehabilitation plan is
+                  at home across Chennai — each rehabilitation plan is
                   built around the individual patient's condition, goals, and
                   pace of recovery, with physician input at the start and
                   therapist-led adjustments throughout, rather than a
@@ -145,7 +145,7 @@ export default function PersonCentricRehab() {
 </div>
 
               <div className="pcr-location-tags">
-                <span>Physiotherapy at home Pondicherry</span>
+                <span>Physiotherapy at home Chennai</span>
                 <span>White Town</span>
                 <span>Lawspet</span>
                 <span>Muthialpet</span>
@@ -161,7 +161,7 @@ export default function PersonCentricRehab() {
                 <img
                   className="pcr-main-img"
                   src="/person1.jpg"
-                  alt="Physiotherapy at home in Pondicherry"
+                  alt="Physiotherapy at home in Chennai"
                 />
 
                 <div className="pcr-float-card pcr-float-top">
@@ -169,7 +169,7 @@ export default function PersonCentricRehab() {
 
                   <div>
                     <b>Home Physiotherapy</b>
-                    <p>Person-centric • Pondicherry</p>
+                    <p>Person-centric • Chennai</p>
                   </div>
                 </div>
 
@@ -233,7 +233,7 @@ export default function PersonCentricRehab() {
               <img
                 className="pcr-ov-img-1"
                 src="/person3.jpg"
-                alt="Home rehabilitation Pondicherry"
+                alt="Home rehabilitation Chennai"
               />
 
               
@@ -258,7 +258,7 @@ export default function PersonCentricRehab() {
 
               <p className="pcr-p">
                 "Physiotherapy at home" is one of the most searched home
-                healthcare terms in Pondicherry, but the quality of that
+                healthcare terms in Chennai, but the quality of that
                 service varies enormously — from a generic set of exercises
                 handed out on a sheet, to a plan genuinely built around what
                 a specific patient needs to recover. Aureal Healthcare's
@@ -275,7 +275,7 @@ export default function PersonCentricRehab() {
               </p>
 
               <div className="pcr-quote">
-                For families across Pondicherry, rehabilitation happens in the
+                For families across Chennai, rehabilitation happens in the
                 environment the patient actually lives in — the same stairs,
                 the same bathroom, and the same daily routine — making therapy
                 practical and relevant to real-world recovery.
@@ -301,7 +301,7 @@ export default function PersonCentricRehab() {
             </span>
 
             <h2>
-              Person-centric home rehabilitation in Pondicherry
+              Person-centric home rehabilitation in Chennai
             </h2>
 
           </div>
@@ -387,7 +387,7 @@ export default function PersonCentricRehab() {
                 <p>
                   A physiotherapist evaluates the patient's condition,
                   mobility, goals, and home environment at home in
-                  Pondicherry.
+                  Chennai.
                 </p>
 
               </div>
@@ -454,7 +454,7 @@ export default function PersonCentricRehab() {
 
       </section>
 
-      {/* WHY MATTERS IN PONDICHERRY */}
+      {/* WHY MATTERS IN Chennai */}
       <section className="pcr-why-dark">
 
         <div className="pcr-container">
@@ -464,7 +464,7 @@ export default function PersonCentricRehab() {
             <div className="pcr-why-left">
 
               <span className="pcr-eyebrow pcr-light">
-                WHY THIS MATTERS IN PONDICHERRY
+                WHY THIS MATTERS IN Chennai
               </span>
 
               <h2>
@@ -474,7 +474,7 @@ export default function PersonCentricRehab() {
 
               <p>
                 Generic, one-size-fits-all exercise routines are common across
-                the home physiotherapy market in Pondicherry, but they often
+                the home physiotherapy market in Chennai, but they often
                 fail to account for a patient's specific home environment,
                 comorbidities, or realistic pace of recovery.
               </p>
@@ -509,7 +509,7 @@ export default function PersonCentricRehab() {
                 </p>
 
                 <span>
-                  is physiotherapy at home available in Pondicherry?
+                  is physiotherapy at home available in Chennai?
                 </span>
 
                 <span>
@@ -519,7 +519,7 @@ export default function PersonCentricRehab() {
 
                 <span>
                   does Aureal Healthcare offer doctor-led physiotherapy
-                  in Puducherry?
+                  in Chennai?
                 </span>
 
               </div>
@@ -633,7 +633,7 @@ export default function PersonCentricRehab() {
 
                   <p>
                     Stroke patients working to regain mobility and
-                    independence at home in Pondicherry
+                    independence at home in Chennai
                   </p>
 
                 </div>
@@ -723,7 +723,7 @@ export default function PersonCentricRehab() {
             </span>
 
             <h2>
-              Physiotherapy at Home in Pondicherry — Common Questions
+              Physiotherapy at Home in Chennai — Common Questions
             </h2>
 
           </div>
@@ -786,7 +786,7 @@ export default function PersonCentricRehab() {
           <div>
 
             <h2>
-              Book a home physiotherapy assessment in Pondicherry
+              Book a home physiotherapy assessment in Chennai
             </h2>
 
             <p>

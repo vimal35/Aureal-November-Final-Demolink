@@ -45,7 +45,7 @@ const fA = [
   },
   {
     title: `In-Home Support at Home`,
-    text: `Trained staff provide hands-on care at home across Pondicherry through the demanding early postnatal weeks.`,
+    text: `Trained staff provide hands-on care at home across Chennai through the demanding early postnatal weeks.`,
   },
   {
     title: `Physician Check-Ins as Needed`,
@@ -98,8 +98,8 @@ const mA = [
     a: `Duration depends on the family's needs — many families schedule intensive support for the first several weeks and adjust from there as confidence grows.`,
   },
   {
-    q: `Is postnatal care available across Pondicherry?`,
-    a: `Yes — mother and baby care is available across Puducherry town and surrounding areas such as White Town, Muthialpet, Lawspet, Reddiarpalayam, and Ozhukarai.`,
+    q: `Is postnatal care available across Chennai?`,
+    a: `Yes — mother and baby care is available across Chennai town and surrounding areas such as White Town, Muthialpet, Lawspet, Reddiarpalayam, and Ozhukarai.`,
   },
 ];
 
@@ -123,7 +123,7 @@ const hA = [
 ];
 
 const gA = [
-  `Puducherry Town`,
+  `Chennai Town`,
   `White Town`,
   `Muthialpet`,
   `Lawspet`,
@@ -248,14 +248,14 @@ const NewbornCare = () => {
             </nav>
             <span className="nbc-hero__badge">
               <span className="nbc-hero__badge-dot" />
-              Mother & Baby Postnatal Care · Pondicherry
+              Mother & Baby Postnatal Care · Chennai
             </span>
             <h1 className="nbc-hero__title">
               Doctor-Led Mother and Baby Care at Home —{" "}
               <span className="nbc-text-gold">Extra Hands When You Need Them Most</span>
             </h1>
             <p className="nbc-hero__lead">
-              For new parents in Pondicherry adjusting to life with a newborn — especially twins —
+              For new parents in Chennai adjusting to life with a newborn — especially twins —
               Aureal Healthcare provides recovery support for the mother, expert newborn care, and
               enough extra hands that no parent has to manage alone.
             </p>
@@ -287,7 +287,7 @@ const NewbornCare = () => {
             <div className="nbc-hero__img-frame">
               <img
                 src="/bc1.jpg"
-                alt="Mother holding her newborn baby at home in Pondicherry"
+                alt="Mother holding her newborn baby at home in Chennai"
                 className="nbc-hero__img"
                 loading="eager"
               />
@@ -313,7 +313,7 @@ const NewbornCare = () => {
           <span className="nbc-quick__label">Quick Answer</span>
           <p>
             Aureal Healthcare provides doctor-led mother and baby postnatal care at home across
-            Pondicherry — combining post-delivery recovery support for the mother with expert
+            Chennai — combining post-delivery recovery support for the mother with expert
             newborn care aligned with IAP (Indian Academy of Pediatrics) guidelines, including
             specialised support for parents of twins — so new parents get real, hands-on help during
             the demanding early weeks, not just advice.
@@ -326,7 +326,7 @@ const NewbornCare = () => {
             <div className="nbc-head">
               <span className="nbc-eyebrow">Overview</span>
               <h2 className="nbc-title">
-                Postnatal Care at Home in Pondicherry,{" "}
+                Postnatal Care at Home in Chennai,{" "}
                 <span className="nbc-text-gold">For Mother and Baby Both</span>
               </h2>
             </div>
@@ -486,14 +486,14 @@ const NewbornCare = () => {
           </div>
           <div className="nbc-diff__content">
             <div className="nbc-head">
-              <span className="nbc-eyebrow">Why This Matters in Pondicherry</span>
+              <span className="nbc-eyebrow">Why This Matters in Chennai</span>
               <h2 className="nbc-title">
                 The Mother's Recovery Is{" "}
                 <span className="nbc-text-gold">Never an Afterthought</span>
               </h2>
             </div>
             <p className="nbc-text">
-              New parents in Pondicherry — particularly those without extended family nearby, or
+              New parents in Chennai — particularly those without extended family nearby, or
               managing twins — often find the early postnatal weeks far more demanding than
               anticipated, with the mother's own recovery frequently neglected while all attention
               goes to the newborn.
@@ -554,7 +554,7 @@ const NewbornCare = () => {
             <span className="nbc-eyebrow nbc-eyebrow--light">Trust & Credibility</span>
             <h2 className="nbc-title nbc-title--light">Clinical Governance Behind Every Visit</h2>
             <p>
-              Postnatal care in Pondicherry follows the same doctor-led clinical governance applied
+              Postnatal care in Chennai follows the same doctor-led clinical governance applied
               across every Aureal Healthcare and AUREAL programme, with newborn care guided by IAP
               (Indian Academy of Pediatrics) standards and a physician available for both maternal
               and newborn concerns.
@@ -623,7 +623,7 @@ const NewbornCare = () => {
         <div className="nbc-container nbc-cta__inner">
           <span className="nbc-cta__brand">Aureal Healthcare</span>
           <h2>
-            Arrange doctor-led postnatal mother and baby care at home in Pondicherry —{" "}
+            Arrange doctor-led postnatal mother and baby care at home in Chennai —{" "}
             <span className="nbc-text-gold">real support for the weeks that matter most.</span>
           </h2>
           <p>

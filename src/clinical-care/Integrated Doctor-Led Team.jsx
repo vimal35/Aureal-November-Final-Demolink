@@ -6,7 +6,7 @@ const includedData = [
   {
     icon: "👨‍⚕️",
     title: "Named Physician Oversight",
-    desc: "Every care plan in Pondicherry is assigned to a specific, accountable physician — not a rotating pool of on-call doctors."
+    desc: "Every care plan in Chennai is assigned to a specific, accountable physician — not a rotating pool of on-call doctors."
   },
   {
     icon: "📅",
@@ -36,7 +36,7 @@ const faqs = [
     a: "It means a named physician designs the care plan, sets clinical goals, and reviews progress on a defined schedule — nurses, therapists, and caregivers execute that plan under the physician's ongoing oversight, rather than working independently."
   },
   {
-    q: "Is this different from ordinary home nursing care in Puducherry?",
+    q: "Is this different from ordinary home nursing care in Chennai?",
     a: "Ordinary home nursing typically operates without a named, accountable physician behind the plan; Aureal Healthcare keeps a physician accountable for the plan from start to finish, adjusting it as the patient's condition changes."
   },
   {
@@ -48,8 +48,8 @@ const faqs = [
     a: "Yes — every plan has a named, accountable physician and a single family point of contact, so you are not routed through a rotating call center."
   },
   {
-    q: "Which parts of Pondicherry does the doctor-led team cover?",
-    a: "Coverage spans Puducherry town and surrounding communes including Lawspet, Muthialpet, Reddiarpalayam, Ozhukarai, Ariyankuppam, Villianur and nearby tamil nadu areas"
+    q: "Which parts of Chennai does the doctor-led team cover?",
+    a: "Coverage spans Chennai town and surrounding communes including Lawspet, Muthialpet, Reddiarpalayam, Ozhukarai, Ariyankuppam, Villianur and nearby tamil nadu areas"
   },
   {
     q: "What happens if my condition changes suddenly?",
@@ -68,22 +68,22 @@ export default function IntegratedDoctorLedTeam() {
         <div className="idl-hero-left">
 
           <div className="idl-breadcrumb">
-            Clinical Care / <span>Doctor-Led Care Team Pondicherry</span>
+            Clinical Care / <span>Doctor-Led Care Team Chennai</span>
           </div>
 
           <div className="idl-pill">
             <span className="idl-pill-dot"></span>
-            INTEGRATED CARE MODEL • PONDICHERRY
+            INTEGRATED CARE MODEL • Chennai
           </div>
 
           <h1>
-            An Integrated, Doctor-Led Care Team for Every Patient in Pondicherry
+            An Integrated, Doctor-Led Care Team for Every Patient in Chennai
           </h1>
 
           <p className="idl-hero-sub">
             A multidisciplinary, doctor-led team collaborates across specialties
             to design personalized treatment plans — ensuring coordinated,
-            patient-centered home nursing care in Pondicherry, not just a
+            patient-centered home nursing care in Chennai, not just a
             rotating roster of visiting staff.
           </p>
 
@@ -93,7 +93,7 @@ export default function IntegratedDoctorLedTeam() {
             </div>
 
             <p>
-              Aureal Healthcare's teams in Pondicherry are doctor-led by
+              Aureal Healthcare's teams in Chennai are doctor-led by
               design: a physician sets the clinical goals and reviews progress
               on a defined schedule, while nurses, therapists, and specialists
               execute the plan under that physician's ongoing oversight — not
@@ -146,7 +146,7 @@ export default function IntegratedDoctorLedTeam() {
             </div>
 
             <span>
-              Doctor-Led Clinical Care for Families Across Pondicherry
+              Doctor-Led Clinical Care for Families Across Chennai
             </span>
           </div>
 
@@ -235,7 +235,7 @@ export default function IntegratedDoctorLedTeam() {
               <p className="idl-p">
                 “Doctor-led” is a specific commitment, not a slogan: it means
                 a named physician designs every Aureal Healthcare plan in
-                Pondicherry, sets the clinical goals, and reviews progress
+                Chennai, sets the clinical goals, and reviews progress
                 against those goals at a defined cadence. The nurse or
                 caregiver who visits day to day is executing that physician's
                 plan, not operating independently.
@@ -253,7 +253,7 @@ export default function IntegratedDoctorLedTeam() {
 
               <div className="idl-quote-box">
                 <p>
-                  For Pondicherry families, this also means a single point of
+                  For Chennai families, this also means a single point of
                   clinical accountability. Rather than tracking down whichever
                   staff member happens to be available, every Aureal Healthcare plan has a named physician who is answerable for it,
                   start to finish.
@@ -419,7 +419,7 @@ export default function IntegratedDoctorLedTeam() {
             <div className="idl-why-left">
 
               <span className="idl-eyebrow light">
-                WHY THIS MATTERS IN PONDICHERRY
+                WHY THIS MATTERS IN Chennai
               </span>
 
               <h2>
@@ -427,7 +427,7 @@ export default function IntegratedDoctorLedTeam() {
               </h2>
 
               <p>
-                Across Pondicherry's home care landscape, care is often
+                Across Chennai's home care landscape, care is often
                 delivered by home nursing or caregiving staff without a named,
                 accountable physician behind the plan — appropriate for
                 straightforward, low-acuity support, but a real gap for
@@ -462,7 +462,7 @@ export default function IntegratedDoctorLedTeam() {
 
               <img
                 src="/inter4.jpg"
-                alt="Pondicherry home care"
+                alt="Chennai home care"
               />
 
               <div className="idl-why-stat">
@@ -716,7 +716,7 @@ export default function IntegratedDoctorLedTeam() {
           <div>
 
             <h2>
-              Ask for a doctor-led home care assessment in Pondicherry
+              Ask for a doctor-led home care assessment in Chennai
             </h2>
 
             <p>
@@ -739,7 +739,7 @@ export default function IntegratedDoctorLedTeam() {
       }, 50);
     }}
   >
-    Book Consultation in Pondicherry
+    Book Consultation in Chennai
   </button>
 
   <a

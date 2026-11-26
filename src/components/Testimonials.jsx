@@ -73,7 +73,7 @@ const reviews = [
     time: `2 months ago`,
     reviewCount: `8 reviews`,
     reviewUrl: `https://www.google.com/maps/contrib/102508182181280389314/reviews?hl=en-GB`,
-    text: `First of a kind complete healthcare solution for elderly at home in Pondicherry, where complete hospital-kind care is provided at home for the elderly with all the medical needs addressed by the entire team.`,
+    text: `First of a kind complete healthcare solution for elderly at home in Chennai, where complete hospital-kind care is provided at home for the elderly with all the medical needs addressed by the entire team.`,
   },
   {
     id: 7,
